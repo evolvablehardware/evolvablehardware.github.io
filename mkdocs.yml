@@ -1,0 +1,155 @@
+site_name: Evolvable Hardware
+site_description: Research and development in evolvable hardware systems
+site_author: Evolvable Hardware Community
+site_url: https://evolvablehardware.org
+
+# Repository
+repo_name: evolvablehardware/evolvablehardware.github.io
+repo_url: https://github.com/evolvablehardware/evolvablehardware.github.io
+
+# Copyright
+copyright: Copyright &copy; 2025 Evolvable Hardware Community
+
+# Configuration
+theme:
+  name: material
+  
+  # Static files
+  static_templates:
+    - 404.html
+  
+  # Customization
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  font:
+    text: Roboto
+    code: Roboto Mono
+  
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - navigation.expand
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - redirects:
+      redirect_maps: {}
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      enabled: true
+      type: timeago
+      enable_creation_date: true
+      fallback_to_build_date: true
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: evolvablehardware
+      repo: evolvablehardware.github.io
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Home: index.md
+  - About: 
+    - Overview: about/index.md
+    - Research Areas: about/research.md
+    - History: about/history.md
+  - Publications:
+    - Recent Papers: publications/index.md
+    - Books: publications/books.md
+    - Theses: publications/theses.md
+  - Resources:
+    - Software: resources/software.md
+    - Datasets: resources/datasets.md
+    - Hardware: resources/hardware.md
+    - Links: resources/links.md
+  - Community:
+    - Members: community/members.md
+    - Events: community/events.md
+    - Conferences: community/conferences.md
+    - Workshops: community/workshops.md
+  - News: news/index.md
+  - Contact: contact.md
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/evolvablehardware
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:info@evolvablehardware.org
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
