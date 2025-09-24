@@ -36,8 +36,8 @@ Systems that can reconfigure themselves in response to changing environments, re
 ## Getting Started
 
 - Browse our [Publications](publications/index.md) for the latest research
-- Explore [Resources](resources/index.md) for tools and datasets
-- Join our [Community](community/index.md) of researchers
+- Explore [Resources](resources/software.md) for tools and datasets
+- Join our [Community](community/members.md) of researchers
 - Check [News](news/index.md) for recent developments
 
 ## Featured Content

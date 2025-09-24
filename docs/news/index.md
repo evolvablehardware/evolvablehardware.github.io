@@ -147,14 +147,6 @@ Join ongoing development efforts:
 - Benchmark suite expansion
 - Documentation improvements
 
-## Archive
-
-Browse previous news and announcements:
-- [2024 Archive](news/2024.md)
-- [2023 Archive](news/2023.md) 
-- [2022 Archive](news/2022.md)
-- [Earlier Years](news/archive.md)
-
 ---
 
 *Subscribe to our newsletter for weekly updates on evolvable hardware research and community activities.*

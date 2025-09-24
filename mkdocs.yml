@@ -120,17 +120,13 @@ nav:
   - Publications:
     - Recent Papers: publications/index.md
     - Books: publications/books.md
-    - Theses: publications/theses.md
   - Resources:
     - Software: resources/software.md
     - Datasets: resources/datasets.md
     - Hardware: resources/hardware.md
-    - Links: resources/links.md
   - Community:
     - Members: community/members.md
     - Events: community/events.md
-    - Conferences: community/conferences.md
-    - Workshops: community/workshops.md
   - News: news/index.md
   - Contact: contact.md
 

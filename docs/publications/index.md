@@ -40,14 +40,6 @@ Premier venue for adaptive and evolvable hardware research.
 - **Adaptive Systems in Harsh Environments** - *IEEE Transactions on Reliability*
 - **Bio-inspired Computing Hardware** - *IEEE Transactions on Emerging Topics*
 
-## Archives
-
-Browse publications by:
-- [Year](publications/by-year.md)
-- [Research Area](publications/by-area.md)
-- [Author](publications/by-author.md)
-- [Conference](publications/by-venue.md)
-
 ## Submit Your Work
 
 Researchers are encouraged to submit their publications to be featured on this site. Please contact us with your recent work in evolvable hardware.
