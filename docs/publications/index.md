@@ -1,44 +1,33 @@
 # Publications
 
-This section contains the latest research publications, papers, and academic works in the field of evolvable hardware.
+This section contains the latest research publications, papers, and academic works in the field of evolvable hardware. With a focus on those which have been produced in collaboration with the open source evolvable hardware community.
 
 ## Recent Publications
 
+### 2025
+
+- **TBD** -TBD
+
 ### 2024
 
-- **Evolutionary Fault-Tolerant FPGA Systems** - *Journal of Adaptive Hardware*
-- **Real-time Circuit Evolution for Space Applications** - *IEEE Transactions on Evolutionary Computation*
-- **Multi-objective Optimization in Reconfigurable Systems** - *ACM Computing Surveys*
+- **TBD** -TBD
 
 ### 2023
 
-- **Bio-inspired Hardware Evolution Techniques** - *Nature Electronics*
-- **Scalable Evolutionary Algorithms for Hardware Design** - *Genetic Programming and Evolvable Machines*
-- **Adaptive Signal Processing Using Evolved Circuits** - *IEEE Signal Processing Magazine*
+- **TBD** -TBD
 
 ### 2022
 
-- **Edge Computing with Evolvable Hardware** - *IEEE Computer*
-- **Neural Network Hardware Evolution** - *Neural Networks*
-- **Quantum-inspired Evolutionary Electronics** - *Quantum Information Processing*
+- **TBD** -TBD
+
+### 2021
+
+- **TBD** -TBD
+
 
 ## Conference Proceedings
 
-### NASA/DoD Evolvable Hardware Workshop
-Annual workshop featuring the latest developments in evolvable hardware research and applications.
 
-### IEEE Congress on Evolutionary Computation (CEC)
-Special sessions on evolvable hardware and evolutionary electronics.
-
-### International Conference on Adaptive Hardware and Systems (AHS)
-Premier venue for adaptive and evolvable hardware research.
-
-## Special Issues
-
-### Recent Special Issues
-- **Evolvable Hardware for IoT** - *IEEE Internet of Things Journal*
-- **Adaptive Systems in Harsh Environments** - *IEEE Transactions on Reliability*
-- **Bio-inspired Computing Hardware** - *IEEE Transactions on Emerging Topics*
 
 ## Submit Your Work
 
