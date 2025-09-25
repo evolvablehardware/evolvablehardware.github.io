@@ -21,7 +21,6 @@ We welcome contributions to our software ecosystem:
 - **Video tutorials** for getting started
 - **Webinar series** on advanced topics
 - **Workshops** at major conferences
-- **Consulting services** for industrial applications
 
 ---
 
