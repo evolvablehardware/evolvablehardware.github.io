@@ -1,87 +1,111 @@
 # Research Areas
 
-## Core Research Domains
+Evolvable Hardware research at our organization focuses on **FPGA-intrinsic analog evolution**, continuing the groundbreaking work pioneered by Adrian Thompson and others in the 1990s.
 
-### Evolutionary Electronics
+## Current Research Focus
 
-Evolutionary electronics represents the foundational approach to evolvable hardware, where electronic circuits are designed and optimized using evolutionary algorithms. This field encompasses:
+### FPGA-Intrinsic Evolution
 
-#### Analog Circuit Evolution
-- **Continuous parameter optimization**: Tuning component values for optimal performance
-- **Topology evolution**: Discovering novel circuit architectures
-- **Multi-objective design**: Balancing competing requirements like speed, power, and area
-- **Intrinsic vs. extrinsic evolution**: On-chip versus simulation-based approaches
+Our primary research area involves evolving analog circuits directly on FPGA hardware, exploiting device-specific characteristics including:
 
-#### Digital System Evolution
-- **FPGA-based evolution**: Leveraging reconfigurable logic for real-time adaptation
-- **Processor architecture evolution**: Adaptive instruction sets and datapaths
-- **Memory system optimization**: Evolving cache hierarchies and memory controllers
-- **Network-on-chip evolution**: Adaptive interconnect topologies
+- Manufacturing variations and tolerances
+- Physical effects below design specifications  
+- Transistor-level analog behavior in digital devices
+- Environmental sensitivity for adaptation
 
-### Adaptive Hardware Systems
+### Experimental Platform
 
-Modern evolvable hardware focuses on creating systems that can adapt autonomously to changing conditions:
+We use the **Lattice iCE40hx1k** FPGA as our primary evolution platform, enabled by the [IceStorm](http://www.clifford.at/icestorm/) open-source toolchain that provides complete bitstream control.
 
-#### Self-Healing Systems
-- **Fault detection and recovery**: Automatic identification and compensation for failures
-- **Graceful degradation**: Maintaining functionality under partial failures
-- **Redundancy optimization**: Dynamic allocation of spare resources
-- **Aging compensation**: Adapting to component wear and parameter drift
+#### Technical Specifications
+- **Population Size**: 50 individuals
+- **Typical Runtime**: 4-5 hours per experiment
+- **Generations**: 100 (typical)
+- **Mutation Rate**: 0.005
+- **Crossover Rate**: 0.5
 
-#### Environmental Adaptation
-- **Temperature compensation**: Maintaining performance across thermal variations
-- **Process variation tolerance**: Adapting to manufacturing variations
-- **Radiation hardening**: Evolving resistance to particle strikes
-- **Power management**: Dynamic optimization of energy consumption
+## Research Projects
 
-### Bio-Inspired Computing Hardware
+### 1. Variance Maximization
+**Status**: Completed ✅
 
-Drawing inspiration from biological systems for hardware design:
+The first proof-of-concept project demonstrating FPGA-intrinsic analog evolvable hardware. The fitness function maximizes the variance of the output signal, effectively evolving circuits with maximum amplitude variation.
 
-#### Neural Hardware Evolution
-- **Spiking neural networks**: Hardware implementation of biologically realistic neurons
-- **Synaptic plasticity**: Adaptive connection strengths in neural circuits
-- **Neuromorphic architectures**: Brain-inspired computing paradigms
-- **Evolutionary neural development**: Growing neural networks through evolutionary processes
+**Fitness Function**: 
+$$f = \frac{1}{n} \sum_{i=1}^{n-1} |x_{i+1} - x_i|$$
 
-#### Cellular Automata Systems
-- **Self-replicating systems**: Hardware that can reproduce its own structure
-- **Emergent computation**: Complex behavior from simple local rules
-- **Fault-tolerant cellular arrays**: Robust distributed computing systems
-- **Evolutionary cellular programming**: Evolving rules for cellular automata
+Where $x_i$ represents sequential ADC samples from the microcontroller.
 
-### Reconfigurable Computing
+**Key Results**:
+- Successfully evolved circuits with increasing signal amplitude
+- Demonstrated feasibility of analog evolution on modern FPGAs
+- Established baseline methodology for future experiments
 
-The hardware foundation that enables evolution:
+### 2. Pulse Oscillation  
+**Status**: Completed ✅
 
-#### FPGA-Based Platforms
-- **Fine-grained reconfiguration**: Bit-level programmability
-- **Coarse-grained architectures**: Block-level reconfigurable systems
-- **Partial reconfiguration**: Dynamic modification of active circuits
-- **Multi-context FPGAs**: Rapid switching between configurations
+Recreation of Thompson's seminal pulse generation experiment using modern hardware. The goal is to evolve an analog circuit capable of generating pseudo-stable periodic oscillations.
 
-#### Novel Reconfigurable Technologies
-- **Memristive crossbars**: Programmable analog computing arrays
-- **Optical reconfiguration**: Light-based programmable systems
-- **Molecular electronics**: DNA and protein-based computing
-- **Quantum reconfigurable systems**: Programmable quantum circuits
+**Achievements**:
+- Successfully replicated classic EHW results on iCE40 platform
+- Generated stable oscillatory behavior without external clock
+- Validated evolution of timing-sensitive analog circuits
 
-## Emerging Areas
+### 3. Tone Discrimination
+**Status**: Ongoing 🔬
 
-### Edge Computing Evolution
-- **IoT device adaptation**: Autonomous optimization for resource-constrained devices
-- **Real-time learning**: On-device evolution without cloud connectivity
-- **Energy harvesting systems**: Adaptation to variable power sources
-- **Distributed evolution**: Collaborative optimization across device networks
+The flagship project recreating Thompson's most famous experiment: evolving a circuit to discriminate between two different frequency tones (1kHz and 10kHz).
 
-### Human-Machine Interfaces
-- **Adaptive prosthetics**: Personalized neural interface optimization
-- **Brain-computer interfaces**: Evolving signal processing for neural signals
-- **Assistive technologies**: Adaptive systems for accessibility
-- **Augmented reality hardware**: Context-aware display optimization
+**Challenge**: This represents one of the most sophisticated analog signal processing tasks demonstrated in evolvable hardware.
 
-### Quantum Evolvable Systems
-- **Quantum circuit synthesis**: Evolving quantum gate sequences
-- **Quantum error correction**: Adaptive error mitigation strategies
-- **Hybrid classical-quantum systems**: Co-evolution of classical and quantum components
-- **Quantum machine learning hardware**: Evolving quantum neural networks
+**Progress**:
+- Circuit evolution platform established
+- Fitness evaluation system implemented  
+- Initial population testing underway
+
+## Video Presentation
+
+Watch our comprehensive overview of the evolvable hardware project and experimental results:
+
+[🎥 **Artificial Life Video Presentation**](https://evolvablehardware.org/videos/artificial-life-video.mp4)
+
+*This presentation covers our motivation, methodology, experimental results, and future research directions.*
+
+## Research Methodology
+
+### Evolution Process
+1. **Random Population Generation**: Create initial population of random bitstreams
+2. **Hardware Configuration**: Program each individual onto FPGA
+3. **Fitness Evaluation**: Measure analog output characteristics
+4. **Selection**: Choose best performers for reproduction
+5. **Genetic Operations**: Apply mutation and crossover
+6. **Iteration**: Repeat for specified number of generations
+
+### Measurement Setup
+- **Analog Output Capture**: High-speed ADC sampling
+- **Environmental Control**: Temperature and power monitoring
+- **Reproducibility**: Multiple trial averaging
+- **Data Logging**: Complete evolutionary history tracking
+
+## Future Directions
+
+### Near-term Goals
+- Complete tone discrimination experiment
+- Develop sine wave oscillator circuits
+- Implement reservoir computing approaches
+
+### Long-term Vision
+- Multi-objective optimization for power/performance
+- Self-adaptive mutation strategies  
+- Distributed evolution across multiple FPGAs
+- Integration with machine learning systems
+
+## Collaboration Opportunities
+
+We welcome collaboration from:
+- **Academic researchers** in evolutionary computation
+- **Hardware engineers** with FPGA expertise
+- **Students** interested in bio-inspired systems
+- **Industry partners** exploring adaptive electronics
+
+Join our active research community through our [Slack workspace](../community/members.md#get-involved) or contribute to our [open-source repositories](https://github.com/evolvablehardware).

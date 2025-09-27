@@ -1,53 +1,128 @@
 # History of Evolvable Hardware
 
-## Timeline of Major Developments
+## Field Overview
 
-### 1990s: The Genesis Era
+The broader field of evolvable hardware is taxonomized into several subdomains: digital or analog, intrinsic, extrinsic, or mixtrinsic, adaptive hardware (AH) or evolvable hardware design (EHD). Our work focuses specifically on **intrinsic analog evolvable hardware design**, meaning populations of circuits are evolved intrinsic to a hardware substrate and do not actively adapt to changes in their environment.
 
-**1992-1995: Early Experiments**
-The concept of evolvable hardware emerged from pioneering work in evolutionary computation applied to electronics. Early experiments focused on:
+At its origin, evolvable hardware aimed to revolutionize electronics design, both digital and analog. Unlike digital design, analog circuit development must inherently contend with unique semiconductor physics at each timescale relevant to operational states - an obstacle that digital design overcomes by abstracting continuous state values through clock signals and logic levels.
 
-- Simple analog circuits with evolved component values
-- Basic digital logic evolved using genetic algorithms
-- Proof-of-concept demonstrations with minimal hardware
+**Analog evolvable hardware offered a revolutionary approach**: delegating the complex search and design process to artificial evolution, capable of exploiting physical properties that would otherwise be abstracted away during digital operation or simulation.
 
-**1996-1999: Foundational Research**
-Key milestones established the theoretical foundation:
+![Thompson's Tone Discriminator Circuit](../evolvablehardware.org/images/discriminatorcircuit.png)
+*Adrian Thompson's famous tone discriminator circuit*
 
-- First evolved amplifiers and filters in Silicon
-- Introduction of intrinsic vs. extrinsic evolution concepts
-- Development of fitness evaluation methods for circuits
-- Early FPGA-based evolution experiments
+## The Reality Gap Challenge
 
-### 2000s: Expansion and Growth
+One hallmark characteristic of intrinsic analog EHW is evolution's ability to employ physical properties of target hardware that are typically abstracted away due to the complex nature of real-world semiconductor physics. Simulations generally perform this abstraction to account for fabrication variations (transistor doping levels, copper tracing thickness variations, etc.).
 
-**2000-2002: NASA Leadership**
-NASA's investment in evolvable hardware research led to significant advances:
+These manufacturing "imperfections" create non-linear effects that interact unpredictably - the **reality gap** between simulated and real system behavior. **This is where intrinsic evolution shines.**
 
-- NASA/DoD Conference on Evolvable Hardware established
-- Space applications driving practical requirements
-- Fault tolerance as a primary motivation
-- Real-world validation in harsh environments
+## Inception and Pioneers (1991-1999)
 
-**2003-2005: FPGA Revolution**
-The availability of more sophisticated FPGAs transformed the field:
+### Genesis of the Field
 
-- Partial reconfiguration enabling runtime evolution
-- Larger circuits could be evolved effectively
-- Real-time adaptation became feasible
-- Commercial interest began to emerge
+**1991**: Hugo de Garis postulated that evolutionary algorithms "will probably lead to electronic circuits being 'grown' in special hardware," initially in the context of embryological electronics.
 
-**2006-2009: Diversification**
-Research expanded into new areas:
+**1993**: In conjunction with Tetsuya Higuchi, de Garis conceptualized **evolvable hardware (EHW)** - the application of evolutionary algorithms to hardware systems during design, operation, or both.
 
-- Analog and mixed-signal evolution advances
-- Bio-inspired approaches gained prominence
-- Multi-objective optimization techniques
-- Integration with machine learning methods
+### The FPGA Revolution
 
-### 2010s: Maturation and Applications
+Field Programmable Gate Arrays (FPGAs) became the primary research tool because their physically reprogrammable architecture could emulate candidate circuits. Combined with evolutionary algorithms running on host CPUs, researchers could:
 
-**2010-2012: Practical Systems**
+1. Select circuits from populations
+2. Load them onto FPGAs  
+3. Evaluate performance via fitness functions
+4. Select for reproduction
+5. Apply mutation and recombination
+6. Gradually improve circuit performance
+
+### Thompson's Breakthrough Experiments
+
+![Adrian Thompson](../evolvablehardware.org/images/thompson1.png)
+
+**Adrian Thompson** at the University of Sussex evolved a series of bitstream-evolution circuits that canonized the evolutionary approach to circuit design. His achievements include:
+
+- **Analog millisecond oscillator**: A temporal bridge for biological-timescale signals
+- **Tone discriminator circuit**: A fully analog FPGA circuit distinguishing between 1kHz and 10kHz tones using only 42 configurable logic blocks
+
+**Thompson's tone discriminator** famously exploited physical properties of the FPGA, using only 100 logic gates of the available 24,000 to accomplish what was thought impossible under such resource constraints.
+
+## The Dark Period (2000-2014)
+
+### Xilinx Discontinues XC6200
+
+![XC6216 FPGA](../evolvablehardware.org/images/xc6216.png)
+
+Unfortunately, shortly after the cornerstone achievements of the late 1990s, **Xilinx Corporation discontinued the XC6200 series FPGA** - the tool of choice for evolvable hardware research.
+
+#### Understanding the Loss
+
+The **bitstream** of an FPGA is the binary configuration file defining circuit architecture - the lowest level of programmable instruction. It's essentially the **genome of physically realizable circuits**.
+
+The XC6200 series was unique because its bitstream format was openly documented - 1:1 relationships between configuration entries and silicon resources were available to users. However, for cost and security reasons, FPGA manufacturers moved to strongly encrypted bitstreams.
+
+#### Research Impact
+
+Without complete bitstream knowledge, EHW researchers couldn't perform analog experiments intrinsic to FPGAs. While other reconfigurable hardware existed (FPAAs, FPTAs), none were as developed, accessible, or widely adopted as FPGAs.
+
+**Intrinsic analog evolvable hardware research was effectively halted for nearly two decades.**
+
+## Renaissance: Project IceStorm (2015-Present)
+
+![iCE40 FPGA Map](../evolvablehardware.org/images/icemaphx1k.png)
+
+### The Breakthrough
+
+Recent reverse-engineering efforts by [**Project IceStorm**](http://www.clifford.at/icestorm/) paved a new path using different FPGA technology. The **Lattice iCE40** - an ultra-low power, economy-grade FPGA - had its bitstream fully documented through work demonstrated at the Chaos Communication Congress in Hamburg, Germany, in 2015.
+
+Although reverse-engineering the iCE40 wasn't motivated by EHW research, **a fully documented bitstream is now available** for exactly that purpose.
+
+### Current Revival
+
+This breakthrough has enabled the continuation of FPGA-intrinsic analog evolvable hardware research after a 20-year hiatus. Our organization is dedicated to:
+
+- Recreating seminal experiments on modern hardware
+- Advancing the field with new methodologies
+- Maintaining open-source accessibility
+- Building an active research community
+
+## Key Historical Figures
+
+### Hugo de Garis
+- Conceptualized evolvable hardware
+- Pioneer of embryological electronics
+- Advocate for evolutionary approaches to hardware design
+
+### Tetsuya Higuchi  
+- Co-founder of the evolvable hardware field
+- Advanced digital evolution techniques
+- Leader in adaptive hardware systems
+
+### Adrian Thompson
+- Creator of the most famous evolvable hardware experiments
+- Demonstrated intrinsic evolution's power
+- Proved analog circuits could exploit physical device properties
+
+### Claire Wolf & Mathias Lasser
+- Reverse-engineered the Lattice iCE40 bitstream
+- Inadvertently unlocked modern evolvable hardware research
+- Created the open-source IceStorm toolchain
+
+## Timeline Summary
+
+| Period | Key Development |
+|--------|----------------|
+| **1991** | Hugo de Garis proposes evolved circuits |
+| **1993** | EHW field officially conceptualized |  
+| **1996-1999** | Thompson's breakthrough experiments |
+| **2000** | Xilinx discontinues XC6200 series |
+| **2000-2014** | Research hiatus period |
+| **2015** | Project IceStorm reverse-engineers iCE40 |
+| **2020-Present** | Modern EHW research revival |
+
+---
+
+*This historical narrative demonstrates how technological constraints can halt entire research domains, and how open-source efforts can resurrect them decades later.*
 Focus shifted toward deployable systems:
 
 - Industrial applications in telecommunications

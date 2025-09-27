@@ -117,15 +117,15 @@ nav:
     - Overview: about/index.md
     - Research Areas: about/research.md
     - History: about/history.md
+  - Resources:
+    - Software Tools: resources/software.md
+    - Hardware Setup: resources/hardware.md
+    - Datasets & Results: resources/datasets.md
   - Publications:
     - Recent Papers: publications/index.md
     - Books: publications/books.md
-  - Resources:
-    - Software: resources/software.md
-    - Datasets: resources/datasets.md
-    - Hardware: resources/hardware.md
   - Community:
-    - Members: community/members.md
+    - Get Involved: community/members.md
     - Events: community/events.md
   - News: news/index.md
   - Contact: contact.md

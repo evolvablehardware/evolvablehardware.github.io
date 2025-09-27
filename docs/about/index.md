@@ -1,33 +1,103 @@
-# About Evolvable Hardware
+# About the Evolvable Hardware Organization
 
-## Overview
+![iCE40 FPGA](../evolvablehardware.org/images/ice40pinout_pin_overlay.png)
+*The Lattice iCE40hx1k FPGA - our primary evolution platform*
 
-Evolvable Hardware (EHW) is an interdisciplinary field that combines evolutionary computation, reconfigurable computing, and adaptive systems to create hardware that can modify its structure and behavior autonomously. This emerging paradigm represents a significant departure from traditional static hardware designs.
+## Our Mission
 
-## Research Areas
+Since the turn of the century, evolvable hardware research began migrating into many different directions away from the initial **FPGA-intrinsic analog method**. The excitement for this field of research was a result of the prospect of using evolutionary search to create analog circuits - a significant engineering challenge.
 
-### Evolutionary Electronics
-The foundation of evolvable hardware lies in evolutionary electronics, where circuit designs are optimized using evolutionary algorithms. This approach allows for the discovery of novel circuit topologies that might not be found through conventional design methods.
+Our mission was to determine why evolvable hardware appeared to have abandoned this vein of research, attempt to recreate its seminal experimental results, press the research forward, and get others involved. This website serves as a focal point for communicating projects, connecting researchers, and targeting new and promising directions.
 
-### Reconfigurable Computing
-Modern evolvable hardware heavily relies on reconfigurable platforms such as Field-Programmable Gate Arrays (FPGAs) and other programmable logic devices. These platforms provide the necessary flexibility for hardware evolution.
+## Research Focus
 
-### Adaptive Systems
-The ultimate goal is to create systems that can adapt to changing requirements, environmental conditions, or component failures without human intervention. This includes fault-tolerant systems and self-optimizing architectures.
+### FPGA-Intrinsic Analog Evolution
+Our specialized focus is on **intrinsic analog evolvable hardware design**, where populations of circuits are evolved directly on FPGA hardware substrates. This approach exploits:
 
-### Bio-Inspired Computing
-Drawing inspiration from biological evolution and neural systems, evolvable hardware incorporates principles of self-organization, adaptation, and emergence.
+- Physical device characteristics normally abstracted away
+- Manufacturing variations and tolerances  
+- Real-world semiconductor physics effects
+- Environmental sensitivity for adaptation
 
-## Historical Context
+### The Reality Gap Solution
+Unlike extrinsic (simulation-based) evolution, our intrinsic approach eliminates the **reality gap** - the distance between simulated and real system behavior. By evolving directly on hardware, we can exploit physical properties that simulations cannot capture.
 
-The concept of evolvable hardware emerged in the 1990s as researchers began exploring the application of evolutionary algorithms to hardware design. Key milestones include:
+### Continuing Thompson's Legacy
+We continue the groundbreaking work of **Adrian Thompson**, **Tetsuya Higuchi**, **Hugo de Garis**, and other pioneers who established FPGA-intrinsic evolution in the 1990s.
 
-- **1990s**: Early experiments with evolved analog circuits
-- **2000s**: Development of FPGA-based evolution platforms
-- **2010s**: Integration with machine learning and AI systems
-- **2020s**: Focus on edge computing and IoT applications
+## Our Platform: Lattice iCE40
 
-## Current Trends
+Thanks to [**Project IceStorm**](http://www.clifford.at/icestorm/) by Claire Wolf and Mathias Lasser, complete reverse engineering of the Lattice iCE40 bitstream format has unlocked the capability to perform genetic evolution of hardware bitstreams after a 20-year hiatus.
+
+### Why iCE40?
+- **Open bitstream format**: Complete documentation available
+- **Cost-effective**: Economy-grade FPGA for accessible research
+- **Analog capabilities**: Exploitable transistor-level behavior
+- **Community support**: Active development and documentation
+
+## Open Source Commitment
+
+### GitHub Organization
+We are keeping this project completely **open-source** to aid in the further development and continuity of this particular domain of research. All code is available at [github.com/evolvablehardware](https://github.com/evolvablehardware).
+
+**We welcome contributors:**
+- Testing and debugging
+- Feature additions  
+- New experiment ideas
+- Novel hardware designs
+- General criticisms and improvements
+
+### Active Community
+Our group is very active and communicates daily using **Slack**. We have channels for different methods, focus areas, and general interests. Contact [Derek](mailto:derek.whitley1@gmail.com) with subject "EHW SLACK" to join our workspace.
+
+## Current Research Projects
+
+### ✅ Completed Experiments
+- **Variance Maximization**: First proof-of-concept on iCE40
+- **Pulse Oscillation**: Recreation of Thompson's timing circuits
+
+### 🔬 Ongoing Research  
+- **Tone Discrimination**: The flagship Thompson experiment
+- **Hardware platform optimization**
+- **Evolutionary algorithm enhancements**
+
+### 📅 Future Directions
+- Sine wave oscillator development
+- Reservoir computing approaches
+- Speech synthesis and recognition
+- Multi-objective circuit optimization
+
+## Collaboration Opportunities
+
+We welcome collaboration from:
+
+### Academic Partners
+- **University research groups** in evolutionary computation
+- **FPGA laboratories** and digital systems teams
+- **Student researchers** for thesis projects
+- **International collaborations** on evolvable hardware
+
+### Industry Partners  
+- **Hardware platform development**
+- **Technology licensing** opportunities
+- **R&D collaboration** projects
+- **Funding and resource** support
+
+## Impact and Vision
+
+Evolvable hardware represents a paradigm shift from traditional static designs to **adaptive, self-optimizing systems**. Applications span:
+
+- **Space electronics**: Radiation-tolerant adaptive circuits
+- **IoT devices**: Power-efficient adaptive sensors  
+- **Robotics**: Adaptive control and sensor systems
+- **Signal processing**: Self-optimizing analog circuits
+- **Research tools**: Open platforms for evolutionary experiments
+
+## Join Our Mission
+
+Whether you're interested in the science, engineering, or just tinkering - **you're welcome here!** Connect with our growing community through [Slack](community/members.md#slack-channel), contribute to our [open-source projects](https://github.com/evolvablehardware), or start your own evolvable hardware experiments using our [setup guides](../resources/hardware.md).
+
+*Together, we're reviving and advancing one of the most fascinating areas of evolutionary computation and adaptive systems.*
 
 Today's research focuses on:
 
