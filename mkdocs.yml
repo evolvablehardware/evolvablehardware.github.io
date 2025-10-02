@@ -141,12 +141,12 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/evolvablehardware
       name: Evolvable Hardware GitHub
-    - icon: fontawesome/solid/paper-plane
-      link: mailto:info@evolvablehardware.org
-      name: Message the Evolvable Hardware Email
-    - icon: fontawesome/brands/slack
-      link: https://www.google.com
-      name: Join the EHW Slack!
+    # - icon: fontawesome/solid/paper-plane
+    #   link: mailto:info@evolvablehardware.org
+    #   name: Message the Evolvable Hardware Email
+    # - icon: fontawesome/brands/slack
+    #   link: https://www.google.com
+    #   name: Join the EHW Slack!
   # TODO: Look into adding 
   # analytics:
   #   provider: google
