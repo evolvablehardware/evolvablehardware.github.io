@@ -1,4 +1,6 @@
+
 # Evolvable Hardware
+![200](./assets/branding/logo.png){: align=right : width=300}
 
 Welcome to the Open Source **Evolvable Hardware** community - a hub for researchers, engineers, and enthusiasts working on adaptive and self-reconfiguring hardware systems through evolutionary computation.
 
