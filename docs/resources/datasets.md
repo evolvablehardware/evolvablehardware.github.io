@@ -78,7 +78,7 @@ Recreation of Thompson's seminal pulse generation experiment using modern hardwa
 ![Tone Evolution](../assets/results/early/toneevolution.png)
 *Current progress in tone discrimination evolution*
 
-![Tone Function](../assets/equasions/tonefunction.png)
+![Tone Function](../assets/equations/tonefunction.png)
 *Target discrimination function profile*
 
 **Experimental Challenge:**

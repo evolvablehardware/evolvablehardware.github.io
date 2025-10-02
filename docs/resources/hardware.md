@@ -216,7 +216,7 @@ python3 evolve_variance.py --generations 100 --population 50
 - 10 kHz test tone  
 - Clean power supply for analog precision
 
-![Tone Function](../assets/equasions/tonefunction.png)
+![Tone Function](../assets/equations/tonefunction.png)
 
 ## Advanced Configurations
 
