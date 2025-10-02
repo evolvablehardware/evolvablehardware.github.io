@@ -1,6 +1,7 @@
 # About the Evolvable Hardware Organization
 
-![iCE40 FPGA](../evolvablehardware.org/images/ice40pinout_pin_overlay.png)
+![iCE40 FPGA](../assets/setup/ice40/ice40pinout_pin_overlay.png){: align=right : width=400}
+
 *The Lattice iCE40hx1k FPGA - our primary evolution platform*
 
 ## Our Mission
@@ -95,7 +96,7 @@ Evolvable hardware represents a paradigm shift from traditional static designs t
 
 ## Join Our Mission
 
-Whether you're interested in the science, engineering, or just tinkering - **you're welcome here!** Connect with our growing community through [Slack](community/members.md#slack-channel), contribute to our [open-source projects](https://github.com/evolvablehardware), or start your own evolvable hardware experiments using our [setup guides](../resources/hardware.md).
+Whether you're interested in the science, engineering, or just tinkering - **you're welcome here!** Connect with our growing community through [Slack](../community/members.md#slack-channel), contribute to our [open-source projects](https://github.com/evolvablehardware), or start your own evolvable hardware experiments using our [setup guides](../resources/hardware.md).
 
 *Together, we're reviving and advancing one of the most fascinating areas of evolutionary computation and adaptive systems.*
 

@@ -2,7 +2,7 @@
 
 ## Primary Platform: Lattice iCE40hx1k
 
-![EHW Setup](../evolvablehardware.org/images/EHWsetup.jpg)
+![EHW Setup](../assets/setup/ice40/EHWsetup.jpg)
 *Complete evolvable hardware experimental setup*
 
 The **Lattice iCE40hx1k** FPGA serves as our primary evolution platform, enabled by the [IceStorm project's](http://www.clifford.at/icestorm/) complete reverse-engineering of the bitstream format.
@@ -27,7 +27,7 @@ The **Lattice iCE40hx1k** FPGA serves as our primary evolution platform, enabled
 ### iCEstick Evaluation Kit
 **Primary recommendation for beginners**
 
-![iCE40 Pin Overlay](../evolvablehardware.org/images/ice40pinout_pin_overlay.png)
+![iCE40 Pin Overlay](../assets/setup/ice40/ice40pinout_pin_overlay.png)
 
 - **FPGA**: iCE40HX1K in TQFP144 package
 - **USB interface**: Built-in programming and communication
@@ -108,8 +108,8 @@ void setup() {
 
 ### Step 1: Hardware Assembly
 
-![Setup Tutorial 1](../evolvablehardware.org/images/setup_tutorial_1.jpg)
-![Setup Tutorial 2](../evolvablehardware.org/images/setup_tutorial_2.jpg)
+![Setup Tutorial 1](../assets/setup/ice40/setup_tutorial_1.jpg)
+![Setup Tutorial 2](../assets/setup/ice40/setup_tutorial_2.jpg)
 
 1. **Connect iCEstick to computer** via USB cable
 2. **Verify FPGA recognition** using `lsusb` command
@@ -117,8 +117,8 @@ void setup() {
 
 ### Step 2: Arduino Connection
 
-![Setup Tutorial 3A](../evolvablehardware.org/images/setup_tutorial_3A.jpg)
-![Setup Tutorial 3B](../evolvablehardware.org/images/setup_tutorial_3B.jpg)
+![Setup Tutorial 3A](../assets/setup/ice40/setup_tutorial_3A.jpg)
+![Setup Tutorial 3B](../assets/setup/ice40/setup_tutorial_3B.jpg)
 
 **Critical connections:**
 - **FPGA Pin 95** → **Arduino A0** (analog output monitoring)
@@ -127,8 +127,8 @@ void setup() {
 
 ### Step 3: Software Configuration
 
-![Setup Tutorial 4](../evolvablehardware.org/images/setup_tutorial_4.jpg)
-![Setup Tutorial 5](../evolvablehardware.org/images/setup_tutorial_5.jpg)
+![Setup Tutorial 4](../assets/setup/ice40/setup_tutorial_4.jpg)
+![Setup Tutorial 5](../assets/setup/ice40/setup_tutorial_5.jpg)
 
 1. **Test FPGA programming:**
    ```bash
@@ -147,8 +147,8 @@ void setup() {
 
 ### Step 4: Evolution Framework
 
-![Setup Tutorial 6](../evolvablehardware.org/images/setup_tutorial_6.jpg)
-![Setup Tutorial 7](../evolvablehardware.org/images/setup_tutorial_7.jpg)
+![Setup Tutorial 6](../assets/setup/ice40/setup_tutorial_6.jpg)
+![Setup Tutorial 7](../assets/setup/ice40/setup_tutorial_7.jpg)
 
 **Run first evolution experiment:**
 ```bash
@@ -162,8 +162,8 @@ python3 evolve_variance.py --generations 100 --population 50
 
 ### Step 5: Results Validation
 
-![Setup Tutorial 8A](../evolvablehardware.org/images/setup_tutorial_8A.jpg)
-![Setup Tutorial 8B](../evolvablehardware.org/images/setup_tutorial_8B.jpg)
+![Setup Tutorial 8A](../assets/setup/ice40/setup_tutorial_8A.jpg)
+![Setup Tutorial 8B](../assets/setup/ice40/setup_tutorial_8B.jpg)
 
 **Monitor evolution progress:**
 - Real-time fitness plotting
@@ -186,7 +186,7 @@ python3 evolve_variance.py --generations 100 --population 50
 - 4-5 hour experiment duration
 - Clear evolutionary progress visualization
 
-![Variance Evolution](../evolvablehardware.org/images/variancemaximization.gif)
+![Variance Evolution](../assets/results/early/variancemaximization.gif)
 
 ### Pulse Oscillation
 **Timing-sensitive analog circuits**
@@ -201,7 +201,7 @@ python3 evolve_variance.py --generations 100 --population 50
 - No external clock dependency
 - Biological timescale operation
 
-![Pulse Evolution](../evolvablehardware.org/images/pulseevolution.png)
+![Pulse Evolution](../assets/results/early/pulseevolution.png)
 
 ### Tone Discrimination  
 **Advanced signal processing**
@@ -216,7 +216,7 @@ python3 evolve_variance.py --generations 100 --population 50
 - 10 kHz test tone  
 - Clean power supply for analog precision
 
-![Tone Function](../evolvablehardware.org/images/tonefunction.png)
+![Tone Function](../assets/equasions/tonefunction.png)
 
 ## Advanced Configurations
 

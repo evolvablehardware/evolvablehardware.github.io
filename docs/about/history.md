@@ -8,7 +8,7 @@ At its origin, evolvable hardware aimed to revolutionize electronics design, bot
 
 **Analog evolvable hardware offered a revolutionary approach**: delegating the complex search and design process to artificial evolution, capable of exploiting physical properties that would otherwise be abstracted away during digital operation or simulation.
 
-![Thompson's Tone Discriminator Circuit](../evolvablehardware.org/images/discriminatorcircuit.png)
+![Thompson's Tone Discriminator Circuit](../assets/history/thompson/discriminatorcircuit.png)
 *Adrian Thompson's famous tone discriminator circuit*
 
 ## The Reality Gap Challenge
@@ -38,7 +38,7 @@ Field Programmable Gate Arrays (FPGAs) became the primary research tool because 
 
 ### Thompson's Breakthrough Experiments
 
-![Adrian Thompson](../evolvablehardware.org/images/thompson1.png)
+![Adrian Thompson](../assets/history/thompson/thompson1.png){:align=right:width=200}
 
 **Adrian Thompson** at the University of Sussex evolved a series of bitstream-evolution circuits that canonized the evolutionary approach to circuit design. His achievements include:
 
@@ -51,7 +51,7 @@ Field Programmable Gate Arrays (FPGAs) became the primary research tool because 
 
 ### Xilinx Discontinues XC6200
 
-![XC6216 FPGA](../evolvablehardware.org/images/xc6216.png)
+![XC6216 FPGA](../assets/history/thompson/xc6216.png){:allign=right:width=400}
 
 Unfortunately, shortly after the cornerstone achievements of the late 1990s, **Xilinx Corporation discontinued the XC6200 series FPGA** - the tool of choice for evolvable hardware research.
 
@@ -69,7 +69,7 @@ Without complete bitstream knowledge, EHW researchers couldn't perform analog ex
 
 ## Renaissance: Project IceStorm (2015-Present)
 
-![iCE40 FPGA Map](../evolvablehardware.org/images/icemaphx1k.png)
+![iCE40 FPGA Map](../assets/specs/ice40/icemaphx1k.png)
 
 ### The Breakthrough
 

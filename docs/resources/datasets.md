@@ -5,7 +5,7 @@
 ### Variance Maximization
 **Status**: ✅ Completed | **Duration**: 4-5 hours | **Platform**: iCE40hx1k
 
-![Variance Maximization](../evolvablehardware.org/images/variancemaximization.gif)
+![Variance Maximization](../assets/results/early/variancemaximization.gif)
 *Real-time evolution of signal variance over generations*
 
 **Experimental Parameters:**
@@ -39,8 +39,8 @@ Where $x_i$ represents sequential ADC samples from the microcontroller.
 ### Pulse Oscillation  
 **Status**: ✅ Completed | **Duration**: 6-8 hours | **Platform**: iCE40hx1k
 
-![Pulse Count](../evolvablehardware.org/images/pulsecount.png)
-![Pulse Log](../evolvablehardware.org/images/pulselog.png)
+![Pulse Count](../assets/results/early/pulsecount.png)
+![Pulse Log](../assets/results/early/pulselog.png)
 
 **Experimental Overview:**
 Recreation of Thompson's seminal pulse generation experiment using modern hardware. The goal is to evolve an analog circuit capable of generating pseudo-stable periodic oscillations without external clock signals.
@@ -57,10 +57,9 @@ Recreation of Thompson's seminal pulse generation experiment using modern hardwa
 - Validated evolution of timing-sensitive analog circuits
 - Demonstrated biological timescale operation
 
-![Pulse Evolution](../evolvablehardware.org/images/pulseevolution.png)
-*Fitness evolution showing convergence to stable pulse generation*
+![Pulse Evolution](../assets/results/early/pulseevolution.png)
 
-![Pulse Max](../evolvablehardware.org/images/pulsemax.png)
+*Fitness evolution showing convergence to stable pulse generation*
 *Best individual's pulse characteristics*
 
 **Dataset Features:**
@@ -76,10 +75,10 @@ Recreation of Thompson's seminal pulse generation experiment using modern hardwa
 ### Tone Discrimination
 **Status**: 🔬 Ongoing | **Expected Duration**: 10-15 hours | **Platform**: iCE40hx1k
 
-![Tone Evolution](../evolvablehardware.org/images/toneevolution.png)
+![Tone Evolution](../assets/results/early/toneevolution.png)
 *Current progress in tone discrimination evolution*
 
-![Tone Function](../evolvablehardware.org/images/tonefunction.png)
+![Tone Function](../assets/equasions/tonefunction.png)
 *Target discrimination function profile*
 
 **Experimental Challenge:**

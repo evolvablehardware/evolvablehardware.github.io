@@ -75,6 +75,7 @@ plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
       #prebuild_index: true #look into if this site gets really big.
+  - awesome-nav
   - redirects:
       redirect_maps: {}
   - minify:
@@ -128,24 +129,11 @@ markdown_extensions:
   - pymdownx.tilde
 
 # Page tree
-nav:
-  - Home: index.md
-  - About: 
-    - Overview: about/index.md
-    - Research Areas: about/research.md
-    - History: about/history.md
-  - Resources:
-    - Software Tools: resources/software.md
-    - Hardware Setup: resources/hardware.md
-    - Datasets & Results: resources/datasets.md
-  - Publications:
-    - Recent Papers: publications/index.md
-    - Books: publications/books.md
-  - Community:
-    - Get Involved: community/members.md
-    - Events: community/events.md
-  - News: news/index.md
-  - Contact: contact.md
+# Because we are using mkdocs-awesome-nav this is ignored and replaced with .nav.
+# For more info, see: https://lukasgeiter.github.io/mkdocs-awesome-nav/reference/
+#     This is applied to each directory, so the file depicted specifies the nav tree at that location and below.
+#nav:
+
 
 # Extra
 extra:

@@ -11,7 +11,7 @@ Stay informed about the latest developments in evolvable hardware research, expe
 
 Our ongoing recreation of Thompson's famous tone discriminator is showing encouraging progress. Recent generations have demonstrated clear frequency-dependent responses, with some individuals showing preliminary discrimination between 1kHz and 10kHz input tones.
 
-![Tone Evolution Progress](../evolvablehardware.org/images/toneevolution.png)
+![Tone Evolution Progress] (../evolvablehardware.org/images/toneevolution.png)
 
 **Key developments:**
 - Generation 67 achieved 73% classification accuracy
@@ -69,7 +69,7 @@ Major update to our evolutionary framework brings significant improvements:
 
 Another milestone achieved! Our recreation of Thompson's pulse generation experiment has successfully evolved stable oscillatory circuits operating at biological timescales.
 
-![Pulse Results](../evolvablehardware.org/images/pulseevolution.png)
+![Pulse Results](../assets/results/early/pulseevolution.png)
 
 **Results summary:**
 - **Target achieved:** 1ms period oscillations evolved

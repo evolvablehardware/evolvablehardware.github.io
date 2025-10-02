@@ -50,7 +50,7 @@ This section contains the latest research publications, papers, and academic wor
 - **Conference**: Artificial Life Conference 2024
 - **Format**: Video presentation and demonstration
 - **Content**: Live evolution experiment with real-time results
-- **Archive**: [Available online](https://evolvablehardware.org/videos/artificial-life-video.mp4)
+- **Archive**: [Available online](../assets/misc/artificial-life-video.mp4)
 
 **"Community-Driven Research in Evolvable Hardware"**
 - **Conference**: IEEE CEC 2024 Special Session

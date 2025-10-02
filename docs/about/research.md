@@ -67,7 +67,7 @@ The flagship project recreating Thompson's most famous experiment: evolving a ci
 
 Watch our comprehensive overview of the evolvable hardware project and experimental results:
 
-[🎥 **Artificial Life Video Presentation**](https://evolvablehardware.org/videos/artificial-life-video.mp4)
+[🎥 **Artificial Life Video Presentation**](../assets/misc/artificial-life-video.mp4)
 
 *This presentation covers our motivation, methodology, experimental results, and future research directions.*
 

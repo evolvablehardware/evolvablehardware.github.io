@@ -5,12 +5,14 @@
 ### Prerequisites and Background
 
 **Essential background knowledge:**
+
 - **Basic programming** (Python preferred, C/C++ helpful)
 - **Digital logic** fundamentals
 - **Elementary electronics** (voltage, current, resistance)
 - **High school mathematics** (statistics helpful but not required)
 
 **Helpful but not required:**
+
 - Circuit analysis and design
 - FPGA development experience
 - Evolutionary algorithms background
@@ -23,6 +25,7 @@
 #### Hardware Concepts
 
 **Binary Representation and Digital Logic**
+
 - **Binary numbers**: How digital systems represent information
 - **Logic gates**: AND, OR, NOT and their combinations
 - **Boolean algebra**: Mathematical foundation of digital circuits
@@ -31,6 +34,7 @@
 **Practical exercise:** Use online logic simulators to build simple circuits
 
 **Reprogrammable Hardware Fundamentals**  
+
 - **Fixed vs. programmable**: Why flexibility matters in hardware
 - **Configuration memory**: How programmable devices store their "program"
 - **Reconfiguration speed**: Real-time vs. design-time programmability
@@ -39,15 +43,17 @@
 **Key insight:** Programmability enables evolution by allowing circuit changes
 
 **Field Programmable Gate Arrays (FPGAs)**
+
 - **Architecture overview**: Lookup tables (LUTs), routing, I/O blocks
 - **Configuration process**: From design to working hardware
 - **Analog behavior**: Why "digital" devices can do analog processing
 - **iCE40 specifics**: Our chosen platform and its capabilities
 
-![FPGA Architecture](../evolvablehardware.org/images/icemaphx1k.png)
+![FPGA Architecture](../assets/specs/ice40/icemaphx1k.png)
 *Internal structure of the iCE40 FPGA*
 
 **Hardware Description Languages (HDLs)**
+
 - **Purpose**: Describing digital circuits in text form
 - **Verilog basics**: Simple syntax for circuit description
 - **Synthesis**: Converting HDL to actual hardware configuration
@@ -58,6 +64,7 @@
 #### Evolutionary Algorithm Concepts
 
 **Population-Based Search**
+
 - **Individual**: A single candidate solution (one circuit)
 - **Population**: Collection of individuals being evaluated
 - **Generation**: One iteration of the evolutionary process
@@ -66,6 +73,7 @@
 **Example:** 50 different circuit configurations competing simultaneously
 
 **Fitness Evaluation**
+
 - **Fitness function**: Mathematical measure of how "good" a solution is
 - **Objective vs. subjective**: Measurable goals vs. human judgment
 - **Single vs. multi-objective**: Optimizing one thing vs. balancing trade-offs
@@ -74,12 +82,14 @@
 **Simple example:** Variance maximization fitness = average of |sample[i+1] - sample[i]|
 
 **Selection Mechanisms**
+
 - **Selection pressure**: How strongly we favor better solutions
 - **Tournament selection**: Pick best from random small groups
 - **Elitism**: Always keep the best individuals
 - **Diversity preservation**: Avoiding premature convergence
 
 **Genetic Operators**
+
 - **Mutation**: Random changes to individual solutions
 - **Crossover**: Combining parts of two parent solutions
 - **Mutation rate**: How often changes occur (typically 0.1-1%)
@@ -117,6 +127,7 @@ for generation in range(100):
 #### Hardware Setup Tutorial
 
 **Required components:**
+
 - iCE40hx1k development board (iCEstick recommended)
 - Arduino Uno or compatible microcontroller
 - Jumper wires and breadboard
@@ -124,6 +135,7 @@ for generation in range(100):
 - Computer running Windows, macOS, or Linux
 
 **Step-by-step assembly:**
+
 1. **Connect FPGA to computer** and verify recognition
 2. **Install IceStorm toolchain** following [our guide](hardware.md#setup-tutorial)
 3. **Connect Arduino** for fitness evaluation
@@ -131,6 +143,7 @@ for generation in range(100):
 5. **Verify analog measurement** chain is working
 
 **Common issues and solutions:**
+
 - **Device not recognized**: USB driver installation
 - **Permission errors**: Linux udev rules setup
 - **Measurement noise**: Grounding and shielding
@@ -182,6 +195,7 @@ print(f"Range: {np.max(samples) - np.min(samples)}")
 #### Variance Maximization Project
 
 **Learning objectives:**
+
 - Understand the complete evolution pipeline
 - Experience the excitement of watching circuits evolve
 - Learn to interpret fitness plots and population dynamics
@@ -228,12 +242,14 @@ plt.show()
 ```
 
 **Expected results:**
+
 - Fitness should increase over generations
 - Output signal amplitude should grow visibly
 - Evolution typically converges around generation 50-80
 - Final circuits often use unexpected FPGA resources
 
 **Learning outcomes:**
+
 - Hands-on experience with bitstream evolution
 - Understanding of fitness function design
 - Appreciation for evolution's creative problem-solving
@@ -244,12 +260,14 @@ plt.show()
 #### Pulse Oscillation Experiment
 
 **Increased complexity:**
+
 - Time-dependent fitness evaluation
 - More sophisticated signal analysis
 - Stability and reliability concerns
 - Biological timescale operation
 
 **New concepts:**
+
 - **Period detection** algorithms
 - **Signal stability** metrics  
 - **Long-term monitoring** techniques
@@ -258,6 +276,7 @@ plt.show()
 #### Custom Fitness Functions
 
 **Design challenges:**
+
 - **Frequency-selective** responses
 - **Pattern recognition** in analog signals
 - **Multi-objective** optimization
@@ -284,12 +303,14 @@ def frequency_fitness(adc_samples, target_frequency):
 #### Research Project Ideas
 
 **Beginner projects:**
+
 - **Temperature compensation**: Circuits that maintain performance across temperature
 - **Power optimization**: Evolution for minimum power consumption
 - **Signal filtering**: Evolved analog filters for specific applications
 - **Pattern recognition**: Simple pattern detection in analog signals
 
 **Advanced projects:**
+
 - **Multi-FPGA evolution**: Distributed populations across multiple devices
 - **Reservoir computing**: Using FPGA fabric as computational reservoir
 - **Environmental adaptation**: Circuits that adapt to changing conditions
@@ -298,12 +319,14 @@ def frequency_fitness(adc_samples, target_frequency):
 #### Research Methodology
 
 **Experimental design:**
+
 - **Hypothesis formation**: What do you expect to achieve?
 - **Control experiments**: How do you know evolution is responsible?
 - **Statistical validation**: Multiple runs and significance testing
 - **Reproducibility**: Can others replicate your results?
 
 **Documentation standards:**
+
 - **Complete parameter logs**: Evolution settings, hardware configuration
 - **Raw data preservation**: All measurements and intermediate results
 - **Code availability**: Scripts and tools used for analysis
@@ -316,30 +339,35 @@ def frequency_fitness(adc_samples, target_frequency):
 #### "Introduction to Evolvable Hardware" (3-credit course)
 
 **Week 1-2: Historical Foundation**
+
 - Field origins and motivation
 - Thompson's pioneering experiments
 - The XC6200 era and subsequent challenges
 - Modern revival through open-source tools
 
 **Week 3-4: Technical Foundations**  
+
 - FPGA architecture and analog behavior
 - Bitstream structure and manipulation
 - Evolutionary algorithms for hardware
 - Fitness function design principles
 
 **Week 5-8: Hands-On Laboratory**
+
 - Hardware setup and toolchain installation
 - First evolution experiment (variance maximization)
 - Data collection and analysis techniques
 - Troubleshooting and optimization
 
 **Week 9-12: Advanced Topics**
+
 - Custom fitness function development
 - Multi-objective optimization
 - Robustness and reliability issues
 - Applications and case studies
 
 **Week 13-15: Independent Projects**
+
 - Student-designed experiments
 - Original research contributions
 - Presentation and peer review
@@ -348,12 +376,14 @@ def frequency_fitness(adc_samples, target_frequency):
 #### Graduate Seminar: "Current Topics in Evolvable Hardware"
 
 **Research paper reviews:**
+
 - Classic papers from Thompson, Higuchi, de Garis
 - Modern applications and developments
 - Critical analysis and methodology evaluation
 - Replication attempts and validation studies
 
 **Guest lectures:**
+
 - Community researchers presenting current work
 - Industry applications and commercial interests
 - International collaboration opportunities
@@ -362,17 +392,20 @@ def frequency_fitness(adc_samples, target_frequency):
 ### Educational Partnerships
 
 **Current university adoptions:**
+
 - Rose-Hulman Institute of Technology (Graduate course)
 - University of Sussex (Historical connection)
 - Multiple international research collaborations
 
 **Course materials available:**
+
 - Complete lecture slide sets
 - Laboratory exercise handouts
 - Assignment and project specifications
 - Grading rubrics and assessment tools
 
 **Support for educators:**
+
 - Guest lecture availability (via video conference)
 - Technical support for course setup
 - Access to community expertise and resources
@@ -383,18 +416,21 @@ def frequency_fitness(adc_samples, target_frequency):
 ### Online Materials
 
 **Video content:**
+
 - [Artificial Life presentation](https://evolvablehardware.org/videos/artificial-life-video.mp4) - Complete project overview
 - Setup tutorial videos (in development)
 - Experiment demonstration recordings
 - Community conference presentations
 
 **Interactive tutorials:**
+
 - Web-based evolution simulators
 - FPGA architecture exploration tools  
 - Fitness function design exercises
 - Data analysis and visualization tutorials
 
 **Reading materials:**
+
 - [Complete publication library](../publications/index.md)
 - Community blog posts and articles
 - Technical documentation and guides
@@ -403,18 +439,21 @@ def frequency_fitness(adc_samples, target_frequency):
 ### Community Learning Support
 
 **Mentorship program:**
+
 - Experienced researchers paired with newcomers
 - Regular check-ins and progress reviews
 - Technical support and guidance
 - Research collaboration opportunities
 
 **Study groups:**
+
 - Monthly paper discussions
 - Joint problem-solving sessions
 - Cross-institutional collaborations
 - Peer review and feedback
 
 **Office hours:**
+
 - Weekly Slack-based help sessions
 - Individual consultation availability
 - Group troubleshooting meetings
@@ -425,18 +464,21 @@ def frequency_fitness(adc_samples, target_frequency):
 ### Competency Milestones
 
 **Basic competency:**
+
 - [ ] Successfully complete variance maximization experiment
 - [ ] Understand evolutionary algorithm principles
 - [ ] Can set up hardware platform independently
 - [ ] Interpret fitness plots and population dynamics
 
 **Intermediate competency:**
+
 - [ ] Design custom fitness functions
 - [ ] Complete pulse oscillation experiment
 - [ ] Analyze evolved circuit topologies
 - [ ] Troubleshoot experimental problems independently
 
 **Advanced competency:**
+
 - [ ] Develop novel experimental approaches
 - [ ] Contribute to community code repositories
 - [ ] Mentor new community members
@@ -445,12 +487,14 @@ def frequency_fitness(adc_samples, target_frequency):
 ### Portfolio Development
 
 **Documentation portfolio:**
+
 - Experimental reports with complete methodology
 - Data analysis and visualization examples
 - Code contributions and tool development
 - Teaching and outreach activities
 
 **Research contributions:**
+
 - Novel fitness function designs
 - Hardware platform improvements
 - Educational material development
