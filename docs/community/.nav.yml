@@ -1,9 +1,9 @@
 # See Docs at: https://lukasgeiter.github.io/mkdocs-awesome-nav/reference/
 
 title: Community
-preserve_directory_names: false   #False to clean up names (i.e. file-name.md => File Name)
-hide: false                       #True if this folder should be hidden on page
-flatten_single_child_sections: true 
+preserve_directory_names: false       #False to clean up names (i.e. file-name.md => File Name)
+hide: false                           #True if this folder should be hidden on page
+flatten_single_child_sections: false  #True to remove the folder and just replace it with the only element it contains
 ignore: "*.hidden.md" 
 
 sort:
