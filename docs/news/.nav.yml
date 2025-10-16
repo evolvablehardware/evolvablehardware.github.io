@@ -19,4 +19,4 @@ nav:
   - index.md
 
 # If false, the above tree is all that is shown at this level of the directory structure.
-append_unmatched: false 
+append_unmatched: true 

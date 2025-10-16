@@ -16,7 +16,7 @@ sort:
 
 
 nav: 
-  - Software Tools: software.md
+  - index.md
   - Hardware Setup: hardware.md
   - education
   - Datasets & Results: datasets.md

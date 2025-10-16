@@ -3,9 +3,23 @@ site_description: Research and development in evolvable hardware systems
 site_author: Evolvable Hardware Community
 #site_url: https://evolvablehardware.org
 
-# Repository
-repo_name: evolvablehardware/evolvablehardware.github.io
-repo_url: https://github.com/evolvablehardware/evolvablehardware.github.io
+# Repository - This creates the image in the top right corner that directs you to the code directory
+#repo_name: evolvablehardware #/evolvablehardware.github.io
+#repo_url: https://github.com/evolvablehardware #/evolvablehardware.github.io
+
+
+
+# Look Into: 
+# https://www.neoteroi.dev/mkdocs-plugins/cards/#__tabbed_1_2
+#   - This allows you to write a yaml file that can generate the clickable tables of images
+#       and text, like with news articles
+# https://squidfunk.github.io/mkdocs-material/setup/setting-up-social-cards/#backgrounds-background-color
+#   - This allows you to decide how to build the little card that pops up when you share the site on social media.
+#   - Effectively lets you set site previews.
+# https://squidfunk.github.io/mkdocs-material/reference/grids/
+#   - Similar to the one above
+# https://squidfunk.github.io/mkdocs-material/setup/adding-a-comment-system/
+#   - This can give you a comments section using github discussions to store the data.
 
 # Copyright
 copyright: Copyright &copy; 2025 Evolvable Hardware Community
@@ -47,7 +61,7 @@ theme:
   features:
     # Useful Link: https://mrkeo.github.io/setup/setting-up-navigation/#table-of-contents
     # Defining how tabs behave
-    - navigation.sections
+    #- navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
 
@@ -76,11 +90,11 @@ plugins:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
       #prebuild_index: true #look into if this site gets really big.
   - awesome-nav
-  - redirects:
+  - redirects: # https://github.com/mkdocs/mkdocs-redirects
       redirect_maps: {}
-  - minify:
+  - minify: 
       minify_html: true
-  - git-revision-date-localized:
+  - git-revision-date-localized: #This creates the little markers on the bottom of the page for when it was last uploaded.
       enabled: true
       type: timeago
       enable_creation_date: true
@@ -101,6 +115,8 @@ markdown_extensions:
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.details
   - pymdownx.emoji:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
@@ -115,7 +131,6 @@ markdown_extensions:
       repo_url_shorthand: true
       user: evolvablehardware
       repo: evolvablehardware.github.io
-  - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences:
       custom_fences:
@@ -126,7 +141,7 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.tilde
+
 
 # Page tree
 # Because we are using mkdocs-awesome-nav this is ignored and replaced with .nav.
