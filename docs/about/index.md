@@ -1,8 +1,4 @@
-# About the Evolvable Hardware Organization
-
-![iCE40 FPGA](../assets/setup/ice40/ice40pinout_pin_overlay.png){: align=right : width=400}
-
-*The Lattice iCE40hx1k FPGA - our primary evolution platform*
+# About Us
 
 ## Our Mission
 

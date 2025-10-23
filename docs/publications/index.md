@@ -1,10 +1,9 @@
-# Publications
+# Our Publications
 
-When we write stuff, you should read it. Do not abide in laziness.
+When we write stuff, you should read it.
 
 ## Recent Papers
 No comment.
 
-## Books
-Leave writing to writers.
 
+Maybe get rid of "Academic papers section"
