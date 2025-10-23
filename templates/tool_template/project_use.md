@@ -1,0 +1,1 @@
+Note which projects use them and roughly how. (Very high-level overview.)

@@ -6,4 +6,4 @@ When we write stuff, you should read it.
 No comment.
 
 
-Maybe get rid of "Academic papers section"
+Maybe get rid of "Academic papers section" with just a general 

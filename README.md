@@ -2,94 +2,26 @@
 
 The official website for the evolvable hardware research community, built with MkDocs and Material theme.
 
-## 🌟 Features
+## Contributing
 
-- **Comprehensive Content**: Complete coverage of evolvable hardware research and applications
-- **Modern Design**: Responsive Material Design with dark/light mode support  
-- **Fast Search**: Built-in search functionality with highlighting
-- **Mobile Optimized**: Perfect experience on all devices
-- **Academic Focus**: Tailored for researchers and educators
+If you want to contribute to the research, pick a project that you find interesting and navigate to it's webpage.
 
-## 🚀 Quick Start
+If you want to contribute to this site, please make the change you were suggesting to the website and file a pull request. You can also `Contact Us` with the information in the website if you don't see any action taken arround it. The general seps are described below:
 
-### Local Development
+1. Clone This Repository (`git clone`)
+2. Create a locally hosted version of that website
+    - `cd /directory/of/cloned/repo`
+    - `mkdocs serve`, open povided url in a web browser.
+3. Make your changes to the website in the /docs directory. Whenever you save a file, the changes will be shown on your locally hosted website
+4. File a pull-request in GitHub.
 
-```bash
-# Install dependencies
-pip install mkdocs mkdocs-material mkdocs-redirects mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin
+## Templates
+The templates directory has numerous templates for various uses. Please copy these files when trying to add something to the website. These files contain general guidance for how to edit them, and you should stick to that format whenever reasonable.
 
-# Serve locally
-mkdocs serve
-
-# Build for production  
-mkdocs build
-```
-
-### Deployment
-
-The site automatically deploys to GitHub Pages via GitHub Actions when changes are pushed to the `main` branch.
-
-## 📁 Structure
-
-```
-docs/
-├── about/           # About evolvable hardware
-├── community/       # Research community information  
-├── news/           # Latest news and updates
-├── publications/   # Academic papers and books
-├── resources/      # Software, hardware, datasets
-├── assets/         # Images, PDFs, media files
-├── stylesheets/    # Custom CSS styling
-└── javascripts/    # Custom JavaScript
-
-mkdocs.yml          # Site configuration
-.github/workflows/  # Automated deployment
-```
-
-## 🤝 Contributing
-
-We welcome contributions from the evolvable hardware community:
-
-1. **Content Updates**: Add new research, events, or resources
-2. **Bug Reports**: Report issues with links, formatting, or functionality  
-3. **Feature Requests**: Suggest improvements or new sections
-4. **Community Events**: Submit announcements and calls for papers
-
-### How to Contribute
-
-1. Fork this repository
-2. Create a feature branch (`git checkout -b feature/new-content`)
-3. Make your changes and commit (`git commit -am 'Add new research papers'`)
-4. Push to the branch (`git push origin feature/new-content`)
-5. Create a Pull Request
-
-## 📝 Content Guidelines
-
-- **Accuracy**: Ensure all technical information is correct
-- **Attribution**: Properly cite sources and give credit  
-- **Neutrality**: Maintain academic objectivity
-- **Accessibility**: Use clear language and proper formatting
-- **Currency**: Keep information up to date
-
-## 🔧 Technical Details
-
-- **Generator**: MkDocs 1.6+
-- **Theme**: Material for MkDocs
-- **Hosting**: GitHub Pages
-- **CI/CD**: GitHub Actions
-- **Analytics**: Google Analytics (configurable)
-
-## 📄 License
-
-Content is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).  
-Code is licensed under [MIT License](https://opensource.org/licenses/MIT).
-
-## 📞 Contact
-
-- **General Inquiries**: [info@evolvablehardware.org](mailto:info@evolvablehardware.org)
-- **Technical Issues**: [GitHub Issues](https://github.com/evolvablehardware/evolvablehardware.github.io/issues)
-- **Community**: [GitHub Discussions](https://github.com/evolvablehardware/evolvablehardware.github.io/discussions)
-
----
-
-*Built with ❤️ by the evolvable hardware research community*
+- **tool_template (folder)**
+    - This is a folder providing a general structure for what a tool or platform of slightly varying tools (like hardware IC platforms) should look like on the site.
+    - The `variants` directory can be removed if you are not a platform and don't have any notable variants.
+- **paper.md**
+    - This provides a template for all papers on the site, be it ours or external. If a section isn't used, it can be removed.
+- **misc_info.md**
+    - A scratch file containing text or icons we may want to reuse.
