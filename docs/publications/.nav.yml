@@ -17,7 +17,6 @@ sort:
 
 nav: 
   - index.md
-  - books
   - papers
 
 # If false, the above tree is all that is shown at this level of the directory structure.
