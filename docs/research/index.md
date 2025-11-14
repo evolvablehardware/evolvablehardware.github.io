@@ -8,7 +8,7 @@ An overview of numerous concepts that relate to our research and projects.
 ## Evolvable Hardware Publications
 These are publications that have been produced by this group.
 
-[View EHW Publications](./publications/){ .md-button .md-button--primary }
+[View EHW Publications](./publications/index.md){ .md-button .md-button--primary }
 
 ## Related Publications
 These are publications that have not been produced by this group, but they are very useful resources to understand the work that we are doing.

@@ -20,8 +20,8 @@ Evolvable hardware is the application of evolutionary algorithms to hardware sys
 [Learn More](./about/index.md){ .md-button .md-button--primary }
 [View Projects](./projects/index.md){ .md-button .md-button--seccondary }
 
-[Under-grad research](#undergraduate-research){ .md-button .md-button--primary }
-[research](./contact.md#researchers-contributors){ .md-button .md-button--primary }
+<!-- [Under-grad research](#undergraduate-research){ .md-button .md-button--primary } -->
+<!-- [research](./contact.md#researchers-contributors){ .md-button .md-button--primary } -->
 
 
 ## Where Should I Start?
