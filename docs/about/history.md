@@ -7,6 +7,9 @@ At its origin, EHW aimed to revolutionize the way electronics were designed, bot
 Further, one of the hallmark characteristics of intrinsic analog EHW is the ability for evolution to employ physical properties of the target hardware that would otherwise be abstracted away during digital operation or simulation due to the complex nature of real-world high-speed semiconductor physics. Simulations generally perform this abstraction to account for the slight error introduced during fabrication (i.e. transistor doping levels, variation in copper tracing thickness, etc.). The effects that such manufacturing imperfections have on the operation of a given circuit are non-linear and can interact in unpredictable ways. Such attempts to simulate analog circuit operation prior to embedding in physical hardware must contend with the reality gap --- the abstract distance between a simulated system's behavior and a real system's behavior. This is where the intrinsic approach to hardware evolution shines. Famously, Adrian Thompson's tone discriminator exploited just such physical properties of the FPGA, using only 100 logic gates of the available 24,000, to accomplish a task that was thought to be impossible under the resource constraints he placed on the experiment. 
 
 ![](../assets/history/thompson/discriminatorcircuit.png)
+/// caption
+Analysis of Adrian Thompson's Evolved Tone Descriminator Circuit
+///
 
 ## Inception and History
 In 1991, Hugo de Garis postulated that evolutionary algorithms such as genetic programming "will probably lead to electronic circuits being `grown' in special hardware". Contextually, he was referring to a research domain known as embryological electronics; however, only two years later, in conjunction with Tetsuya Higuchi, they conceptualized the field of evolvable hardware (EHW): the application of evolutionary algorithms to hardware systems during design, operation, or both. It is a technique that has demonstrated the capability of producing unique and often optimal solutions to many types of scientific and industry problems. And the tool of choice was the field programmable gate array (FPGA).
@@ -14,6 +17,7 @@ In 1991, Hugo de Garis postulated that evolutionary algorithms such as genetic p
 FPGAs are one of the primary research tools used in EHW research because their physically reprogrammable architecture can emulate candidate circuits. When combined with an evolutionary algorithm (EA) running on a host CPU, circuits can be systematically selected from a population, loaded on the FPGA, evaluated for their performance according to a fitness function, selected for progenation, then mutated and recombined for the subsequent population, gradually improving the performance of a population of circuits.
 
 ![](../assets/history/thompson/thompson1.png){: align=left : width=250}
+
 
 As the field was forming, Adrian Thompson at the University of Sussex evolved a series of bitstream-evolution circuits that would canonize the evolutionary approach to circuit design, specifically for analog EHW. The first among these circuits was a completely analog millisecond oscillator. Ultimately, this was meant to be a tool for future robotics experiments, providing a temporal bridge for signals that operate at biological timescales. Later experiments demonstrated the impressive search power provided by artificial evolution, most notably: Thompson's evolved tone-discriminator circuit --- a fully analog FPGA circuit that could distringuish between a 1khz tone and a 10khz tone using only 42 configurable logic blocks.
 

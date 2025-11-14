@@ -17,12 +17,12 @@ sort:
 
 nav: 
   - Home: index.md
-  - projects
-  - resources
-  - publications
-  - news
   - about
-  - Contact Us: contact.md
+  - research
+  - projects
+  - news
+  - tools
+  - Contact: contact.md
 
 # If false, the above tree is all that is shown at this level of the directory structure.
 append_unmatched: false 
