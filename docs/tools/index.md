@@ -1,6 +1,29 @@
-# Tools Used
+# Tools
 
 This should explain that this is general background information needed to understand what is happening. This should link out to the other sub-pages. Maybe using cards, see `mkdocs.yml`.
+
+<div class="grid cards" markdown>
+
+-   :fontawesome-solid-wrench:{ .lg .middle } __Tool Template__
+
+    ---
+
+    This is an example tool to demonstrate what a tool would actually look like to be filled in later.
+
+    [:octicons-arrow-right-24: Learn More](./tool_template/index.md)<br>
+    [:fontawesome-solid-graduation-cap: Tutorials](./tool_template/tutorials/index.md)<br>
+    [:fontawesome-solid-sheet-plastic: Referance Sheet](./tool_template/referance_sheet.md)<br>
+    [:material-file-document-multiple: Documentation](./tool_template/docs/index.md)
+
+-   :material-thermometer-probe:{ .lg .middle } __Add Another Project__
+
+    ---
+
+    This is just to show that there is in fact a grid.
+
+    [:octicons-arrow-right-24: Select an Icon](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
+
+</div>
 
 ## Structure of Tools Folder
 
