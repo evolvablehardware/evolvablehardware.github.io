@@ -6,8 +6,9 @@ At its core, mortal computation explores how computation can persist in the face
 
 For our lab, mortal computation is a powerful lens on the future of evolvable hardware. When we allow hardware circuits to evolve directly on the chip, they naturally encounter imperfections, noise, and physical changes — just like living systems. This forces the evolving hardware to develop robust, fault-tolerant strategies that traditional engineering would never produce. By embracing mortality as a design principle, we open the path to technologies that are tougher, more adaptive, and ultimately more lifelike. Mortal computation pushes us toward devices that don’t just operate — they endure.
 
-# Learn More:
-    - [Presentation from Geoffrey Hinton](https://www.youtube.com/watch?v=sghvwkXV3VU)
-    - [MORTAL COMPUTATION: A FOUNDATION FOR BIOMIMETIC INTELLIGENCE](https://arxiv.org/pdf/2311.09589)
+## Learn More:
+
+- [Presentation from Geoffrey Hinton](https://www.youtube.com/watch?v=sghvwkXV3VU)
+- [MORTAL COMPUTATION: A FOUNDATION FOR BIOMIMETIC INTELLIGENCE](https://arxiv.org/pdf/2311.09589)
 
 

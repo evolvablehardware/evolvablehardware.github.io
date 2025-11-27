@@ -4,7 +4,7 @@
     For the origional template and the one that should be edited, look in the `templates/paper.md` in the top level of this repository.
 
     This should be deleted in the actual paper page.
-    
+
 # Paper Title
 
 **Publication:** Name of Publication <br>
