@@ -31,5 +31,4 @@ jobs:
       - name: Install dependencies
         run: pip install mkdocs-redirects mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin mkdocs-awesome-nav
       - run: mkdocs gh-deploy --force  
-        with:
-          fetch-depth: 0
+
