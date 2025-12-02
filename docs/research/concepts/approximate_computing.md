@@ -1,4 +1,4 @@
-Approximate Computing
+# Approximate Computing
 
 Approximate computing is a design philosophy that challenges a long-held assumption in computer science: that every calculation must be perfectly accurate. In many real-world tasks—like recognizing an object in an image, interpreting a sensor signal, or controlling a robot—absolute precision isn’t necessary. Small errors usually don’t matter, and sometimes the quest for perfect accuracy wastes energy, slows down processing, or makes hardware far more complex than it needs to be. Approximate computing embraces this reality by allowing systems to trade a bit of precision for major gains in speed, efficiency, and adaptability.
 
