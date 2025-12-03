@@ -1,91 +1,57 @@
+---
+title: Home
+description: Homepage for Evolvable Hardware Project
+hide:
+    - toc
+    - navigation
+    - path
+    - footer
+---
+
 # Evolvable Hardware
+![200](./assets/branding/logo.png){: align=right : width=300}
 
-Welcome to the Open Source **Evolvable Hardware** community - a hub for researchers, engineers, and enthusiasts working on adaptive and self-reconfiguring hardware systems through evolutionary computation.
-
-!!! info "Watch Our Research"
-    Explore our [video presentation](about/research.md#video-presentation) to see evolvable hardware in action.
+Welcome to the **Evolvable Hardware** community - a hub for research and implementation of adaptive and self-reconfiguring hardware systems through evolutionary computation. 
 
 ## What is Evolvable Hardware?
 
 Evolvable hardware is the application of evolutionary algorithms to hardware systems during design, operation, or both. It can be used to simulate parameter optimization for physical designs or search for new and counterintuitive designs altogether. For reconfigurable hardware, such as field programmable gate arrays (FPGAs) and other programmable logic devices, the evolutionary process can be performed intrinsic to the hardware itself and exploit device-specific characteristics, including manufacturing errors and physical effects that fall below fabrication tolerances.
 
-This field combines principles from:
+[Learn More](./about/index.md){ .md-button .md-button--primary }
+[View Projects](./projects/index.md){ .md-button .md-button--seccondary }
 
-- **Evolutionary algorithms** for circuit optimization
-- **Reconfigurable computing** for hardware flexibility  
-- **Analog circuit design** for unconventional solutions
-- **Bio-inspired systems** for self-organization
-- **FPGA-intrinsic evolution** for real-world adaptation
+<!-- [Under-grad research](#undergraduate-research){ .md-button .md-button--primary } -->
+<!-- [research](./contact.md#researchers-contributors){ .md-button .md-button--primary } -->
 
-## Key Research Areas
 
-### Analog Evolvable Hardware
-Circuits that can adapt their analog characteristics through evolutionary processes, enabling fault tolerance and optimization in real-world conditions.
+## Where Should I Start?
+We want this website to assist you in understanding, exploring, attempting, and/or advancing Evolvable Hardware for someone of any background.
 
-### Digital Evolution
-Self-modifying digital systems using FPGAs and reconfigurable architectures to evolve solutions to complex computational problems.
+The Tabs Below feature a couple of ways to use the information on this site based on your use case. Select the one that best aligns with your goals and use it to help you get started.
 
-### Evolutionary Electronics
-Hardware that undergoes physical evolution at the transistor level, creating novel circuit topologies through guided search processes.
+=== "Tinkerer"
 
-### Adaptive Systems
-Systems that can reconfigure themselves in response to changing environments, requirements, or component failures.
+    This should be oriented towards someone who doesn't have a lot of knowledge about Computer Science or FPGAs.
+    They need assistance understanding these fundamentals that they may have a gap of understanding in, then be directed
+    to very straight forward examples that allow them to quickly get started on a basic projet.
 
-## Current Research Projects
+    !!! example "In Progress"
+        This isn't implemented yet.
 
-### Completed Projects
+=== "Undergraduate Research" 
 
-!!! success "Variance Maximization"
-    The first and simplest project, aimed at generating an evolved circuit with a maximally noisy output analog signal using FPGA-intrinsic evolution on the Lattice iCE40.
-    
-    [Learn more about Variance Maximization →](resources/datasets.md#variance-maximization)
+    You can assume a higher degree of knowledge, but fundamentals should be noted incase they are needed. 
+    These people mix a need for getting to actual experiments with an interest in research papers, especially the simpler ones. 
+    They probably know what they want or are looking to build on to existing projects.
 
-!!! success "Pulse Oscillation"
-    From Thompson's first EHW experiments, an analog circuit capable of generating a pseudo-stable periodic oscillator, recreated on modern hardware.
-    
-    [Learn more about Pulse Oscillation →](resources/datasets.md#pulse-oscillation)
+    !!! example "In Progress"
+        This isn't implemented yet.
 
-### Ongoing Projects
+=== "Graduate Research / PhD"
 
-!!! info "Tone Discrimination"
-    The seminal EHW experiment recreated on modern hardware: an analog circuit to discriminate between input tones, following Adrian Thompson's pioneering work.
+    This assumes complete knowledge of information not specific to Evolvable Hardware.
+    These people are probably looking for the most up-to-date research and potential gaps in them to start
+    their research projects. We should make that process as easy as possible.
 
-### Future Directions
-
-- **Sine Wave Oscillator** - Developing clean oscillators from analog components
-- **Reservoir Computing** - Treating unclocked FPGA fabric as a reservoir with physical readout layers
-- **Speech Synthesis and Recognition** - Evolving analog circuits for biological timescale audio signals
-
-## Applications
-
-- **Fault-tolerant systems** - Hardware that self-repairs and adapts
-- **Space electronics** - Radiation-hardened adaptive circuits  
-- **Signal processing** - Self-optimizing analog filters and processors
-- **Robotics** - Adaptive control and sensor systems
-- **IoT devices** - Power-efficient adaptive sensors
-- **Research platforms** - Open-source tools for EHW experimentation
-
-## Getting Started
-
-- Browse our [Publications](publications/index.md) for the latest research
-- Explore [Software Tools](resources/software.md) for evolution platforms and datasets
-- Check out [Hardware Resources](resources/hardware.md) for FPGA setup and tutorials
-- Join our active [Community](community/members.md) and [Slack workspace](community/members.md#slack-channel)
-- Follow [News](news/index.md) for recent developments and experimental results
-
-## Open Source Commitment
-
-As research into FPGA-intrinsic analog evolvable hardware has been limited for the last 20 years, we're committed to making this field accessible again. Thanks to the [IceStorm project](http://www.clifford.at/icestorm/) by Claire Wolf and Mathias Lasser, complete reverse engineering of the Lattice iCE40 bitstream format has unlocked the capability to perform genetic evolution of hardware bitstreams.
-
-This website continues research pioneered by Adrian Thompson, Tetsuya Higuchi, Hugo de Garis, and many others, with all code available on [GitHub](https://github.com/evolvablehardware) under open-source licenses.
-
-## Featured Content
-
-!!! info "Latest Research"
-    Stay updated with cutting-edge developments in FPGA-intrinsic evolvable hardware research through our experimental results, open-source tools, and detailed project documentation.
-
-!!! tip "Active Community"
-    Join our growing community! Connect with researchers worldwide working on evolvable hardware systems. We maintain an active [Slack workspace](community/members.md#get-involved) for daily collaboration, sharing experimental results, and advancing the field together.
-
-!!! example "Hardware Setup"
-    Get started with your own evolvable hardware experiments using our detailed [setup guides](resources/hardware.md) and [troubleshooting resources](resources/hardware.md#troubleshooting).
+    !!! example "In Progress"
+        This isn't implemented yet.

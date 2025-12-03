@@ -1,0 +1,200 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Evolvable Hardware</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo">[Analog] Project: <strong>Tone Discriminator</strong></a>
+									<ul class="icons">
+										<li><a href="https://github.com/evolvablehardware">Check out the GitHub  <a href="https://github.com/evolvablehardware" class="icon brands fa-github"></a></a></li>
+										<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li> -->
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Tone Discriminator</h1>
+									</header>
+
+									(Work In Progress)
+									<h2>Description</h2>
+									<p>A recreation of Adrian Thompson's famous tone discriminator experiment. An FPGA is subject to random input of either 1khz or 10khz tone and
+										must output a HIGH or LOW signal indicating appropriate classification. The duration for this evolutionary experiment is extraordinarily time
+										consuming, taking nearly 3 weeks to complete the search process. Currently, only low-fitness classifiers have been able to evolve.
+									</p>
+									<table style="width: 66%;">
+										<tr>
+											<th>Runtime</th><th>Population</th><th>Generations</th><th>Mutation</th><th>Crossover</th>
+										</tr>
+										<tr>
+											<td>24 days</td>	<td>50</td>		<td>5000</td>		<td>0.001</td>		<td>0.7</td>
+										</tr>
+									</table>
+
+									<label style="margin-left: 38%">Output Signal (blue) over Input Signal (yellow)</label>
+									<img src="images/discriminator.png" style="width:100%"/>
+
+									<br />
+									<p></p>
+
+									<hr class="major" />
+
+									<h2>Fitness Function</h2>
+									<table>
+										<tr>
+											<td>
+												<br />
+													<img src="images/tonefunction.png" style="height: 100pt;">
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<br />
+												This fitness function forces the maximization of difference between two sets. Each set represents the sampled output of the FPGA
+												in the presence of an tonal input and is summed before taking the absolute difference. The (k) values represent what Thompson
+												referred to as "hardware constants" and were manually tuned specifically to the integrating operational amplifier that prior
+												to the ADC readout from the microcontroller. They act to provide evolution with a small gradient in the fitness landscape for the
+												incremental improvement of each circuit.
+											</td>
+										</tr>
+									</table>
+									
+
+
+									<h2>Results</h2>
+									<table>
+										<tr>
+											<td>
+												<br /><br />
+												<img src="images/toneevolution.png" style="height: 250pt">
+											</td>
+										</tr>
+										<tr>
+											<td style="text-align: justify;">
+												<br />
+												The trajectory for circuit evolution in this experiment exhibits prolonged periods of stagnation while new optima are searched for.
+												As shown in the plot, there are thousands of generations where the best isn't surpassed until some significant change dramatically
+												improves fitness for the population's best and mean fitness scores. Disappointingly though, this particular evolutionary run was
+												incapable of achieving the maximum fitness for discriminating between tones.
+											</td>
+										</tr>
+									</table>
+
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+							<nav id="menu">
+								<header class="major">
+									<h2>Menu</h2>
+								</header>
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li>
+										<span class="opener">Projects</span>
+										<ul>
+											<li><a href="variance.html">Variance Maximization</a></li>
+											<li><a href="pulse.html">Pulse Oscillation</a></li>
+											<li><a href="tone.html">Tone Discriminator</a></li>
+										</ul>
+									</li>
+									<li>
+										<span class="opener">Tutorials</span>
+										<ul>
+											<li><a href="setup.html">Getting Setup</a></li>
+											<li><a href="troubleshooting.html">Troubleshooting</a></li>
+										</ul>
+									</li>
+									<li><a href="history.html">History</a></li>
+									<li><a href="about.html">About</a></li>
+								</ul>
+							</nav>
+
+							<!-- Section -->
+								<!-- <section>
+									<header class="major">
+										<h2>Ante interdum</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="#" class="button">More</a></li>
+									</ul>
+								</section> -->
+
+							<!-- Section -->
+							<section>
+								<header class="major">
+									<h2>Get involved</h2>
+								</header>
+								<p style="text-align: justify;">The Evolvable Hardware community is growing! Join the movement, 
+									participate in the research, or hack the gibson! Whether you're interested in the science, 
+									engineering, or tinkering, you're welcome here! Send an message to the email address below
+									with the subject title "EHW SLACK" to get access to the evolvable hardware slack channel.</p>
+								<ul class="contact">
+									<li class="icon solid fa-envelope"><a href="tone.html#">derek.whitley1@gmail.com</a></li>
+									<br />
+								</ul>
+							</section>
+			
+							<!-- Footer -->
+							<footer id="footer">
+								<p class="copyright">&copy; Evolvable Hardware Org. All rights reserved. Demo Images: <a
+										href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5
+										UP</a>.</p>
+							</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

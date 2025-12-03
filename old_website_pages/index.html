@@ -1,0 +1,255 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Evolvable Hardware</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LY6LV8MH5X"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-LY6LV8MH5X');
+	</script>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+
+				<!-- Header -->
+				<header id="header">
+					<a href="index.html" class="logo">Welcome to the Open Source <strong>Evolvable Hardware</strong> Project</a>
+					<ul class="icons">
+						<li><a href="https://github.com/evolvablehardware">Check out the GitHub  <a href="https://github.com/evolvablehardware" class="icon brands fa-github"></a></a></li>
+						<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li> -->
+					</ul>
+				</header>
+				
+				<br /> <a href="summary-video.html">~Watch the video presentation~</a> <br /><br />
+
+				<!-- Banner -->
+				<!-- <section id="banner"> -->
+					<div class="content">
+						<header>
+							<p>What's this all <a href="about.html"><strong>about? </strong></a></p>
+						</header>
+						<p>Evolvable hardware is the application of evolutionary algorithms to hardware systems during
+							design, operation, or both. It can be used to simulate the parameter optimization
+							for physical designs or search for new and counterintuitive designs altogether. For
+							reconfigurable hardware, such as field programmable gate arrays (FPGAs)
+							and other programmable logic devices, the evolutionary process can be performed intrinsic to
+							the hardware itself and exploit device-specific characteristics, including manufacturing errors 
+							and physical effects that fall below fabrication tolerances.
+						</p>
+						<!-- <ul class="actions">
+											<li><a href="#" class="button big">Learn More</a></li>
+										</ul> -->
+						<div class="row">
+							<div class="column">
+								<img src="images/EHWsetup.jpg" alt="FPGA Intrinsic Evolvable Hardware" 
+								style="margin-left: 33%; width: 100%; border-radius: 10%;"/>
+							</div>
+							<div class="column">
+								<img src="images/variancemaximization.gif"
+									alt="Output Signal of Circuit Evolved for Variance Maximization" 
+									style="width: 135%; margin-left: 45%;"/>
+							</div>
+						</div>
+						<br />
+						<p>As the research into FPGA-intrinsic analog evolvable hardware has been scant for the last 20 years, 
+							the first step was to find a way to make bitstream evolution possible again. Thanks to the work of  
+							<a href="http://www.clifford.at/icestorm/">Claire Wolf and Mathias Lasser's project icestorm</a> 
+							the complete reverse engineering of the Lattice iCE40 bitstream format has serendipitously unlocked the 
+							capability to perform genetic evolution of the bitstream. This website is dedicated to 
+							the continuation of research pioneered by Adrian Thompson, Tetsuya Higuchi, Hugo de Garis, among many
+							others.
+						</p>
+					</div>
+				<!-- </section> -->
+
+				<!-- Section -->
+				<section>
+					<header class="major">
+						<h2>Finished Projects</h2>
+					</header>
+					<div class="posts">
+						<article>
+							<!-- <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a> -->
+							<h3>Variance Maximization</h3>
+							<p>The first and simplest of the new projects, aimed at generating an evolved circuit
+								with a maximally noisy output analog signal. 
+							</p>
+							<ul class="actions">
+								<li><a href="variance.html" class="button">More</a></li>
+							</ul>
+						</article>
+						<article>
+							<!-- <a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a> -->
+							<h3>Pulse Oscillation</h3>
+							<p>From Thompson's first EHW experiments, an analog circuit capable of generating a pseudo-stable periodic oscillator.</p>
+							<ul class="actions">
+								<li><a href="pulse.html" class="button">More</a></li>
+							</ul>
+						</article>
+						<article>
+							<!-- <a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a> -->
+							<h3>Tone Discrimination (ongoing)</h3>
+							<p>The seminal EHW experiment recreated on modern hardware: an analog circuit to discriminate between input tones.</p>
+							<ul class="actions">
+								<li><a href="tone.html" class="button">More</a></li>
+							</ul>
+						</article>
+					</div>
+				</section>
+				<section>
+					<header class="major">
+						<h2>Future Projects</h2>
+					</header>
+					<div class="posts">
+						<article>
+							<!-- <a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a> -->
+							<h3>Sine Wave Oscillator</h3>
+							<p>Developing a clean oscillator from analog components is a serious challenge.</p>
+							<ul class="actions">
+								<!-- <li><a href="#" class="button">More</a></li> -->
+							</ul>
+						</article>
+						<article>
+							<!-- <a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a> -->
+							<h3>Reservoir Computing</h3>
+							<p>Treating unclocked FPGA fabric as a reservoir and incoporating a physical, linear readout layer.</p>
+							<ul class="actions">
+								<!-- <li><a href="#" class="button">More</a></li> -->
+							</ul>
+						</article>
+						<article>
+							<!-- <a href="#" class="image"><img src="images/pic06.jpg" alt="" /></a> -->
+							<h3>Speech Synthesis and Recognition</h3>
+							<p>Evolving analog circuits to interpret audio signals that occur at biological timescales.</p>
+							<ul class="actions">
+								<!-- <li><a href="#" class="button">More</a></li> -->
+							</ul>
+						</article>
+					</div>
+				</section>
+
+			</div>
+		</div>
+
+		<!-- Sidebar -->
+		<div id="sidebar">
+			<div class="inner">
+
+				<!-- Search -->
+				<!-- <section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section> -->
+
+				<!-- Menu -->
+				<nav id="menu">
+					<header class="major">
+						<h2>Menu</h2>
+					</header>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li>
+							<span class="opener">Projects</span>
+							<ul>
+								<li><a href="variance.html">Variance Maximization</a></li>
+								<li><a href="pulse.html">Pulse Oscillation</a></li>
+								<li><a href="tone.html">Tone Discriminator</a></li>
+							</ul>
+						</li>
+						<li>
+							<span class="opener">Tutorials</span>
+							<ul>
+								<li><a href="setup.html">Getting Setup</a></li>
+								<li><a href="troubleshooting.html">Troubleshooting</a></li>
+							</ul>
+						</li>
+						<li><a href="history.html">History</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+				</nav>
+
+				<!-- Section -->
+				<!-- <section>
+									<header class="major">
+										<h2>Ante interdum</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="#" class="button">More</a></li>
+									</ul>
+								</section> -->
+
+				<!-- Section -->
+				<section>
+					<header class="major">
+						<h2>Get involved</h2>
+					</header>
+					<p style="text-align: justify;">The Evolvable Hardware community is growing! Join the movement, 
+						participate in the research, or hack the gibson! Whether you're interested in the science, 
+						engineering, or tinkering, you're welcome here! Send an message to the email address below
+						with the subject title "EHW SLACK" to get access to the evolvable hardware slack channel.</p>
+					<ul class="contact">
+						<li class="icon solid fa-envelope"><a href="index.html#">derek.whitley1@gmail.com</a></li>
+						<br />
+					</ul>
+				</section>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<p class="copyright">&copy; Evolvable Hardware Org. All rights reserved. Demo Images: <a
+							href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5
+							UP</a>.</p>
+				</footer>
+
+			</div>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

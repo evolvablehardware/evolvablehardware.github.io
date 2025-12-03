@@ -1,0 +1,255 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Evolvable Hardware</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="setup.html#" class="logo">Getting <strong>Setup</strong></a>
+									<ul class="icons">
+										<li><a href="https://github.com/evolvablehardware">Check out the GitHub  <a href="https://github.com/evolvablehardware" class="icon brands fa-github"></a></a></li>
+										<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li> -->
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Purchasing and Setting up Hardware</h1>
+									</header>
+
+									<p><b>Before making any purchases</b>, please note that there is only support for Linux and MacOS operating systems at this time.</p>
+
+									<p>This page provides a guide to an inexpensive way to conduct evolvable hardware research. First, we will provide a list of the required hardware and lists where it can be acquired. Second, we will provide a step by step set of directions to configure the hardware. Finally, we will direct you to the code to run our open source software.</p>
+									
+									<hr class="major" />
+
+									<h2>0. Acquire components - MCU, FPGA, Jumper Wires, Breadboard</h2>
+									<table>
+										<tr>
+											<th>Item</th><th>Cost</th><th>Where to Purchase</th></tr>
+										<tr>
+											<td>Microcontroller (MCU)</td>	
+											<td>~$10</td>	
+											<td> <a href="https://www.amazon.com/REXQualis-Board-ATmega328P-Compatible-Arduino/dp/B07WK4VG58">Arduino Nano</a></td>
+										</tr>
+										<tr>
+											<td>Icestick (FPGA)</td>		
+											<td>~$50</td>	
+											<td> <a href="https://www.mouser.com/ProductDetail/Lattice/ICE40HX1K-STICK-EVN?qs=hJ2CX3hEdVEyBLaHAEXelA%3D%3D&mgh=1&gclid=Cj0KCQjwk4yGBhDQARIsACGfAesSTaHwwpPsnIYUwzD4WarphTGXw6NSojonGso3eXz7wmvuMDvsWVQaAgiVEALw_wcB">ICE40</a></td></tr>
+										<tr>
+											<td>Headers (requires soldering)</td>	
+											<td>~$10</td>	<td> <a href="https://www.amazon.com/MCIGICM-Header-2-45mm-Arduino-Connector/dp/B07PKKY8BX">Header to solder onto FPGA</a>  </td>
+										</tr>
+										<tr>
+											<td>Jumper Wires</td>			
+											<td>~$5</td>	
+											<td> <a href="https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/">Jumper Wires</a> </td>
+										</tr>
+										<tr>
+											<td>Breadboard</td>				
+											<td>~$10</td>	<td> <a href="https://www.amazon.com/Pcs-MCIGICM-Points-Solderless-Breadboard/dp/B07PCJP9DY">Breadboard</a> </td>
+										</tr>
+										<tr>
+											<td>Total</td>					
+											<td>~$85</td>	
+											<td>  </td>
+										</tr>
+
+									</table>
+
+									<hr class="major" />
+
+									<h2>1. Unbox purchased components - MCU, FPGA, Jumper Wires, Breadboard</h2>
+									<span class="image main"><img src="images/setup_tutorial_1.jpg" alt="" style="width: 50%;"/></span>
+									<p>Make sure that you have all the required components and they are undamaged.</p>
+
+									<hr class="major" />
+
+									<h2>2. Solder Header pins (or use solderless male hammer headers) to FPGA</h2>
+									<span class="image main"><img src="images/setup_tutorial_2.jpg" alt="" style="width: 50%;" /></span>
+									<p>This is needed to allow us to connect to and read from the MCU.</p>
+
+									<h2>3. Place MCU into breadboard (pressing pins all the way into breadboard)</h2>
+									<span class="image main"><img src="images/setup_tutorial_3A.jpg" alt="" style="width: 50%;" /></span>
+									<span class="image main"><img src="images/setup_tutorial_3B.jpg" alt="" style="width: 50%;" /></span>
+									<p>Line up as shown in the images above.</p>
+
+									<hr class="major" />
+
+									<h2>4. Connect USB cable to MCU</h2>
+									<span class="image main"><img src="images/setup_tutorial_4.jpg" alt="" style="width: 50%;" /></span>
+									<p>Should slide in easily and can only be done one way.</p>
+
+									<hr class="major" />
+
+									<h2>5. Connect USB cable to USB hub or directly to computer.</h2>
+									<span class="image main"><img src="images/setup_tutorial_5.jpg" alt="" style="width: 50%;" /></span>
+									<p>It is shown being plugged into a hub which later needs to be connected to a computer, but you can connect it directly as well</p>
+
+									<hr class="major" />
+
+									<h2>6. Connect FPGA to USB hub or directly to computer.</h2>
+									<span class="image main"><img src="images/setup_tutorial_6.jpg" alt="" style="width: 50%;" /></span>
+									<p>Same as before, we should plugging into a hub, but you can plug directly into your computer.</p>
+
+									<hr class="major" />
+
+									<h2>7. Place one end of male-to-male jumper wire on Arduino pin A0 and the other on D2.</h2>
+									<span class="image main"><img src="images/setup_tutorial_7.jpg" alt="" style="width: 50%;" /></span>
+									<p>Somewhat hard to see visually, but if you read the pins it should be clear.</p>
+
+									<hr class="major" />
+
+									<h2>8. Place male end of male-to-female jumper wire on Arduino pin A0 and the other to FPGA pin 10</h2>
+									<span class="image main"><img src="images/setup_tutorial_8A.jpg" alt="" style="width: 50%;" /></span>
+									<table >
+										<tr>
+											<td></td>
+											<td>
+												<div>
+													<img src="images/setup_tutorial_8B.jpg" alt="" style="width: 200pt" />
+												</div>
+											</td>
+											<td>
+												<div>
+													<img src="images/ice40pinout_pin_overlay.png" alt="" style="width: 300pt" />
+												</div>
+											</td>
+										</tr>
+									</table>
+
+									<p>Somewhat hard to see visually, but if you read the pins it should be clear.</p>
+									
+									<hr class="major" />
+									
+									<h2>Your hardware is all set. Now on to the software</h2>
+
+									<p>Head over to our Open Source GitHub code repository:</p>
+									<a href="https://github.com/evolvablehardware/BitstreamEvolution">github.com/evolvablehardware/BitstreamEvolution</a>
+
+
+									
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+				<div id="sidebar">
+					<div class="inner">
+		
+						<!-- Search -->
+						<!-- <section id="search" class="alt">
+											<form method="post" action="#">
+												<input type="text" name="query" id="query" placeholder="Search" />
+											</form>
+										</section> -->
+		
+						<!-- Menu -->
+						<nav id="menu">
+							<header class="major">
+								<h2>Menu</h2>
+							</header>
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li>
+									<span class="opener">Projects</span>
+									<ul>
+										<li><a href="variance.html">Variance Maximization</a></li>
+										<li><a href="pulse.html">Pulse Oscillation</a></li>
+										<li><a href="tone.html">Tone Discriminator</a></li>
+									</ul>
+								</li>
+								<li>
+									<span class="opener">Tutorials</span>
+									<ul>
+										<li><a href="setup.html">Getting Setup</a></li>
+										<li><a href="troubleshooting.html">Troubleshooting</a></li>
+									</ul>
+								</li>
+								<li><a href="history.html">History</a></li>
+								<li><a href="about.html">About</a></li>
+							</ul>
+						</nav>
+
+							<!-- Section -->
+								<!-- <section>
+									<header class="major">
+										<h2>Ante interdum</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="#" class="button">More</a></li>
+									</ul>
+								</section> -->
+
+							<!-- Section -->
+							<section>
+								<header class="major">
+									<h2>Get involved</h2>
+								</header>
+								<p style="text-align: justify;">The Evolvable Hardware community is growing! Join the movement, 
+									participate in the research, or hack the gibson! Whether you're interested in the science, 
+									engineering, or tinkering, you're welcome here! Send an message to the email address below
+									with the subject title "EHW SLACK" to get access to the evolvable hardware slack channel.</p>
+								<ul class="contact">
+									<li class="icon solid fa-envelope"><a href="setup.html#">derek.whitley1@gmail.com</a></li>
+									<br />
+								</ul>
+							</section>
+			
+							<!-- Footer -->
+							<footer id="footer">
+								<p class="copyright">&copy; Evolvable Hardware Org. All rights reserved. Demo Images: <a
+										href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5
+										UP</a>.</p>
+							</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

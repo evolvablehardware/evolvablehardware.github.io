@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Evolvable Hardware</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="pulse.html" class="logo">[Analog] Project: <strong>Pulse Oscillation</strong></a>
+									<ul class="icons">
+										<li><a href="https://github.com/evolvablehardware">Check out the GitHub  <a href="https://github.com/evolvablehardware" class="icon brands fa-github"></a></a></li>
+										<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li> -->
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Pulse Oscillation</h1>
+										<p style="margin-left: 5pt;">Generating circuits with an oscillating pulse output</p>
+											<hr class="major" />
+										<br />
+									</header>
+									
+									<h2>Description</h2>
+									<p>
+										Among the simplest fitness functions to implement for FPGA intrinsic analog evolvable hardware is the variance maximization function.
+										Plainly put, this function demands the maximum change, either positive or negative, of each instantaneous measurement from the microcontroller.
+										The ultimate effect is that the amplitude of the output waveform will increase with each successive generation. 
+									</p>
+
+									<table style="width: 66%;">
+										<tr>
+											<th>Runtime</th><th>Population</th><th>Generations</th><th>Mutation</th><th>Crossover</th>
+										</tr>
+										<tr>
+											<td>10-12 hours</td><td>50</td>		<td>100</td>		<td>0.005</td>		<td>0.5</td>
+										</tr>
+									</table>
+
+									<label style="margin-left: 40%">Pulses Counted from Circuit Population</label>
+									<img src="images/pulsecount.png" style="width: 100%;"/>
+
+									<br />
+									<p></p>
+
+									<hr class="major" />
+
+									<h2>Fitness Function</h2>
+									<table>
+										<tr>
+											<td>
+												<br />
+												<img src="images/pulsemax.png" style="height: 100pt;">
+											</td>
+											<td>
+												<br />
+												<p>
+													This fitness function simply takes the inverse of the absolute difference of the target frequency (f) and the measured frequency (n).
+													Circuits whose measured output frequency is closer to the target frequency are assigned a higher fitness value. A special condition
+													is set in the event that the measured output matches the target frequency, bypassing a divide-by-zero error and assigning a fitness
+													of 1000.
+												</p>
+											</td>
+										</tr>
+									</table>
+									
+
+									<hr class="major" />
+
+									<h2>Results</h2>
+									<table>
+										<tr style="text-align: justify;">
+												<br />
+												<p>
+													Similar to variance maximization, this experiment is strongly subject to real-world noise, so each experiment will yield a different
+													evolutionary trajectory. In this case, fitness increased steadily for nearly 70 generations before catapulting to maximum fitness
+													where it remained for the duration of the experiment. Although the mean fitness of the population appears to hover near fitness of 0,
+													this is a result of fitness assignment being non-linearly related to the fitness measured. When viewed in log-form, it is shown that
+													the mean population steadily increases in fitness behind the best circuit.
+												</p>
+										</tr>
+										<tr>
+											<td>
+												<br /><br />
+												<img src="images/pulseevolution.png" style="height: 250pt">
+											</td>
+											<td>
+												<br /><br />
+												<img src="images/pulselog.png" style="height: 250pt">
+											</td>
+										</tr>
+									</table>
+
+								</section>
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+							<nav id="menu">
+								<header class="major">
+									<h2>Menu</h2>
+								</header>
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li>
+										<span class="opener">Projects</span>
+										<ul>
+											<li><a href="variance.html">Variance Maximization</a></li>
+											<li><a href="pulse.html">Pulse Oscillation</a></li>
+											<li><a href="tone.html">Tone Discriminator</a></li>
+										</ul>
+									</li>
+									<li>
+										<span class="opener">Tutorials</span>
+										<ul>
+											<li><a href="setup.html">Getting Setup</a></li>
+											<li><a href="troubleshooting.html">Troubleshooting</a></li>
+										</ul>
+									</li>
+									<li><a href="history.html">History</a></li>
+									<li><a href="about.html">About</a></li>
+								</ul>
+							</nav>
+
+							<!-- Section -->
+							<section>
+								<header class="major">
+									<h2>Get involved</h2>
+								</header>
+								<p style="text-align: justify;">The Evolvable Hardware community is growing! Join the movement, 
+									participate in the research, or hack the gibson! Whether you're interested in the science, 
+									engineering, or tinkering, you're welcome here! Send an message to the email address below
+									with the subject title "EHW SLACK" to get access to the evolvable hardware slack channel.</p>
+								<ul class="contact">
+									<li class="icon solid fa-envelope"><a href="pulse.html#">derek.whitley1@gmail.com</a></li>
+									<br />
+								</ul>
+							</section>
+			
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Evolvable Hardware Org. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

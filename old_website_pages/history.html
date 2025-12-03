@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Evolvable Hardware</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="history.html#" class="logo">The <strong>History</strong> of Evolvable Hardware</a>
+									<ul class="icons">
+										<li><a href="https://github.com/evolvablehardware">Check out the GitHub  <a href="https://github.com/evolvablehardware" class="icon brands fa-github"></a></a></li>
+										<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li> -->
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>On Evolvable Hardware</h1>
+									</header>
+
+									<p>The broader field of evolvable hardware is taxonomized into several subdomains and practices: digital or analog, intrinsic, extrinsic, or mixtrinsic, 
+										adaptive hardware (AH) or evolvable hardware design (EHD) to name a few. For a complete overview of the field's structure, see the work of Haddow and Tyrell. 
+										The focus of the work presented here is formally categorized as intrinsic analog evolvable hardware design, meaning populations of circuits are evolved 
+										intrinsic to a hardware substrate and do not actively adapt to changes in their environment.</p> 
+
+									<p>At its origin, EHW aimed to revolutionize the way electronics were designed, both digital and analog. Unlike its digital counterpart, though, analog circuit
+										 design must inherently contend with the unique semiconductor physics at each timescale relevant to its operational states, an obstacle that digital circuit 
+										 design overcomes by abstracting away continuous state values in the time domain through the employment of clock signals and in the voltage domain by logic 
+										 levels. Analog EHW offered a way to simplify the creation of these complex circuits by delegating the search and design process to artificial evolution.</p>
+										
+									<p>Further, one of the hallmark characteristics of intrinsic analog EHW is the ability for evolution to employ physical properties of the target hardware that 
+										would otherwise be abstracted away during digital operation or simulation due to the complex nature of real-world high-speed semiconductor physics. Simulations
+										 generally perform this abstraction to account for the slight error introduced during fabrication (i.e. transistor doping levels, variation in copper tracing 
+										 thickness, etc.). The effects that such manufacturing imperfections have on the operation of a given circuit are non-linear and can interact in unpredictable 
+										 ways. Such attempts to simulate analog circuit operation prior to embedding in physical hardware must contend with the reality gap --- the abstract distance 
+										 between a simulated system's behavior and a real system's behavior. This is where the intrinsic approach to hardware evolution shines. 
+										 Famously, Adrian Thompson's tone discriminator exploited just such physical properties of the FPGA, using only 100 logic gates of the available 24,000, to accomplish
+										  a task that was thought to be impossible under the resource constraints he placed on the experiment.
+										</p>
+
+										<img src="images/discriminatorcircuit.png" alt="Thompson's Tone Discriminator Circuit" />
+
+									<hr class="major" />
+									<h2>Inception and History</h2>
+									<p>In 1991, Hugo de Garis postulated that evolutionary algorithms such as genetic programming "will probably lead to electronic circuits being `grown' in special hardware". 
+										Contextually, he was referring to a research domain known as embryological electronics; however, only two years later, in conjunction with Tetsuya 
+										Higuchi, they conceptualized the field of evolvable hardware (EHW): the application of evolutionary algorithms to hardware systems during 
+										design, operation, or both. It is a technique that has demonstrated the capability of producing unique and often optimal solutions to many types of scientific and industry 
+										problems. And the tool of choice was the field programmable gate array (FPGA).</p>
+
+										<p>FPGAs are one of the primary research tools used in EHW research because their physically reprogrammable architecture can emulate candidate circuits. When combined with
+											 an evolutionary algorithm (EA) running on a host CPU, circuits can be systematically selected from a population, loaded on the FPGA, evaluated for their performance 
+											 according to a fitness function, selected for progenation, then mutated and recombined for the subsequent population, gradually improving the performance of a population
+											  of circuits.</p>
+										
+											<table>
+												<tr>
+													<td>
+														<br /> <img src="images/thompson1.png" />
+													</td>
+													<td>
+														<br /> As the field was forming, Adrian Thompson at the University of Sussex evolved a series of bitstream-evolution circuits that would canonize the evolutionary approach to 
+														circuit design, specifically for analog EHW. The first among these circuits was a completely analog millisecond oscillator. Ultimately, this was
+														meant to be a tool for future robotics experiments, providing a temporal bridge for signals that operate at biological timescales. Later experiments demonstrated the 
+														impressive search power provided by artificial evolution, most notably: Thompson's evolved tone-discriminator circuit --- a fully analog FPGA circuit that could
+														distinguish between a 1khz tone and a 10khz tone using only 42 configurable logic blocks.</td>
+												</tr>
+											</table>
+
+
+									<hr class="major" />
+
+									<h2>Xilinx Discontinues XC6200</h2>
+									<p>Unfortunately for the budding research field, shortly after the cornerstone achievements of the late 1990s, the Xilinx Corporation discontinued the electronic tool of choice for 
+										evolvable hardware: the Xilinx XC6200 series FPGA. To comprehend the severity of this loss, it is imperative to understand what a bitstream is and how it was used
+										 in evolvable hardware experiments. The bitstream of an FPGA is a binary configuration file used to define and program a circuit architecture for emulation. It is
+										  the lowest level of programmable instruction akin to assembly language, though instead of executing a series of instructions, it configures a circuit using the
+										   reprogrammable interconnects and logic resources on an FPGA. In essence, the bitstream is the genome of physically realizable circuits on an FPGA.  The XC6200
+										    series was unique in that its bitstream format was made available, ergo 1:1 relationships between configuration file entries and in silico resources were 
+											unambiguously documented for the end user. However, for cost and security reasons, FPGA manufacturers moved away from open bitstream documentation and began 
+											employing strongly encrypted bitstreams.</p>
+
+										<table>
+											<tr>
+												<td>
+													<br />While prudent on behalf of industry concerns, the discontinuation of openly documented bitstreams temporarily halted research on intrinsic analog evolvable hardware. 
+													Without complete knowledge of a bitstream's format, EHW researchers were unable to perform analog experiments intrinsic to the FPGA. And although other forms of 
+													dynamically reconfigurable hardware have been available to practitioners of EHW, such as field programmable analog arrays (FPAAs) and transistor arrays (FPTAs), none
+													of these technologies are as thoroughly developed, widely accessible, or employed as FPGAs.
+												</td>
+												<td>
+													<br /><img src="images/xc6216.png">
+												</td>
+											</tr>
+										</table>
+
+									<hr class="major" />
+
+									<h2>Project Icestorm</h2>
+									<table>
+										<tr>
+											<td>
+												<br /><img src="images/icemaphx1k.png" style="height: 250pt">
+											</td>
+											<td>
+												<br />As mentioned in the previous section, the termination of the Xilinx XC6200 series FPGA halted bitstream-level intrinsic analog EHW experiments. However, recent 
+												reverse-engineering efforts by <a href="http://www.clifford.at/icestorm/">Project Icestorm</a> have paved a way using a different FPGA technology stack altogether. 
+												The Lattice iCE40 --- an ultra-low power, economy-grade FPGA package whose fully documented bitstream was exposed in work demonstrated at the Chaos Communication 
+												Congress in Hamburg, Germany, in 2015 --- now enables further research into FPGA-intrinsic analog EHW. Although the purpose of reverse-engineering the iCE40 bitstream 
+												was not motivated by EHW research, a fully documented bitstream is now available for just that.
+											</td>
+										</tr>
+									</table>
+										
+
+
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+							<nav id="menu">
+								<header class="major">
+									<h2>Menu</h2>
+								</header>
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li>
+										<span class="opener">Projects</span>
+										<ul>
+											<li><a href="variance.html">Variance Maximization</a></li>
+											<li><a href="pulse.html">Pulse Oscillation</a></li>
+											<li><a href="tone.html">Tone Discriminator</a></li>
+										</ul>
+									</li>
+									<li>
+										<span class="opener">Tutorials</span>
+										<ul>
+											<li><a href="setup.html">Getting Setup</a></li>
+											<li><a href="troubleshooting.html">Troubleshooting</a></li>
+										</ul>
+									</li>
+									<li><a href="history.html">History</a></li>
+									<li><a href="about.html">About</a></li>
+								</ul>
+							</nav>
+
+							<!-- Section -->
+								<!-- <section>
+									<header class="major">
+										<h2>Ante interdum</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
+											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+										</article>
+									</div>
+									<ul class="actions">
+										<li><a href="#" class="button">More</a></li>
+									</ul>
+								</section> -->
+
+							<!-- Section -->
+							<section>
+								<header class="major">
+									<h2>Get involved</h2>
+								</header>
+								<p style="text-align: justify;">The Evolvable Hardware community is growing! Join the movement, 
+									participate in the research, or hack the gibson! Whether you're interested in the science, 
+									engineering, or tinkering, you're welcome here! Send an message to the email address below
+									with the subject title "EHW SLACK" to get access to the evolvable hardware slack channel.</p>
+								<ul class="contact">
+									<li class="icon solid fa-envelope"><a href="history.html#">derek.whitley1@gmail.com</a></li>
+									<br />
+								</ul>
+							</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
