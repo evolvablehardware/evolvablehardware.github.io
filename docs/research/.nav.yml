@@ -18,8 +18,8 @@ sort:
 nav: 
   - index.md
   - concepts
-  - related_publications
   - publications
+  - tools
 
 # If false, the above tree is all that is shown at this level of the directory structure.
 append_unmatched: false 

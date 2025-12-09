@@ -2,6 +2,7 @@
 
 **Publication:** Artificial Life 28, 2022 <br>
 **Date:**  November 1, 2022 <br>
+**EHW Association:** Early EHW Work <br>
 
 <div class="grid cards" markdown>
 

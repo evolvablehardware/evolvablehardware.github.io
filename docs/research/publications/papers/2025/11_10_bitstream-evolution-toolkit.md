@@ -2,6 +2,7 @@
 
 **Publication:** IEEE <br>
 **Date:**  November 10, 2025 <br>
+**EHW Association:** [Bitstream Evolution](../../../../projects/bitstream_evolution/) <br>
 
 <div class="grid cards" markdown>
 

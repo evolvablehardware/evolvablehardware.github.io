@@ -1,21 +1,17 @@
 # Academic Papers
-These are papers that have been published by us, allowing you to both read the paper but also hopefully assisting in reproducing the results of the paper.
+These are papers that have been published by us, allowing you to both read the paper but also hopefully assisting in reproducing the results of the paper. 
 
-<div class="grid cards" markdown>
+These are shown in reverse-chronological order, spilt based on whether the paper was a result of the work done by the Evolvable Hardware Research group.
 
--   [__Bitstream Evolution: an Open-Source FPGA Intrinsic Evolvable Hardware Toolkit__](./2025_bitstream-evolution-EHW-toolkit.md)
-
+## Evolvable Hardware Papers 
+-   [__Bitstream Evolution: an Open-Source FPGA Intrinsic Evolvable Hardware Toolkit__](./2025_bitstream-evolution-EHW-toolkit.md) <br>
     _IEEE, 2025_
 
--   [__Intrinsic Evolution of Analog Circuits Using Field Programmable Gate Arrays__](./2022_intrinsic-evolution-of-analog-circuits-using-FPGAs.md)
-
+-   [__Intrinsic Evolution of Analog Circuits Using Field Programmable Gate Arrays__](./2022_intrinsic-evolution-of-analog-circuits-using-FPGAs.md) <br>
     _Artificial Life, 2022_
 
--   [__Resurrecting FPGA Intrinsic Analog Evolvable Hardware__](./2021_Resurrecting-FPGA-Intrinsic-Analog-EHW.md)
-
+-   [__Resurrecting FPGA Intrinsic Analog Evolvable Hardware__](./2021_Resurrecting-FPGA-Intrinsic-Analog-EHW.md) <br>
     _Artificial Life Conference Proceedings 33, 2021_
 
-</div>
 
-
-
+## Related External Papers 
