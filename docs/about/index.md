@@ -12,11 +12,13 @@ hide:
 
 ## Our Mission
 
-Our mission was to determine why evolvable hardware appeared to have abandoned this vein of research, attempt to recreate its seminal experimental results, press the research forward, and get others involved. This website serves as a focal point for communicating projects, connecting researchers, and targeting new and promising directions.
+Our mission has to determine why evolvable hardware appeared to have abandoned this vein of research, attempt to recreate its seminal experimental results, press the research forward, and get others involved. This website serves as a focal point for communicating projects, connecting researchers, and targeting new and promising directions.
 
 ## Our Design Philosophy
 
 We are keeping this project completely open-source to aid in the further development and continuity of the particular domain of research. All code is available at [github.com/evolvablehardware](https://www.github.com/evolvablehardware). Like most open-source projects, it is constantly under development. We welcome any and all levels of developers, engineers, researchers that are interested in making contributions to the research, be it testing, debugging, feature additions, new experiment ideas, novel hardware, and general criticisms. 
+
+[Visit the GitHub Repository](https://www.github.com/evolvablehardware){ .md-button .md-button--primary } 
 
 ## Our History
 

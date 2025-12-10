@@ -8,16 +8,16 @@ Recreating Adrian Thompson's classic tone discriminator remains a long-horizon o
 | --- | --- | --- | --- | --- |
 | ~24 days | 50 | 5000 | 0.001 | 0.7 |
 
-![Output vs. input signals](../../assets/results/early/discriminator.png)
+![Output vs. input signals](../assets/results/early/discriminator.png)
 
 ## Fitness Function
 
-![Tone discriminator fitness](../../assets/equations/tonefunction.png)
+![Tone discriminator fitness](../assets/equations/tonefunction.png)
 
 Two sets of samples are collected—one per tonal stimulus—and summed before taking their absolute difference. Hand-tuned hardware constants $k$ (from Thompson's original work) introduce a slight gradient that guides incremental improvements through the integrating op-amp front-end and into the MCU's ADC readings.
 
 ## Results
 
-![Tone evolution trace](../../assets/results/early/toneevolution.png)
+![Tone evolution trace](../assets/results/early/toneevolution.png)
 
 These ultra-long runs tend to plateau for thousands of generations before discovering a new optimum. To date, only low-fitness discriminators have emerged on the iCEstick platform, but observed jumps in both best and mean fitness suggest that continued exploration plus tooling refinements could eventually reproduce Thompson-level performance.

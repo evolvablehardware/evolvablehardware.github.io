@@ -18,6 +18,9 @@ sort:
 nav: 
   - index.md
   - bitstream_evolution
+  - variance_maximization.md
+  - pulse_oscillation.md
+  - tone_discriminator.md
 
 # If false, the above tree is all that is shown at this level of the directory structure.
 append_unmatched: false 
