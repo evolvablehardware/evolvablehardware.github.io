@@ -24,6 +24,15 @@ Since the turn of the century, evolvable hardware research began migrating into 
 
 [Learn The History](../history/index.md){ .md-button .md-button--primary } 
 
+## Watch the Summary Video
+
+Want the short version of our mission and early results? Watch the four-minute presentation prepared for ALIFE 2021.
+
+<video width="100%" controls>
+    <source src="./assets/videos/artificial-life-video.mp4" type="video/mp4">
+    Your browser does not support HTML video.
+</video>
+
 ## Getting Involved
 
 The Evolvable Hardware community is growing! Join the movement, participate in the research, or hack the gibson! Whether you're interested in the science, engineering, or tinkering, you're welcome here!

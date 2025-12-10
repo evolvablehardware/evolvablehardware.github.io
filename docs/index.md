@@ -27,31 +27,37 @@ Evolvable hardware is the application of evolutionary algorithms to hardware sys
 ## Where Should I Start?
 We want this website to assist you in understanding, exploring, attempting, and/or advancing Evolvable Hardware for someone of any background.
 
-The Tabs Below feature a couple of ways to use the information on this site based on your use case. Select the one that best aligns with your goals and use it to help you get started.
+A great starting point for anyone new to the field is our [About Evolvable Hardware](./about/index.md) page which outlines our mission, design philosophy, and history.
 
-=== "Tinkerer"
+The Tabs Below feature a couple of ways to use the information on this site based on your background and interests. Feel free to select the one that best aligns with your goals and use it to help you get started.
 
-    This should be oriented towards someone who doesn't have a lot of knowledge about Computer Science or FPGAs.
-    They need assistance understanding these fundamentals that they may have a gap of understanding in, then be directed
-    to very straight forward examples that allow them to quickly get started on a basic projet.
+=== "Tinkerers and Hobbyists"
 
-    !!! example "In Progress"
-        This isn't implemented yet.
+    If you are someone who is looking to get started with Evolvable Hardware from a practical standpoint, this is the place for you. We suggest you start by understanding some of the core concepts that underly the field, then move on to some simple projects that will get you hands-on experience.
 
-=== "Undergraduate Research" 
+    1. [Watch the Intro Video](./about/index.md#watch-the-summary-video){ .md-button .md-button--primary }
+    2. [Core Concepts](./research/index.md){ .md-button .md-button--primary }
+    3. [See some of the example projects](./projects/bitstream_evolution/index.md){ .md-button .md-button--primary }
+    4. [See the setup for Bitstream evolution](./projects/bitstream_evolution/setup.md){ .md-button .md-button--primary }
+    5. [Contact Us](./contact.md){ .md-button .md-button--primary }
 
-    You can assume a higher degree of knowledge, but fundamentals should be noted incase they are needed. 
-    These people mix a need for getting to actual experiments with an interest in research papers, especially the simpler ones. 
-    They probably know what they want or are looking to build on to existing projects.
+=== "Undergraduate Students" 
 
-    !!! example "In Progress"
-        This isn't implemented yet.
+    If you are here to learn more about Evolvable Hardware from a research standpoint, this is the place for you. We suggest you start by understanding some of the core concepts that underly the field, then move on to some of the history and current research directions.
 
-=== "Graduate Research / PhD"
+1. [Watch the Intro Video](./about/index.md#watch-the-summary-video){ .md-button .md-button--primary }
+2. [Core Concepts](./research/index.md){ .md-button .md-button--primary }
+3. [History of Evolvable Hardware](./history/index.md){ .md-button .md-button--primary }
+4. [Current Research Directions](./research/index.md#current-research-directions){ .md-button .md-button--primary }
+5. [Contact Us](./contact.md){ .md-button .md-button--primary }
+    
+=== "Graduate Researcher / Professionals"
 
-    This assumes complete knowledge of information not specific to Evolvable Hardware.
-    These people are probably looking for the most up-to-date research and potential gaps in them to start
-    their research projects. We should make that process as easy as possible.
+    If you are here to contribute to the research in Evolvable Hardware, this is the place for you. We suggest you start by understanding some of the core concepts that underly the field, then move on to some of the history and current research directions. Finally, check out some of the ongoing projects and see where you can help out.
 
-    !!! example "In Progress"
-        This isn't implemented yet.
+1. [Watch the Intro Video](./about/index.md#watch-the-summary-video){ .md-button .md-button--primary }
+2. [History of Evolvable Hardware](./history/index.md){ .md-button .
+md-button--primary }
+3. [Current Research Directions](./research/index.md#current-research-directions){ .md-button .md-button--primary }
+4. [Contact Us](./contact.md){ .md-button .md-button--primary } 
+
