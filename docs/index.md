@@ -35,29 +35,27 @@ The Tabs Below feature a couple of ways to use the information on this site base
 
     If you are someone who is looking to get started with Evolvable Hardware from a practical standpoint, this is the place for you. We suggest you start by understanding some of the core concepts that underly the field, then move on to some simple projects that will get you hands-on experience.
 
-    1. [Watch the Intro Video](./about/index.md#watch-the-summary-video){ .md-button .md-button--primary }
-    2. [Core Concepts](./research/index.md){ .md-button .md-button--primary }
-    3. [See some of the example projects](./projects/bitstream_evolution/index.md){ .md-button .md-button--primary }
-    4. [See the setup for Bitstream evolution](./projects/bitstream_evolution/setup.md){ .md-button .md-button--primary }
-    5. [Contact Us](./contact.md){ .md-button .md-button--primary }
+    1. [Watch the Intro Video](./about/index.md#watch-the-summary-video)
+    2. [Core Concepts](./research/index.md)
+    3. [See some of the example projects](./projects/bitstream_evolution/index.md)
+    4. [See the setup for Bitstream evolution](./projects/bitstream_evolution/setup.md)
+    5. [Contact Us](./contact.md)
 
 === "Undergraduate Students" 
 
     If you are here to learn more about Evolvable Hardware from a research standpoint, this is the place for you. We suggest you start by understanding some of the core concepts that underly the field, then move on to some of the history and current research directions.
 
-1. [Watch the Intro Video](./about/index.md#watch-the-summary-video){ .md-button .md-button--primary }
-2. [Core Concepts](./research/index.md){ .md-button .md-button--primary }
-3. [History of Evolvable Hardware](./history/index.md){ .md-button .md-button--primary }
-4. [Current Research Directions](./research/index.md#current-research-directions){ .md-button .md-button--primary }
-5. [Contact Us](./contact.md){ .md-button .md-button--primary }
+    1. [Watch the Intro Video](./about/index.md#watch-the-summary-video)
+    2. [Core Concepts](./research/index.md)
+    3. [History of Evolvable Hardware](./history/index.md)
+    4. [Current Research Directions](./research/index.md#current-research-directions)
+    5. [Contact Us](./contact.md)
     
 === "Graduate Researcher / Professionals"
 
     If you are here to contribute to the research in Evolvable Hardware, this is the place for you. We suggest you start by understanding some of the core concepts that underly the field, then move on to some of the history and current research directions. Finally, check out some of the ongoing projects and see where you can help out.
 
-1. [Watch the Intro Video](./about/index.md#watch-the-summary-video){ .md-button .md-button--primary }
-2. [History of Evolvable Hardware](./history/index.md){ .md-button .
-md-button--primary }
-3. [Current Research Directions](./research/index.md#current-research-directions){ .md-button .md-button--primary }
-4. [Contact Us](./contact.md){ .md-button .md-button--primary } 
-
+    1. [Watch the Intro Video](./about/index.md#watch-the-summary-video)
+    2. [History of Evolvable Hardware](./history/index.md)
+    3. [Current Research Directions](./research/index.md#current-research-directions)
+    4. [Contact Us](./contact.md) 

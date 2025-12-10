@@ -7,10 +7,14 @@ Below are a couple of major current events, but they are also archived.
 For an archived copy of all news and updates, click the year they occoured and scroll down the page.
 
 ## Recent Papers
-Paper is overrated.
+
+!!!info "In Progress"
+    This section is under construction. Please check back later for updates.
 
 ## Interesting Results
-What we are doing is so cool you wouldn't want to talk about it. We plead the 5th.
+!!!info "In Progress"
+    This section is under construction. Please check back later for updates.
 
 ## Other Events
-Research. Only Research. Nothing else has happened in the history of the world.
+!!!info "In Progress"
+    This section is under construction. Please check back later for updates.
