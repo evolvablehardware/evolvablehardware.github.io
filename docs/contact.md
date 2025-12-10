@@ -12,12 +12,12 @@ hide:
 
 The Evolvable Hardware community is growing! Whether you're interested in the science, engineering, or simply tinkering, you're welcome here! Look below for how you can contact others in Evolvable Hardware.
 
-## Slack
+## Discord
 
 This is used for general communication throughout the entire evolvable hardware group.
 We have channels in place for different methods, focus areas, and other general interests.
 
-[Join our Slack :fontawesome-brands-slack:](mailto:derek.whitley1@gmail.com?subject=EHW%20SLACK&body=Hello%20Derek,%0D%0A%0D%0APlease%20send%20me%20an%20invite%20link%20to%20the%20Evolvable%20Hardware%20Slack.){ .md-button .md-button--primary } 
+[Join our Discord :fontawesome-brands-discord:](https://discord.gg/q7xKAfKm6m){ .md-button .md-button--primary } 
 
 
 ## GitHub
