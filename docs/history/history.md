@@ -34,3 +34,13 @@ While prudent on behalf of industry concerns, the discontinuation of openly docu
 ![](../assets/specs/ice40/icemaphx1k.png){: align=left : width=300}
 
 As mentioned in the previous section, the termination of the Xilinx XC6200 series FPGA halted bitstream-level intrinsic analog EHW experiments. However, recent reverse-engineering efforts by [Project Icestorm](http://www.clifford.at/icestorm/) have paved a way using a different FPGA technology stack altogether. The Lattice iCE40 --- an ultra-low power, economy-grade FPGA package whose fully documented bitstream was exposed in work demonstrated at the Chaos Communication Congress in Hamburg, Germany, in 2015 --- now enables further research into FPGA-intrinsic analog EHW. Although the purpose of reverse-engineering the iCE40 bitstream was not motivated by EHW research, a fully documented bitstream is now available for just that. 
+
+## Bitstream Evolution with the iCEStick HX1K (2021)
+
+TBD
+
+
+## Bitstream Evolution with the Pico2iCE boards (2025+)
+
+TBD
+
