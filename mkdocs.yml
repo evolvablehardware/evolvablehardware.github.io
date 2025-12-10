@@ -174,7 +174,7 @@ extra:
       link: mailto:derek.whitley1@gmail.com
       name: Message the Evolvable Hardware Email
     - icon: fontawesome/brands/discord
-      link: mailto:derek.whitley1@gmail.com?subject=EHW%20SLACK&body=Hello%20Derek,%0D%0A%0D%0APlease%20send%20me%20an%20invite%20link%20to%20the%20Evolvable%20Hardware%20Slack.
+      link: https://discord.gg/q7xKAfKm6m
       name: Join the EHW Discord!
   # TODO: Look into adding 
   # analytics:
