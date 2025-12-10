@@ -17,6 +17,7 @@ sort:
 
 nav: 
   - index.md
+  - setup.md
 
 # If false, the above tree is all that is shown at this level of the directory structure.
 append_unmatched: true 

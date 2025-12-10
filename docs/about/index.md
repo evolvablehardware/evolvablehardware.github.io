@@ -1,6 +1,6 @@
 ---
 title: About EHW
-description: The History, Goals, and Current Reality of Evolvable Hardware.
+description: The Goals of the Evolvable Hardware Community.
 hide:
     #- toc
     - navigation
@@ -22,7 +22,7 @@ We are keeping this project completely open-source to aid in the further develop
 
 Since the turn of the century, evolvable hardware research began migrating into many different directions away from the initial FPGA-intrinsic analog method. The excitement for this field of research was a result of the prospect of using evolutionary search to create analog circuits - a significant engineering challenge.
 
-[Learn The History](history.md){ .md-button .md-button--primary } 
+[Learn The History](../history/index.md){ .md-button .md-button--primary } 
 
 ## Getting Involved
 
