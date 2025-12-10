@@ -18,6 +18,7 @@ sort:
 nav: 
   - Home: index.md
   - about
+  - history
   - research
   - projects
   - news
