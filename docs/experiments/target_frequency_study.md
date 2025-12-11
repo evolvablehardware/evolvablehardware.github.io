@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Pulse Oscillation - Target Frequency - Study
+# Target Frequency Sweep
 
 In our [2025 paper](../research/publications/papers/2025/11_10_bitstream-evolution-toolkit.md) we benchmarked how quickly oscillatory circuits emerge when they are evaluated against different pulse-count targets. Each run shared the same evolutionary settings (population 50, 6 trials per target, 800 generations aggregated) and differed only in the desired frequency.
 
@@ -11,7 +11,7 @@ In our [2025 paper](../research/publications/papers/2025/11_10_bitstream-evoluti
 
 <div class="result-row">
   <figure>
-    <img src="/assets/results/ieee/target_frequency/loyd5.png" alt="Fitness traces for seven target frequencies" width="75%">
+    <img src="/assets/results/ieee/target_frequency/loyd5.png" alt="Fitness traces for seven target frequencies">
     <figcaption>Overall Best, Generation Best, and Generation Average Fitness for different target frequencies, taken every 10 generations.</figcaption>
   </figure>
   <p>
@@ -23,5 +23,5 @@ In our [2025 paper](../research/publications/papers/2025/11_10_bitstream-evoluti
 
 - Evolvability is banded: 40&nbsp;kHz oscillators reliably outpace all others; 80&nbsp;kHz oscillators underperform despite being a harmonic.
 - Generation-best curves for 40&nbsp;kHz often match the overall-best curves for other frequencies, implying a denser set of workable bitstreams in that band.
-- Because experiments ran on five distinct FPGAs, the shared bias is unlikely to stem from single-board quirks—further instrumentation (temperature, MCU jitter, supply noise) is needed to isolate the cause.
+- Because experiments ran on five distinct FPGAs, the shared bias is unlikely to stem from single-board quirks—further instrumentation is needed to isolate the cause.
 - Practically, 40&nbsp;kHz targets make excellent “sanity check” experiments, while 80&nbsp;kHz oscillators stress-test new firmware or selection policies.

@@ -6,34 +6,7 @@ In this view, intelligence is not a detached computation happening in isolation.
 
 For our community, embodied intelligence connects directly to evolvable hardware. When circuits evolve in real physical systems, they must cope with noise, timing, materials, and environmental interactions — just like biological organisms. This forces solutions to emerge that are not only computationally clever, but physically grounded. By exploring embodied intelligence through evolvable hardware, we aim to build technologies that don’t just calculate responses but live within their environments, adapting fluidly to whatever the world throws at them.
 
-## Learn More: Embodied Intelligence
 
-### Introductory & Review Papers
-- "Intelligence Without Representation" (Rodney Brooks, 1991) — one of the most influential papers in robotics and embodied AI  
-  https://ieeexplore.ieee.org/document/88132
+[Dynamical approaches to cognitive science](https://dai.fmph.uniba.sk/courses/ICS/readings/Beer.pdf)
 
-- "Embodied Artificial Intelligence" (Pfeifer & Bongard, 2006) — accessible and comprehensive introduction to embodiment in robotics, cognition, and artificial life  
-  https://mitpress.mit.edu/9780262162395/how-the-body-shapes-the-way-we-think/
-
-- "Embodied Cognition: A Field Guide" (Shapiro, 2011) — clear overview of major themes and debates in embodiment and situated intelligence  
-  https://www.wiley.com/en-us/Embodied+Cognition%3A+An+Introduction-p-9781118076895
-
-### Recorded Presentations
-- YouTube: "Embodied Intelligence" (Rolf Pfeifer – Google Tech Talk, ~55 min) — one of the clearest overviews by a pioneer of the field  
-  https://www.youtube.com/watch?v=3j1fFLgN7pQ
-
-- YouTube: "Intelligence is Not Just in the Brain" (Daniela Rus, MIT CSAIL, 25 min) — robotics-focused introduction to embodied computation  
-  https://www.youtube.com/watch?v=Z9OEtCYw8Wg
-
-- YouTube: "The Future of Embodied AI" (DeepMind / Stanford – panel discussion, 60 min) — current perspectives on embodiment in modern AI  
-  https://www.youtube.com/watch?v=pQnYv0l5z0A
-
-### Foundational Origins
-- "Plans and Situated Actions" (Lucy Suchman, 1987) — early critique of symbolic AI, establishing the idea that intelligent behavior emerges from situated interaction  
-  https://mitpress.mit.edu/9780521428363/plans-and-situated-actions/
-
-- "Behavior-Based Robotics" (Rodney Brooks, 1986–1991 papers) — foundational work proposing intelligence without representation, a core pillar of embodied AI  
-  Summary anthology: https://mitpress.mit.edu/9780262522631/cambrian-intelligence/
-
-- "The Embodied Mind" (Varela, Thompson & Rosch, 1991) — philosophical foundation for embodied cognition and its connection to biology and systems  
-  https://mitpress.mit.edu/9780262521160/the-embodied-mind/
+[Adaptive Behavior: The brain has a body. Adaptive behavior emerges from interactions of nervous system, body and environment](http://wexler.free.fr/library/files/chiel%20%281997%29%20the%20brain%20has%20a%20body.%20adaptive%20behavior%20emerges%20from%20interactions%20of%20nervous%20system,%20body%20and%20environment.pdf)

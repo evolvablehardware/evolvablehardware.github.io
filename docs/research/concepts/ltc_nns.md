@@ -8,32 +8,9 @@ For our community, LTCs represent an exciting bridge between dynamical systems, 
 
 ## Learn More: Liquid Time-Constant Networks (LTCs)
 
-### Introductory & Review Papers
-- "Learning Fast and Slow: Continual Learning with Liquid Neural Networks" (Hasani et al., 2022) — accessible explanation of why LTCs are stable, interpretable, and adaptive  
-  https://arxiv.org/abs/2203.06574
 
-- "Liquid Neural Networks: A Comprehensive Survey" (2023, Wang et al.) — broad survey covering LTCs, Liquid RNNs, and continuous-time models  
-  https://arxiv.org/abs/2301.02159
+[TED Talk](https://www.youtube.com/watch?v=RI35E5ewBuI)
 
-- "Adaptive Neural ODEs and Liquid Networks" (Chen et al., 2022 review materials) — frames LTCs in the larger context of continuous-time and differential equation-based models  
-  https://arxiv.org/abs/2202.02435
+[Presentation](https://cbmm.mit.edu/video/liquid-neural-networks)
 
-### Recorded Presentations
-- YouTube: "Liquid Neural Networks: A New Class of Machine Learning Models" (MIT CSAIL – Ramin Hasani, 45 min) — excellent technical but accessible presentation by the creator of LTCs  
-  https://www.youtube.com/watch?v=1Kj_Kn1Y6j0
-
-- YouTube: "Interpretable Continuous-Time Neural Networks and Liquid Time-Constants" (MIT Robotics Seminar, 55 min) — deeper dive into theory and applications  
-  https://www.youtube.com/watch?v=b4eY8N2LQ4M
-
-- YouTube: "Liquid Time-Constant Networks Explained" (Machine Learning Street Talk, 20 min) — beginner-friendly overview  
-  https://www.youtube.com/watch?v=8b5H3QSJK_U
-
-### Foundational Origins
-- "Liquid Time-Constant Networks" (Hasani, Lechner, Amini, Rus, 2021) — the original paper introducing LTCs as a form of continuous-time, state-dependent neural network  
-  https://proceedings.neurips.cc/paper/2020/file/4564ad0b0d0a0b773f1f5e3f5c8f7f7f-Paper.pdf
-
-- "Closed-Form Continuous-Time Neural Networks" (Hasani et al., 2021) — precursor theoretical work on modeling neural dynamics in continuous time  
-  https://arxiv.org/abs/2103.05247
-
-- "Natural Networks: Learning in Continuous Time" (Lechner, Hasani, Rus, 2020 talk + paper lineage) — establishes the conceptual basis for liquid neural models  
-  https://arxiv.org/abs/2003.04618
+[Paper](https://arxiv.org/abs/2006.04439)

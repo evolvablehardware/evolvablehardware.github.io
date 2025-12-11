@@ -37,8 +37,8 @@ The Tabs Below feature a couple of ways to use the information on this site base
 
     1. [Watch the Intro Video](./about/index.md#watch-the-summary-video)
     2. [Core Concepts](./research/index.md)
-    3. [See some of the example projects](./projects/bitstream_evolution/index.md)
-    4. [See the setup for Bitstream evolution](./projects/bitstream_evolution/setup.md)
+    3. [Review example experiments](./experiments/index.md)
+    4. [Review Software/Hardware Tools](./tools/index.md)
     5. [Contact Us](./contact.md)
 
 === "Undergraduate Students" 
@@ -48,7 +48,7 @@ The Tabs Below feature a couple of ways to use the information on this site base
     1. [Watch the Intro Video](./about/index.md#watch-the-summary-video)
     2. [Core Concepts](./research/index.md)
     3. [History of Evolvable Hardware](./history/index.md)
-    4. [Current Research Directions](./research/index.md#current-research-directions)
+    4. [Read Recent Papers](./research/publications/index.md)
     5. [Contact Us](./contact.md)
     
 === "Graduate Researcher / Professionals"
@@ -57,5 +57,5 @@ The Tabs Below feature a couple of ways to use the information on this site base
 
     1. [Watch the Intro Video](./about/index.md#watch-the-summary-video)
     2. [History of Evolvable Hardware](./history/index.md)
-    3. [Current Research Directions](./research/index.md#current-research-directions)
-    4. [Contact Us](./contact.md) 
+    3. [Future Research Directions](./research/future_directions/index.md)
+    4. [Contact Us](./contact.md)

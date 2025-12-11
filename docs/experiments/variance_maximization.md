@@ -8,8 +8,8 @@ hide:
 This early benchmark demonstrates that intrinsic analog evolution on the Lattice iCEstick HX1K can reliably amplify signal variance using only bitstream-level mutations. The run below mirrors the legacy tutorial but is formatted for the Bitstream Evolution knowledge base.
 
 <div class="result-row">
-	<figure class="low-res">
-		<img src="/assets/results/early/variancemaximization.gif" alt="Evolution of signal variance" width="75%">
+	<figure >
+		<img src="/assets/results/early/variancemaximization.gif" alt="Evolution of signal variance">
 		<figcaption>Evolution of signal variance</figcaption>
 	</figure>
 	<p>
@@ -27,8 +27,8 @@ This early benchmark demonstrates that intrinsic analog evolution on the Lattice
 ## Fitness Function
 
 <div class="result-row">
-	<figure>
-		<img src="/assets/equations/varmax.png" alt="Variance maximization equation" width="75%">
+	<figure class="low-res">
+		<img src="/assets/equations/varmax.png"  alt="Variance maximization equation">
 		<figcaption>Variance maximization equation</figcaption>
 	</figure>
 	<p>
@@ -44,7 +44,7 @@ The fitness function averages the absolute difference between sequential ADC sam
 
 <div class="result-row">
 	<figure class="low-res">
-		<img src="/assets/results/early/varmaxevolution.png" alt="Variance maximization fitness trace" width="75%">
+		<img src="/assets/results/early/varmaxevolution.png" alt="Variance maximization fitness trace">
 		<figcaption>Variance maximization fitness trace</figcaption>
 	</figure>
 	<p>

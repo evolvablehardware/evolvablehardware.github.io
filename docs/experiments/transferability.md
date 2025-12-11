@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Transferability Experiments
+# Transferability
 
 In our [2025 paper](../research/publications/papers/2025/11_10_bitstream-evolution-toolkit.md) we performed some experiments on transferability of evolved circuits across different FPGA hardware.
 This was performed by alternating evolution between two physical FPGAs ("A" and "B") every 200 generations. Each switch measures how quickly the population recovers and whether migrating across silicon can reveal new high-fitness behaviors.
@@ -12,7 +12,7 @@ This was performed by alternating evolution between two physical FPGAs ("A" and 
 
 <div class="result-row">
   <figure>
-    <img src="/assets/results/ieee/transferability/loyd6.png" alt="Variance maximization transferability fitness" width="75%">
+    <img src="/assets/results/ieee/transferability/loyd6.png" alt="Variance maximization transferability fitness">
     <figcaption>Fitness of circuits throughout an experiment exploring the transferability of a circuit evolved for the max variance fitness function. Evolution occurs while alternating between FPGA "A" and "B" every 200 generations, as depicted in the plot.</figcaption>
   </figure>
   <p>
@@ -22,7 +22,7 @@ This was performed by alternating evolution between two physical FPGAs ("A" and 
 
 <div class="result-row">
   <figure>
-    <img src="/assets/results/ieee/transferability/loyd7.png" alt="Variance maximization transferability heatmap" width="75%">
+    <img src="/assets/results/ieee/transferability/loyd7.png" alt="Variance maximization transferability heatmap">
     <figcaption>This heatmap (with darker colors indicating higher frequency) shows the voltages of the best circuits throughout an experiment exploring transferability of circuit evolved for variance maximization fitness. FPGA "A" and "B" are alternated every 200 generations, as depicted in the plot.</figcaption>
   </figure>
   <p>
@@ -34,7 +34,7 @@ This was performed by alternating evolution between two physical FPGAs ("A" and 
 
 <div class="result-row">
   <figure>
-    <img src="/assets/results/ieee/transferability/loyd8.png" alt="Pulse transferability fitness" width="75%">
+    <img src="/assets/results/ieee/transferability/loyd8.png" alt="Pulse transferability fitness">
     <figcaption>Fitness of circuits throughout an experiment exploring transferability of oscillators targeting an 80 kHz frequency. Evolution occurs while alternating between FPGA "A" and "B" every 200 generations, as depicted in the plot.</figcaption>
   </figure>
   <p>
@@ -44,7 +44,7 @@ This was performed by alternating evolution between two physical FPGAs ("A" and 
 
 <div class="result-row">
   <figure>
-    <img src="/assets/results/ieee/transferability/loyd9.png" alt="Pulse transferability produced frequencies" width="75%">
+    <img src="/assets/results/ieee/transferability/loyd9.png" alt="Pulse transferability produced frequencies">
     <figcaption>Produced frequencies of circuits throughout an experiment exploring transferability of oscillators targeting an 80 kHz frequency. Evolution occurs while alternating between FPGA "A" and "B" every 200 generations, as depicted in the plot.</figcaption>
   </figure>
   <p>

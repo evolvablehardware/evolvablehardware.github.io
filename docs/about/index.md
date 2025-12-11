@@ -28,7 +28,7 @@ Since the turn of the century, evolvable hardware research began migrating into 
 
 ## Watch the Summary Video
 
-Want the short version of our mission and early results? Watch the four-minute presentation prepared for ALIFE 2021.
+Want the short version of our mission and early results? Watch the twenty minute presentation prepared for ALIFE 2021.
 
 <video width="100%" controls>
     <source src="./assets/videos/artificial-life-video.mp4" type="video/mp4">

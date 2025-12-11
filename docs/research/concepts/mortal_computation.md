@@ -8,15 +8,22 @@ For our community, mortal computation is a powerful lens on the future of evolva
 
 ## Learn More:
 
-- [Presentation (18 min): Geoff Hinton | Mortal Computers](https://www.youtube.com/watch?v=sghvwkXV3VU)
+### Introductions
 
--[Blog Post about Mortal Computation](https://www.inference.vc/mortal-computation-hintons/)
+- [Blog Post about Mortal Computation](https://www.inference.vc/mortal-computation-hintons/)
+
+- [Paper - Mortal Computation: A Foundation for Biomimetic Intelligence](https://arxiv.org/pdf/2311.09589)
+
+### Recorded Presentations
+
+- [Presentation (18 min): Geoff Hinton | Mortal Computers](https://www.youtube.com/watch?v=sghvwkXV3VU)
 
 - [Machine Learning Street Talk Interview](https://www.youtube.com/watch?v=ZTE-JVd_QkA)
 
 - [Presentation: The Mortal Computation Thesis by Alexander Ororbia](https://www.youtube.com/watch?v=uBzG8_HjbMY)
 
-- [Paper - Mortal Computation: A Foundation for Biomimetic Intelligence](https://arxiv.org/pdf/2311.09589)
+
+### Foundation / Origins
 
 - [Original Paper Coining "Mortal Computation" - The Forward-Forward Algorithm: Some Preliminary Investigations](https://www.cs.toronto.edu/~hinton/FFA13.pdf)
 

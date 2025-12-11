@@ -20,9 +20,9 @@ nav:
   - about
   - history
   - research
-  - projects
-  - news
+  - experiments
   - tools
+  - news
   - Contact: contact.md
 
 # If false, the above tree is all that is shown at this level of the directory structure.
