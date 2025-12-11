@@ -12,7 +12,7 @@ The IEEE Access study benchmarked how quickly oscillatory circuits emerge when t
 <div class="result-row">
   <figure>
     <img src="/assets/results/ieee/target_frequency/loyd5.png" alt="Fitness traces for seven target frequencies">
-    <figcaption>Mean overall best, generation best, and generation average fitness across seven targets.</figcaption>
+    <figcaption>Overall Best, Generation Best, and Generation Average Fitness for different target frequencies, taken every 10 generations.</figcaption>
   </figure>
   <p>
     Evolution consistently reaches viable oscillators across the full 1&nbsp;kHz–80&nbsp;kHz sweep, but some frequencies are clearly easier to discover. The 40&nbsp;kHz trials start with a strong random baseline (~40&nbsp;kHz) and remain ahead in every metric, while the 80&nbsp;kHz runs trail despite being a simple harmonic of 40&nbsp;kHz. Lower bands (1, 10, 20&nbsp;kHz) track closely with 30–50&nbsp;kHz runs, highlighting that difficulty is not purely correlated with either absolute frequency or its distance from the 40&nbsp;kHz hotspot. These aggregates mirror anecdotal observations from day-to-day tinkering: certain bands repeatedly “click” on modern iCEstick hardware, hinting that shared noise sources (e.g., the Arduino sampling clock) are providing exploitable structure.
