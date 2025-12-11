@@ -10,7 +10,7 @@ Recreating Adrian Thompson's classic tone discriminator remains a long-horizon o
 
 <div class="result-row">
 	<figure>
-		<img src="../assets/results/early/discriminator.png" alt="Tone discriminator output vs input">
+		<img src="/assets/results/early/discriminator.png" alt="Tone discriminator output vs input">
 		<figcaption>Output (blue) vs input (yellow)</figcaption>
 	</figure>
 	<p>
@@ -23,7 +23,7 @@ Recreating Adrian Thompson's classic tone discriminator remains a long-horizon o
 
 <div class="result-row">
 	<figure>
-		<img src="../assets/equations/tonefunction.png" alt="Tone discriminator fitness">
+		<img src="/assets/equations/tonefunction.png" alt="Tone discriminator fitness">
 		<figcaption>Tone discriminator fitness</figcaption>
 	</figure>
 	<p>
@@ -39,7 +39,7 @@ Two sets of samples are collected—one per tonal stimulus—and summed before t
 
 <div class="result-row">
 	<figure>
-		<img src="../assets/results/early/toneevolution.png" alt="Tone discriminator fitness trace">
+		<img src="/assets/results/early/toneevolution.png" alt="Tone discriminator fitness trace">
 		<figcaption>Tone discriminator fitness trace</figcaption>
 	</figure>
 	<p>

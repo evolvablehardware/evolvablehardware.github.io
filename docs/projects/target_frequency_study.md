@@ -6,7 +6,7 @@ The IEEE Access study benchmarked how quickly oscillatory circuits emerge when t
 
 <div class="result-row">
   <figure>
-    <img src="../assets/results/ieee/target_frequency/loyd5.png" alt="Fitness traces for seven target frequencies">
+    <img src="/assets/results/ieee/target_frequency/loyd5.png" alt="Fitness traces for seven target frequencies">
     <figcaption>Mean overall best, generation best, and generation average fitness across seven targets.</figcaption>
   </figure>
   <p>

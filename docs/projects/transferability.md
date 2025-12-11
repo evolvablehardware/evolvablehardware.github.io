@@ -6,7 +6,7 @@ These experiments stress the Bitstream Evolution toolkit by alternating evolutio
 
 <div class="result-row">
   <figure>
-    <img src="../assets/results/ieee/transferability/loyd6.png" alt="Variance maximization transferability fitness">
+    <img src="/assets/results/ieee/transferability/loyd6.png" alt="Variance maximization transferability fitness">
     <figcaption>Best and average fitness while alternating FPGAs every 200 generations.</figcaption>
   </figure>
   <p>
@@ -16,7 +16,7 @@ These experiments stress the Bitstream Evolution toolkit by alternating evolutio
 
 <div class="result-row">
   <figure>
-    <img src="../assets/results/ieee/transferability/loyd7.png" alt="Variance maximization transferability heatmap">
+    <img src="/assets/results/ieee/transferability/loyd7.png" alt="Variance maximization transferability heatmap">
     <figcaption>Voltage heatmap of the best circuit per generation while alternating boards.</figcaption>
   </figure>
   <p>
@@ -28,7 +28,7 @@ These experiments stress the Bitstream Evolution toolkit by alternating evolutio
 
 <div class="result-row">
   <figure>
-    <img src="../assets/results/ieee/transferability/loyd8.png" alt="Pulse transferability fitness">
+    <img src="/assets/results/ieee/transferability/loyd8.png" alt="Pulse transferability fitness">
     <figcaption>Best fitness during an 80&nbsp;kHz pulse experiment when swapping boards.</figcaption>
   </figure>
   <p>
@@ -38,7 +38,7 @@ These experiments stress the Bitstream Evolution toolkit by alternating evolutio
 
 <div class="result-row">
   <figure>
-    <img src="../assets/results/ieee/transferability/loyd9.png" alt="Pulse transferability produced frequencies">
+    <img src="/assets/results/ieee/transferability/loyd9.png" alt="Pulse transferability produced frequencies">
     <figcaption>Measured frequencies for the same experiment, sampled twice per circuit.</figcaption>
   </figure>
   <p>

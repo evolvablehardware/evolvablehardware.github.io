@@ -4,7 +4,7 @@ This early benchmark demonstrates that intrinsic analog evolution on the Lattice
 
 <div class="result-row">
 	<figure>
-		<img src="../assets/results/early/variancemaximization.gif" alt="Evolution of signal variance">
+		<img src="/assets/results/early/variancemaximization.gif" alt="Evolution of signal variance">
 		<figcaption>Evolution of signal variance</figcaption>
 	</figure>
 	<p>
@@ -23,7 +23,7 @@ This early benchmark demonstrates that intrinsic analog evolution on the Lattice
 
 <div class="result-row">
 	<figure>
-		<img src="../assets/equations/varmax.png" alt="Variance maximization equation">
+		<img src="/assets/equations/varmax.png" alt="Variance maximization equation">
 		<figcaption>Variance maximization equation</figcaption>
 	</figure>
 	<p>
@@ -39,7 +39,7 @@ The fitness function averages the absolute difference between sequential ADC sam
 
 <div class="result-row">
 	<figure>
-		<img src="../assets/results/early/varmaxevolution.png" alt="Variance maximization fitness trace">
+		<img src="/assets/results/early/varmaxevolution.png" alt="Variance maximization fitness trace">
 		<figcaption>Variance maximization fitness trace</figcaption>
 	</figure>
 	<p>
