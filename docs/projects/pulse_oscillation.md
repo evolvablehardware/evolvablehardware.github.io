@@ -1,3 +1,8 @@
+---
+hide:
+	- toc
+---
+
 # Pulse Oscillation
 
 This experiment evolves FPGA-resident circuits that emit a stable pulse at a target frequency. It builds on the same intrinsic workflow as variance maximization but pushes evolution to coordinate timing behavior instead of raw amplitude.

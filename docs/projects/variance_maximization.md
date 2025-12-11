@@ -1,3 +1,8 @@
+---
+hide:
+	- toc
+---
+
 # Variance Maximization
 
 This early benchmark demonstrates that intrinsic analog evolution on the Lattice iCEstick HX1K can reliably amplify signal variance using only bitstream-level mutations. The run below mirrors the legacy tutorial but is formatted for the Bitstream Evolution knowledge base.

@@ -1,3 +1,8 @@
+---
+hide:
+	- toc
+---
+
 # Tone Discriminator *(Work in Progress)*
 
 Recreating Adrian Thompson's classic tone discriminator remains a long-horizon objective for Bitstream Evolution. The goal is to evolve an FPGA circuit that receives either a 1 kHz or 10 kHz tone and outputs a digital HIGH/LOW classification signal, all without conventional digital logic.

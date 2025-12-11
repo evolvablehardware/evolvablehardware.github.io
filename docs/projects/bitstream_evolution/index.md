@@ -1,3 +1,8 @@
+---
+hide:
+	- toc
+---
+
 # Bitstream Evolution
 
 This is where we are advertise what Bitstream Evolution was intended to do and the current goals of the project.

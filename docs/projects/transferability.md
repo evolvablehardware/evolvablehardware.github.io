@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Transferability Experiments
 
 These experiments stress the Bitstream Evolution toolkit by alternating evolution between two physical FPGAs ("A" and "B") every 200 generations. Each switch measures how quickly the population recovers and whether migrating across silicon can reveal new high-fitness behaviors.

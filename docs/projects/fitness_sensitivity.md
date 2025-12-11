@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Fitness Sensitivity Studies
 
 To quantify robustness, single circuits were frozen and repeatedly evaluated without modifying their bitstreams. Pulse-count oscillators were exercised for 24 hours, while variance-maximization circuits were sampled for shorter three-hour windows because their distributions remained stable.
@@ -6,7 +11,7 @@ To quantify robustness, single circuits were frozen and repeatedly evaluated wit
 
 <div class="result-row">
   <figure>
-    <img src="../assets/results/ieee/sensitivity/loyd10.png" alt="Pulse sensitivity 1D histogram">
+    <img src="/assets/results/ieee/sensitivity/loyd10.png" alt="Pulse sensitivity 1D histogram">
     <figcaption>Distribution of recorded pulses over 24 hours (one target run).</figcaption>
   </figure>
   <p>
@@ -16,7 +21,7 @@ To quantify robustness, single circuits were frozen and repeatedly evaluated wit
 
 <div class="result-row">
   <figure>
-    <img src="../assets/results/ieee/sensitivity/loyd11.png" alt="Pulse sensitivity 2D histogram">
+    <img src="/assets/results/ieee/sensitivity/loyd11.png" alt="Pulse sensitivity 2D histogram">
     <figcaption>Time-frequency heatmap for the same circuit.</figcaption>
   </figure>
   <p>
@@ -26,7 +31,7 @@ To quantify robustness, single circuits were frozen and repeatedly evaluated wit
 
 <div class="result-row">
   <figure>
-    <img src="../assets/results/ieee/sensitivity/loyd12.png" alt="Pulse sensitivity vs environment">
+    <img src="/assets/results/ieee/sensitivity/loyd12.png" alt="Pulse sensitivity vs environment">
     <figcaption>Pulse count versus ambient temperature and humidity.</figcaption>
   </figure>
   <p>
@@ -38,7 +43,7 @@ To quantify robustness, single circuits were frozen and repeatedly evaluated wit
 
 <div class="result-row">
   <figure>
-    <img src="../assets/results/ieee/sensitivity/loyd13.png" alt="Variance sensitivity heatmap">
+    <img src="/assets/results/ieee/sensitivity/loyd13.png" alt="Variance sensitivity heatmap">
     <figcaption>24-hour fitness distribution for an evolved variance circuit.</figcaption>
   </figure>
   <p>

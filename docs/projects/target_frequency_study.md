@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Target Frequency Sweep
 
 The IEEE Access study benchmarked how quickly oscillatory circuits emerge when they are evaluated against different pulse-count targets. Each run shared the same evolutionary settings (population 50, 6 trials per target, 800 generations aggregated) and differed only in the desired frequency.

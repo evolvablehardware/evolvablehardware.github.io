@@ -1,3 +1,8 @@
+---
+hide:
+    - toc
+---
+
 # Projects
 
 These project are work oriented towards specific outcomes and are generally located in a single github repository.
