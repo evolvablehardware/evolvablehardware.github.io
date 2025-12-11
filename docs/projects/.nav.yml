@@ -21,6 +21,9 @@ nav:
   - variance_maximization.md
   - pulse_oscillation.md
   - tone_discriminator.md
+  - target_frequency_study.md
+  - transferability.md
+  - fitness_sensitivity.md
 
 # If false, the above tree is all that is shown at this level of the directory structure.
 append_unmatched: false 

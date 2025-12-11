@@ -1,0 +1,49 @@
+The authors proposed an open-source hardware and software platform, Bitstream Evolution, for bitstream-level intrinsically evolvable hardware. This platform lowers the barrier to experimentation and, through evolution on low-cost FPGAs, demonstrates the robustness and transferability of circuits, demonstrating potential improvements in adaptability and energy efficiency.
+In their response, the authors standardized formatting and terminology, added explanations and experimental details, corrected spelling and grammar, and improved the documentation of the open-source resources. The revised manuscript has a clearer structure and a more academic style.
+
+
+[JY: Done]
+Major issues
+1. Standardize and explain the units of the fitness functions. The variance maximization method statistically scores voltage differences, while the pulse counting method scores the deviation of the pulse count from the target frequency. Specify the sampling window length, pulse count-to-frequency conversion, unit conventions, and use a consistent notation system to facilitate comparison across fitness functions.
+
+AL: Added "The variance and pulse count fitness functions are not comparable..." "For each evaluation, we take 500 samples..." "however the sensitive function is more punishing towards measurements away" 
+JY: Excellent work- perfect response here.
+
+
+[JY: DONE]
+2. Address the range mismatch issue in multi-sample/multi-pass evaluation. Pulse-based scores are in the range [0, 2], while variance maximization can exceed 300 per evaluation. Normalization could be performed at the implementation level, or the scores could be explicitly stated to be incomparable across tasks, with a rationale for choosing multiplicative aggregation to enhance quality and consistency.
+
+AL: Added "We have not yet tested multiple samples and passes with the variance maximization function..." "We chose to use multiplicative aggregation..."
+JY: Good work, a tried to rework some of the text a bit.
+
+
+[JY: Done]
+3. Quantify measurement noise and jitter in the sampling chain.
+JY - our figure describe noise with a clear visualization, jitter is irrelevant to our evaluation and is not wroth mentioning in my opinion.
+
+The manuscript points out the imprecision of the Arduino and the risk of overselecting "lucky" individuals. 
+JY - ok
+Document the data-side mitigations used (thresholding, windowing, debounce) and explain the mechanisms by which measurement noise may affect selection.
+JY - I think some of this is related to jitter, which again is irrelevant
+
+
+AL: Not sure how best to address this. Added "Another possible solution would be to use devices with greater accuracy, like ESP32s." "This also helps address the issue discussed in the previous section of unreliable circuits being selected due to ``lucky'' evaluations."
+
+JY: I like your suggestion, I added in-line comments to the review feedback above, I don't think there is much merit to some of their comments and I think we are good here.
+
+
+[JY: DONE]
+4. Avoid speculative causality for the observation that 40 kHz is more prone to evolution. The hypothesized correlation with the Arduino clock is not of the same order of magnitude. Reframe it as a list of potential factors with explicit uncertainty, and label any architectural-level comparisons as assumptions rather than conclusions.
+
+AL: Also not sure how to address this. Removed "The internal clock of the Arduino Nano is a potential culprit, but those run on the order of megahertz, not kilohertz." and added "More work is needed to determine the exact cause of this phenomenon."
+
+JY: I like it as you have- and probably best way to handle this, good reviewer feedback.
+
+Minor issues
+1. FGPA → FPGA; unify across the manuscript. DONE
+2. “discrete voltages levels” → “discrete voltage levels.” DONE
+3. “This result … have only recently been reproduced …” → “has …” DONE
+4. iCE40 vs ICE40s; standardize to iCE40 (plural: iCE40 devices). DONE
+5. “figure 16” in running text → “Figure 16.” I can't find this (searched pdf for figure, match case)
+JY: I don't think I fixed it, but I have been wrong before :)
+6. “may makes” → “may make.” DONE
