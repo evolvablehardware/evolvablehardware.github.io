@@ -31,31 +31,32 @@ A great starting point for anyone new to the field is our [About Evolvable Hardw
 
 The Tabs Below feature a couple of ways to use the information on this site based on your background and interests. Feel free to select the one that best aligns with your goals and use it to help you get started.
 
-=== "Tinkerers and Hobbyists"
+=== "Tinkerers"
 
-    If you are someone who is looking to get started with Evolvable Hardware from a practical standpoint, this is the place for you. We suggest you start by understanding some of the core concepts that underly the field, then move on to some simple projects that will get you hands-on experience.
+    If you are someone who is looking to get started with Evolvable Hardware from a practical standpoint, this is the place for you. We suggest you start by understanding some of the core concepts that underlie the field, then move on to some simple projects that will get you hands-on experience.
 
-    1. [Watch the Intro Video](./about/index.md#watch-the-summary-video)
-    2. [Core Concepts](./research/index.md)
-    3. [Review example experiments](./experiments/index.md)
-    4. [Review Software/Hardware Tools](./tools/index.md)
-    5. [Contact Us](./contact.md)
+    1. Watch the [Intro Video](./about/index.md#watch-the-summary-video)
+    2. Read about [Core Concepts](./research/index.md)
+    3. Review [example experiments](./experiments/index.md)
+    4. Review Software/Hardware [Tools](./tools/index.md)
+    5. Get involved: [Contact Us](./contact.md)
 
 === "Undergraduate Students" 
 
     If you are here to learn more about Evolvable Hardware from a research standpoint, this is the place for you. We suggest you start by understanding some of the core concepts that underly the field, then move on to some of the history and current research directions.
 
-    1. [Watch the Intro Video](./about/index.md#watch-the-summary-video)
-    2. [Core Concepts](./research/index.md)
-    3. [History of Evolvable Hardware](./history/index.md)
-    4. [Read Recent Papers](./research/publications/index.md)
-    5. [Contact Us](./contact.md)
+    1. Watch the [Intro Video](./about/index.md#watch-the-summary-video)
+    2. Read about [Core Concepts](./research/index.md)
+    3. Read about the [History of Evolvable Hardware](./history/index.md)
+    4. Read [Recent Papers](./research/publications/index.md)
+    5. Get involved: [Contact Us](./contact.md)
     
 === "Graduate Researcher / Professionals"
 
-    If you are here to contribute to the research in Evolvable Hardware, this is the place for you. We suggest you start by understanding some of the core concepts that underly the field, then move on to some of the history and current research directions. Finally, check out some of the ongoing projects and see where you can help out.
+    If you are here to contribute to the research in Evolvable Hardware, this is the place for you. We suggest you learn a bit of about the history of the field, review some recent papers,and then move on to the future research directions.
 
-    1. [Watch the Intro Video](./about/index.md#watch-the-summary-video)
-    2. [History of Evolvable Hardware](./history/index.md)
-    3. [Future Research Directions](./research/future_directions/index.md)
-    4. [Contact Us](./contact.md)
+    1. Watch the [Intro Video](./about/index.md#watch-the-summary-video)
+    2. Read about the [History of Evolvable Hardware](./history/index.md)
+    3. Read [Recent Papers](./research/publications/index.md)
+    4. Read about [Future Research Directions](./research/future_directions/index.md)
+    5. Get involved: [Contact Us](./contact.md)
