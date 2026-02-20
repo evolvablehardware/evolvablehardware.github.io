@@ -6,3 +6,8 @@ The key idea behind neuromorphic hardware is that the brain’s architecture isn
 
 For our  community, neuromorphic hardware represents a bridge between biological inspiration and physical implementation. It complements our work in evolvable hardware by showing how computation can emerge from networks of simple, interacting components rather than rigid instructions. When combined with evolutionary algorithms, neuromorphic systems become canvases for discovering new forms of learning and adaptation directly in hardware. By studying and building such systems, we move closer to devices that don’t just compute — they sense, learn, and evolve in ways that echo the intelligence of living brains.
 
+## Learn More
+
+[Wikipedia's Entry on Neuromorphic Computing](https://en.wikipedia.org/wiki/Neuromorphic_computing)
+
+[Review: Neuromorphic computing at scale](https://par.nsf.gov/servlets/purl/10585263)

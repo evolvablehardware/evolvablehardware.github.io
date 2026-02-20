@@ -6,3 +6,8 @@ Instead of insisting on exact answers, approximate computing focuses on good eno
 
 For our community, approximate computing pairs naturally with evolvable hardware. When circuits can evolve directly on an FPGA, they often discover unconventional solutions that rely on approximation, analog behavior, or clever shortcuts humans would never design manually. These imperfect but efficient solutions can be more robust, adaptable, and biologically plausible than rigid, exact logic. By embracing approximation as a design tool rather than a flaw, we open the door to evolved systems that are faster, more resilient, and better suited to the messy complexity of the real world.
 
+## Learn More
+
+[Approximate Computing Survey, Part I: Terminology and Software & Hardware Approximation Techniques](https://dl.acm.org/doi/10.1145/3716845)
+
+[Approximate Computing Survey, Part II: Application-Specific & Architectural Approximation Techniques and Applications](https://dl.acm.org/doi/10.1145/3711683)

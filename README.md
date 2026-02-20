@@ -6,7 +6,7 @@ The official website for the evolvable hardware research community, built with M
 
 If you want to contribute to the research, pick a project that you find interesting and navigate to it's webpage.
 
-If you want to contribute to this site, please make the change you were suggesting to the website and file a pull request. You can also `Contact Us` with the information in the website if you don't see any action taken arround it. The general seps are described below:
+If you want to contribute to this site, please make the change you were suggesting to the website and file a pull request. You can also `Contact Us` with the information in the website if you don't see any action taken arround it. The general steps are described below:
 
 1. Clone This Repository (`git clone`)
 2. Create a locally hosted version of that website

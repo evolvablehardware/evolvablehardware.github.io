@@ -7,14 +7,14 @@ CTRNNs are especially powerful because they integrate sensing, memory, and actio
 For our community, CTRNNs highlight how neural computation can arise from the continuous flow of internal state rather than discrete operations. They provide a foundation for exploring adaptive controllers, embodied agents, and evolvable dynamical systems in both simulation and hardware.
 
 
-## Learn More About CTRNNs
+## Learn More
 
 [Wikipedia Entry on Recurrent Neural Networks (CTRNNs in the context of other classes)](https://en.wikipedia.org/wiki/Recurrent_neural_network#Continuous-time)
 
 [Interactive Visualization Tool for a 2 Neuron CTRNN](https://cooperuser.github.io/ctrnn-visualizer/)
 
-[A nice introductory blog post about analyzing a CTRNN](https://indy9000.blog/posts/analysis-of-a-simple-ctrnn.html)
+[An introductory blog post about analyzing a CTRNN](https://indy9000.blog/posts/analysis-of-a-simple-ctrnn.html)
 
-[Excellent chapter on CTRNNs, with an explanation and motivation](https://drive.google.com/file/d/1hKOGRqYsPv-yi0Ww9be2aoF417DaTT0V/view?usp=sharing)
+[Excellent explanation and motivational chapter on CTRNNs from Eduardo Izquerdio's Dissertation](https://drive.google.com/file/d/1hKOGRqYsPv-yi0Ww9be2aoF417DaTT0V/view?usp=sharing)
 
 [Evolutionary Robotics course. Lecture 10: Continuous Time Recurrent Neural Networks](https://www.youtube.com/watch?v=NHmej5i22aE&ab_channel=JoshBongard)
