@@ -1,4 +1,4 @@
-# Academic Papers
+# Papers
 These are papers that have been published by us, allowing you to both read the paper but also hopefully assisting in reproducing the results of the paper. 
 
 These are shown in reverse-chronological order, spilt based on whether the paper was a result of the work done by the Evolvable Hardware Research group.
