@@ -37,10 +37,9 @@ As mentioned in the previous section, the termination of the Xilinx XC6200 serie
 
 ## Bitstream Evolution with the iCEStick HX1K (2021)
 
-TBD
+In 2021, Derek Whitley began work utilizing Project IceStorm to recreate the results from Adrian Thompson's seminal work. He pursued this as part of his PhD at Indiana University and started a collaboration with Jason Yoder at Rose-Hulman Institute of Technology. Rose-Hulman's excellence in undergraduate engineering disciplines enabled has since served as a sources for students contributors to the research. The results of this initial resurrection of past work work were published in the proceedings of the 2021 Artificial Life Conference, and the project was named Bitstream Evolution. This project has continued to grow and evolve since then, with the goal of creating an open-source software and hardware platform for intrinsic analog evolvable hardware research using the iCE40 FPGA technology stack.
 
 
-## Bitstream Evolution with the Pico2iCE boards (2025+)
+## Bitstream Evolution with the pico2-ice boards (2025+)
 
-TBD
-
+In 2025, thanks in part to a grant from ARI, Vivum AI and Rose-Hulman launched a joint project that included exploring available hardware and techniques for partial reconfiguration of FPGAs for autonomous control systems. The funding enabled both Jason Yoder and a number of Rose-Hulman students to pursue this line of research, and as part of this work they identified a new development board for conducting evolvable hardware research. During the 2025–2026 academic year, work continued toward integrating this board with the existing bitstream evolution hardware while also expanding the system's capacity to allow parallel evaluation on multiple boards at scale.
