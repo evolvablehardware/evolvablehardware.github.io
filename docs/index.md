@@ -18,7 +18,7 @@ Welcome to the **Evolvable Hardware** community - a hub for research and impleme
 Evolvable hardware is the application of evolutionary algorithms to hardware systems during design, operation, or both. It can be used to simulate parameter optimization for physical designs or search for new and counterintuitive designs altogether. For reconfigurable hardware, such as field programmable gate arrays (FPGAs) and other programmable logic devices, the evolutionary process can be performed intrinsic to the hardware itself and exploit device-specific characteristics, including manufacturing errors and physical effects that fall below fabrication tolerances.
 
 [Learn More](./about/index.md){ .md-button .md-button--primary }
-[View Projects](./projects/index.md){ .md-button .md-button--seccondary }
+[View Projects](./projects/){ .md-button .md-button--seccondary }
 
 <!-- [Under-grad research](#undergraduate-research){ .md-button .md-button--primary } -->
 <!-- [research](./contact.md#researchers-contributors){ .md-button .md-button--primary } -->
@@ -37,7 +37,7 @@ The Tabs Below feature a couple of ways to use the information on this site base
 
     1. Watch the [Intro Video](./about/index.md#watch-the-summary-video)
     2. Read about [Core Concepts](./research/index.md)
-    3. Review [example experiments](./experiments/index.md)
+    3. Review [example experiments](./projects/bitstream_evolution/experiments/index.md)
     4. Review Software/Hardware [Tools](./tools/index.md)
     5. Get involved: [Contact Us](./contact.md)
 

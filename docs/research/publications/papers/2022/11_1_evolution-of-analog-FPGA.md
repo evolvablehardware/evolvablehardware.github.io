@@ -36,7 +36,7 @@ __MIT Press Direct__
 - Nicklas Carpenter
 
 ## Related Projects
-- [Bitstream Evolution](../../../projects/bitstream_evolution/index.md)
+- [Bitstream Evolution](../../../../projects/bitstream_evolution/)
 
     > This paper documents the conceptual origin of the Bitstream Evolution project.
 

@@ -85,7 +85,7 @@ __Other Source__
     - Relation to this resource.
 
 ## Related Projects
-- [Bitstream Evolution](../../../projects/bitstream_evolution/index.md)
+- [Bitstream Evolution](../../../../projects/bitstream_evolution/)
 
     > Optionally, provide further context for the connection here.
 

@@ -5,7 +5,7 @@ hide:
 
 # Transferability
 
-In our [2025 paper](../research/publications/papers/2025/11_10_bitstream-evolution-toolkit.md) we performed some experiments on transferability of evolved circuits across different FPGA hardware.
+In our [2025 paper](../../../research/publications/papers/2025/11_10_bitstream-evolution-toolkit.md) we performed some experiments on transferability of evolved circuits across different FPGA hardware.
 This was performed by alternating evolution between two physical FPGAs ("A" and "B") every 200 generations. Each switch measures how quickly the population recovers and whether migrating across silicon can reveal new high-fitness behaviors.
 
 ## Variance Maximization Circuits

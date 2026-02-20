@@ -12,7 +12,7 @@ This should explain that this is general background information needed to unders
 
     [:octicons-arrow-right-24: Learn More](./tool_template/index.md)<br>
     [:fontawesome-solid-graduation-cap: Tutorials](./tool_template/tutorials/index.md)<br>
-    [:fontawesome-solid-sheet-plastic: Referance Sheet](./tool_template/referance_sheet.md)<br>
+    [:fontawesome-solid-sheet-plastic: Reference Sheet](./tool_template/reference_sheet.md)<br>
     [:material-file-document-multiple: Documentation](./tool_template/docs/index.md)
 
 -   :material-thermometer-probe:{ .lg .middle } __Add Another Project__

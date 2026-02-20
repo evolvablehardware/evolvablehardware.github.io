@@ -5,7 +5,7 @@ hide:
 
 # Fitness Sensitivity
 
-In our [2025 paper](../research/publications/papers/2025/11_10_bitstream-evolution-toolkit.md) we benchmarked the sensitivity and robustness of evolved circuits under prolonged evaluation. To quantify robustness, single circuits were frozen and repeatedly evaluated without modifying their bitstreams. Pulse-count oscillators were exercised for 24 hours, while variance-maximization circuits were sampled for shorter three-hour windows because their distributions remained stable.
+In our [2025 paper](../../../research/publications/papers/2025/11_10_bitstream-evolution-toolkit.md) we benchmarked the sensitivity and robustness of evolved circuits under prolonged evaluation. To quantify robustness, single circuits were frozen and repeatedly evaluated without modifying their bitstreams. Pulse-count oscillators were exercised for 24 hours, while variance-maximization circuits were sampled for shorter three-hour windows because their distributions remained stable.
 
 ## Pulse Count Oscillators
 

@@ -13,7 +13,7 @@ These are publications that have been produced by this group or are related to t
 ## Related Tools
 These are Tools (hardware and software) used in evolvable hardware projects, with enough information to figure out what they are and start to learn how to use them.
 
-[View Tools](./tools/index.md){ .md-button .md-button--primary }
+[View Tools](../tools/index.md){ .md-button .md-button--primary }
 
 ## Future Directions
 An overview of some of the current research directions in the field of evolvable hardware.
