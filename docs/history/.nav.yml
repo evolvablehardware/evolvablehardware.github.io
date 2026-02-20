@@ -16,7 +16,7 @@ sort:
 nav: 
   - index.md
   - Timeline: timeline.md
-  - History: history.md
+  - Historical Review: historical_review.md
 
 
 # If false, the above tree is all that is shown at this level of the directory structure.

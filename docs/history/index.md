@@ -10,11 +10,11 @@ hide:
 
 # Evolvable Hardware History
 
-## History
+## Historical Review
 
 Since the turn of the century, evolvable hardware research began migrating into many different directions away from the initial FPGA-intrinsic analog method. The excitement for this field of research was a result of the prospect of using evolutionary search to create analog circuits - a significant engineering challenge.
 
-[Review the History](history.md){ .md-button .md-button--primary } 
+[Review the Historical Review](historical_review.md){ .md-button .md-button--primary } 
 
 
 ## Timeline Overview
