@@ -26,7 +26,7 @@ To enter the bootloader mode, you need to either hold down the **SW1** button or
   <figcaption>Board successfully in bootloader mode.</figcaption>
 </figure>
 
-## iCE-FARM: FPGA Array for Rapid Measurement
+## iCE-FARM: FPGA Array Resource Manager
 
 We have a special job distributor for the Pico2-ICE boards. The software was developed by Jackson Heil and can be found here:
 

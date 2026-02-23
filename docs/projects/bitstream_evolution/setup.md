@@ -24,54 +24,54 @@ _Total hardware cost: roughly $85 USD._
 
 ### 1. Inspect the Kit
 
-![Unboxed components](./bitstream_evolution/assets/setup/setup_tutorial_1.jpg){ width="75%" }
+![Unboxed components](./assets/setup/setup_tutorial_1.jpg)
 
 Verify that the MCU, FPGA, jumper wires, and breadboard all arrived intact before you begin.
 
 ### 2. Add Headers to the FPGA
 
-![Solder headers](./bitstream_evolution/assets/setup/setup_tutorial_2.jpg){ width="75%" }
+![Solder headers](./assets/setup/setup_tutorial_2.jpg)
 
 Solder (or press-fit hammer) headers onto both sides of the FPGA so that every I/O pin is accessible from the breadboard or jumper wires.
 
 ### 3. Seat the MCU in the Breadboard
 
-![Arduino placement](./bitstream_evolution/assets/setup/setup_tutorial_3A.jpg){ width="75%" }
-![Arduino placement side view](./bitstream_evolution/assets/setup/setup_tutorial_3B.jpg){ width="75%" }
+![Arduino placement](./assets/setup/setup_tutorial_3A.jpg)
+![Arduino placement side view](./assets/setup/setup_tutorial_3B.jpg)
 
 Align the Arduino Nano so that each row of pins straddles the breadboard’s center channel and press down until the pins are fully seated.
 
 ### 4. Connect the MCU USB Cable
 
-![USB to MCU](./bitstream_evolution/assets/setup/setup_tutorial_4.jpg){ width="75%" }
+![USB to MCU](./assets/setup/setup_tutorial_4.jpg)
 
 Attach the mini-USB cable to the Arduino Nano. The connector only fits one way—avoid forcing it.
 
 ### 5. Plug the MCU into Your Computer or USB Hub
 
-![MCU to hub](./bitstream_evolution/assets/setup/setup_tutorial_5.jpg){ width="75%" }
+![MCU to hub](./assets/setup/setup_tutorial_5.jpg)
 
 Either connect through a powered USB hub (recommended when sharing ports with the FPGA) or plug the cable directly into your workstation.
 
 ### 6. Connect the FPGA via USB
 
-![FPGA USB](./bitstream_evolution/assets/setup/setup_tutorial_6.jpg){ width="75%" }
+![FPGA USB](./assets/setup/setup_tutorial_6.jpg)
 
 Use the supplied micro-USB cable to power and program the iCEstick. Again, a powered hub is helpful but optional.
 
 ### 7. Bridge Arduino Pins A0 and D2
 
-![A0 to D2 jumper](./bitstream_evolution/assets/setup/setup_tutorial_7.jpg){ width="75%" }
+![A0 to D2 jumper](./assets/setup/setup_tutorial_7.jpg)
 
 Place a male-to-male jumper between analog pin A0 and digital pin D2. This loopback lets the MCU monitor its own DAC/ADC signal path during experiments.
 
 ### 8. Wire the MCU to the FPGA
 
-![A0 to FPGA pin 10](./bitstream_evolution/assets/setup/setup_tutorial_8A.jpg){ width="75%" }
+![A0 to FPGA pin 10](./assets/setup/setup_tutorial_8A.jpg)
 
 | | |
 | --- | --- |
-| ![Close-up wiring](./bitstream_evolution/assets/setup/setup_tutorial_8B.jpg){ width="75%" } | ![iCEstick pinout](./bitstream_evolution/assets/setup/ice40pinout_pin_overlay.png){ width="75%" } |
+| ![Close-up wiring](./assets/setup/setup_tutorial_8B.jpg) | ![iCEstick pinout](./assets/setup/ice40pinout_pin_overlay.png) |
 
 Use a male-to-female jumper to connect Arduino pin A0 to FPGA pin 10 (labeled on the iCEstick silkscreen and in the pinout above). Double-check continuity before powering the boards.
 

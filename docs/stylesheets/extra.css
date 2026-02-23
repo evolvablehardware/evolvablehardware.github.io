@@ -1,6 +1,6 @@
 /* Hide the right-side table of contents globally */
 .md-sidebar--secondary {
-  display: none;
+  display: none !important;
 }
 
 /* Custom styles for Evolvable Hardware website */

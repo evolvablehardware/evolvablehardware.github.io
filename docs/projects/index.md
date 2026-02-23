@@ -19,7 +19,7 @@ An open-source platform for intrinsic analog evolvable hardware research using t
 
     Bill of materials, assembly instructions, and wiring guide for the iCEstick evaluation board.
 
-    [:octicons-arrow-right-24: Setup Guide](./bitstream_evolution/bitstream_evolution/setup.md)
+    [:octicons-arrow-right-24: Setup Guide](./bitstream_evolution/setup.md)
 
 -   :material-github:{ .lg .middle } __Software__
 
@@ -57,7 +57,7 @@ Porting the Bitstream Evolution toolkit to the Pico2-ICE development board, enab
 
 ## iCEFARM
 
-FPGA Array for Rapid Measurement — a parallel evaluation system that distributes evolutionary runs across multiple Pico2-ICE boards simultaneously.
+FPGA Array Resource Manager — a parallel evaluation system that distributes evolutionary runs across multiple Pico2-ICE boards simultaneously.
 
 <div class="grid cards" markdown>
 

@@ -5,6 +5,11 @@ An overview of numerous concepts that relate to our research and projects.
 
 [Review Concepts](./concepts/index.md){ .md-button .md-button--primary }
 
+## Experiments
+Specific experiments conducted using the Bitstream Evolution toolkit, showcasing different aspects of evolvable hardware from early benchmarks to systematic studies on robustness, transferability, and frequency response.
+
+[View Experiments](./experiments/index.md){ .md-button .md-button--primary }
+
 ## Publications
 These are publications that have been produced by this group or are related to the group's work.
 

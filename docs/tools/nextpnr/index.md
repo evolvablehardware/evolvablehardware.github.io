@@ -24,4 +24,4 @@ For EHW, nextpnr is primarily used to produce the initial seed bitstreams. The e
 
 ## Project Use
 
-nextpnr generates the seed bitstreams that initialize evolutionary populations in the [Bitstream Evolution](../../projects/bitstream_evolution/bitstream_evolution/setup.md) project. While the evolutionary process itself does not use nextpnr (mutations operate directly on bitstream files), the quality of the initial seed can influence how quickly evolution discovers viable circuits.
+nextpnr generates the seed bitstreams that initialize evolutionary populations in the [Bitstream Evolution](../../projects/bitstream_evolution/setup.md) project. While the evolutionary process itself does not use nextpnr (mutations operate directly on bitstream files), the quality of the initial seed can influence how quickly evolution discovers viable circuits.

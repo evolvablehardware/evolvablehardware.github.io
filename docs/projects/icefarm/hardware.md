@@ -10,7 +10,7 @@ hide:
 
 ## Overview
 
-iCEFARM (FPGA Array for Rapid Measurement) is a parallel evaluation system that enables simultaneous bitstream evaluation across multiple Pico2-ICE boards. This allows for larger population sizes and faster evolutionary runs compared to single-board setups.
+iCEFARM (FPGA Array Resource Manager) is a parallel evaluation system that enables simultaneous bitstream evaluation across multiple Pico2-ICE boards. This allows for larger population sizes and faster evolutionary runs compared to single-board setups.
 
 ## Software
 
