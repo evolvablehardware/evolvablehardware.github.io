@@ -37,7 +37,7 @@ The Tabs Below feature a couple of ways to use the information on this site base
 
     1. Watch the [Intro Video](./about/index.md#watch-the-summary-video)
     2. Read about [Core Concepts](./research/index.md)
-    3. Review [example experiments](./projects/bitstream_evolution/experiments/index.md)
+    3. Review [example experiments](./research/experiments/index.md)
     4. Review Software/Hardware [Tools](./tools/index.md)
     5. Get involved: [Contact Us](./contact.md)
 
