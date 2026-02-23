@@ -4,7 +4,6 @@ categories:
   - Publications
   - Student Research
 authors:
-  - Allyn Loyd
   - Jason A. Yoder
 ---
 
