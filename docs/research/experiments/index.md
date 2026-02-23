@@ -5,7 +5,7 @@ hide:
 
 # Experiments
 
-This section highlights specific experiments that have been conducted using the Bitstream Evolution toolkit. Each experiment showcases different aspects of evolvable hardware and provides insights into the capabilities and performance of the system. We begin with basic experiments that were conducted in 2021 and move towards more systematic experiments conductde since then. Most of these experiments can be reproduced using the open-source [Bitstream Evolution Toolkit](../../../tools/bitstream_evolution/index.md).
+This section highlights specific experiments that have been conducted using the Bitstream Evolution toolkit. Each experiment showcases different aspects of evolvable hardware and provides insights into the capabilities and performance of the system. We begin with basic experiments that were conducted in 2021 and move towards more systematic experiments conductde since then. Most of these experiments can be reproduced using the open-source [Bitstream Evolution Toolkit](../../tools/bitstream_evolution/index.md).
 
 
 <div class="grid cards" markdown>

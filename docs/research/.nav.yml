@@ -15,9 +15,10 @@ sort:
 
 
 
-nav: 
+nav:
   - index.md
   - concepts
+  - experiments
   - publications
   - future_directions
 

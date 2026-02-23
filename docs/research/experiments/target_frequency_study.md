@@ -5,7 +5,7 @@ hide:
 
 # Target Frequency Sweep
 
-In our [2025 paper](../../../research/publications/papers/2025/11_10_bitstream-evolution-toolkit.md) we benchmarked how quickly oscillatory circuits emerge when they are evaluated against different pulse-count targets. Each run shared the same evolutionary settings (population 50, 6 trials per target, 800 generations aggregated) and differed only in the desired frequency.
+In our [2025 paper](../publications/papers/2025/11_10_bitstream-evolution-toolkit.md) we benchmarked how quickly oscillatory circuits emerge when they are evaluated against different pulse-count targets. Each run shared the same evolutionary settings (population 50, 6 trials per target, 800 generations aggregated) and differed only in the desired frequency.
 
 ## Comparative Fitness Trajectories
 
