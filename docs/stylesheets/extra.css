@@ -1,3 +1,8 @@
+/* Hide the right-side table of contents globally */
+.md-sidebar--secondary {
+  display: none;
+}
+
 /* Custom styles for Evolvable Hardware website */
 
 :root {

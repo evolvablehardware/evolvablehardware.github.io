@@ -1,37 +1,63 @@
 # Tools
 
-This should explain that this is general background information needed to understand what is happening. This should link out to the other sub-pages. Maybe using cards, see `mkdocs.yml`.
+This section provides background on the key software tools and hardware platforms used in evolvable hardware research. Each tool page explains what it is, how it fits into the workflow, and how it is used in our projects.
+
+## Software Tools
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-wrench:{ .lg .middle } __Tool Template__
+-   :material-snowflake:{ .lg .middle } __Project IceStorm__
 
     ---
 
-    This is an example tool to demonstrate what a tool would actually look like to be filled in later.
+    Reverse-engineered bitstream documentation and tools for Lattice iCE40 FPGAs. The foundation that makes bitstream-level evolution possible.
 
-    [:octicons-arrow-right-24: Learn More](./tool_template/index.md)<br>
-    [:fontawesome-solid-graduation-cap: Tutorials](./tool_template/tutorials/index.md)<br>
-    [:fontawesome-solid-sheet-plastic: Reference Sheet](./tool_template/reference_sheet.md)<br>
-    [:material-file-document-multiple: Documentation](./tool_template/docs/index.md)
+    [:octicons-arrow-right-24: Learn More](./project_icestorm/index.md)
 
--   :material-thermometer-probe:{ .lg .middle } __Add Another Project__
+-   :material-routes:{ .lg .middle } __nextpnr__
 
     ---
 
-    This is just to show that there is in fact a grid.
+    Open-source FPGA place-and-route tool. Generates seed bitstreams that initialize evolutionary populations.
 
-    [:octicons-arrow-right-24: Select an Icon](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
+    [:octicons-arrow-right-24: Learn More](./nextpnr/index.md)
+
+-   :material-application-braces:{ .lg .middle } __Yosys__
+
+    ---
+
+    Open-source HDL synthesis framework. Converts Verilog designs into netlists as the first stage of the FPGA toolchain.
+
+    [:octicons-arrow-right-24: Learn More](./yosys/index.md)
 
 </div>
 
-## Structure of Tools Folder
+## Hardware Platforms
 
-It would be good to separate out software tools like git from hardware platforms. Here, software is included in hardware platforms so long as it only applies to that particular platform, otherwise it is a software tool.
+<div class="grid cards" markdown>
 
-- Name of Tool
-    - **index.md** - explain what the tool is and what it is used for
-    - referance_sheet.md - a printable/link to a printable sheet with basic usage commands and advice, highly summarized
-    - docs.md (or folder) - Links to the docs and explaination/guidance for using the docs (& Tips&Tricks)
-    - project_use.md - Note which projects use them and roughly how. (Very high-level overview.)
-    - tutorials.md (or folder) - Includes or links to tutorials (Text or video) that could guide adoption.
+-   :material-chip:{ .lg .middle } __iCEstick (HX1K)__
+
+    ---
+
+    The original Lattice iCE40-HX1K development board used for Bitstream Evolution experiments from 2018 to 2025.
+
+    [:octicons-arrow-right-24: Learn More](./icestick/index.md)
+
+-   :material-developer-board:{ .lg .middle } __pico2-ice (UP5K)__
+
+    ---
+
+    Next-generation board combining an RP2350B microcontroller with an iCE40UP5K FPGA for on-board evolution and parallel evaluation.
+
+    [:octicons-arrow-right-24: Learn More](./pico2ice/index.md)
+
+-   :material-memory:{ .lg .middle } __Arduino Nano__
+
+    ---
+
+    Compact ATmega328P microcontroller used for fitness evaluation in the iCEstick Bitstream Evolution hardware setup.
+
+    [:octicons-arrow-right-24: Learn More](./arduino_nano/index.md)
+
+</div>

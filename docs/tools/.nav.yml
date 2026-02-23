@@ -15,9 +15,14 @@ sort:
 
 
 
-nav: 
+nav:
   - index.md
-  - bitstream_evolution/
+  - yosys
+  - project_icestorm
+  - nextpnr
+  - icestick
+  - pico2ice
+  - arduino_nano
 
 
 # If false, the above tree is all that is shown at this level of the directory structure.
