@@ -18,3 +18,6 @@
 
 - [**2025 – Bitstream Evolution Toolkit**](historical_review.md#bitstream-evolution-with-the-pico2ice-boards-2025): IEEE Access piece ["Bitstream Evolution: an Open-Source FPGA Intrinsic Evolvable Hardware Toolkit"](../research/publications/papers/2025/11_10_bitstream-evolution-toolkit.md) packages the hardware, software, and processes so new teams can evolve analog FPGA circuits and extends the published experiments with deeper analyses on circuit robustness, cross-die transferability, and sensitivity to environmental shifts.
 
+- [**2026 – Bitstream Evolution Toolkit port to Pico2-ICE**](historical_review.md#bitstream-evolution-with-the-pico2-ice-boards-2025): The toolkit developed for the iCEStick was been ported to the Pico2-ICE boards. In addition, a new parallel evaluation system (iCEFARM) has been developed to allow for simultaneous evaluation of multiple boards, enabling larger population sizes and faster evolutionary runs. This work is ongoing and may be published in the near future.
+
+
