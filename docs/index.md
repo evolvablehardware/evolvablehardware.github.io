@@ -8,10 +8,10 @@ hide:
     - footer
 ---
 
-![Evolvable Hardware logo](./assets/branding/logo.png){: align=left width=120 }
 
 # Evolvable Hardware
 
+![Evolvable Hardware logo](./assets/branding/logo.png){: align=right width=160 }
 Welcome to the **Evolvable Hardware** community - a hub for research and implementation of adaptive and self-reconfiguring hardware systems through evolutionary computation. 
 
 ## What is Evolvable Hardware?
