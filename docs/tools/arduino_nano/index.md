@@ -38,7 +38,7 @@ In the standard wiring:
 
 - **10-bit ADC** --- 1024-level resolution (4.9 mV per step) is sufficient for distinguishing fitness gradients in EHW experiments
 - **Breadboard-friendly** --- DIP-style pin headers plug directly into the breadboard alongside the iCEstick
-- **Extremely low cost** --- Nano-compatible clones are available for ~$3--10, keeping the total hardware setup under $85
+- **Extremely low cost** --- Nano-compatible clones are available for ~$3--10
 - **Easy to program** --- fitness evaluation firmware is straightforward to write and customize using the Arduino IDE or PlatformIO
 
 ## Project Use
