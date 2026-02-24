@@ -18,11 +18,13 @@ sort:
 nav:
   - index.md
   - Software:
+    - software
     - yosys
     - project_icestorm
     - nextpnr
     - docker
   - Hardware:
+    - hardware
     - icestick
     - pico2ice
     - arduino_nano

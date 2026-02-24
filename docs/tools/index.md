@@ -1,6 +1,6 @@
 # Tools
 
-This section provides background on the key software tools and hardware platforms used in evolvable hardware research. Each tool page explains what it is, how it fits into the workflow, and how it is used in our projects.
+This section provides background on the key external software tools and hardware platforms used in evolvable hardware research. Each tool page explains what it is, how it fits into the workflow, and how it is used in our projects.
 
 ## Software Tools
 
