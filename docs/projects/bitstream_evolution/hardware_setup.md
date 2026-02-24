@@ -12,13 +12,13 @@ Before ordering any parts, please note that the current Bitstream Evolution tool
 | Item | Approx. Cost | Where to Purchase |
 | --- | --- | --- |
 | Microcontroller (Arduino Nano compatible) | ~$10 | [Arduino Nano Kit](https://www.amazon.com/REXQualis-Board-ATmega328P-Compatible-Arduino/dp/B07WK4VG58) |
-| Lattice iCEstick HX1K FPGA | ~$50 | [Mouser iCE40HX1K-STICK-EVN](https://www.mouser.com/ProductDetail/Lattice/ICE40HX1K-STICK-EVN?qs=hJ2CX3hEdVEyBLaHAEXelA%3D%3D) |
+| Lattice iCEstick HX1K FPGA | ~$150 | [Mouser iCE40HX1K-STICK-EVN](https://www.mouser.com/ProductDetail/Lattice/ICE40HX1K-STICK-EVN?qs=hJ2CX3hEdVEyBLaHAEXelA%3D%3D) |
 | 2x40 male headers (soldered to FPGA) | ~$10 | [Hammer Header Kit](https://www.amazon.com/MCIGICM-Header-2-45mm-Arduino-Connector/dp/B07PKKY8BX) |
 | Male-to-male jumper wires | ~$5 | [Elegoo Jumpers](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/) |
 | Male-to-female jumper wires | ~$5 | [Elegoo Jumpers](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/) |
 | Full-size breadboard | ~$10 | [MCIGICM Breadboard 2-pack](https://www.amazon.com/Pcs-MCIGICM-Points-Solderless-Breadboard/dp/B07PCJP9DY) |
 
-_Total hardware cost: roughly $85 USD._
+_Total hardware cost: roughly $185 USD._
 
 ## Assembly Steps
 
@@ -75,12 +75,3 @@ Place a male-to-male jumper between analog pin A0 and digital pin D2. This loopb
 
 Use a male-to-female jumper to connect Arduino pin A0 to FPGA pin 10 (labeled on the iCEstick silkscreen and in the pinout above). Double-check continuity before powering the boards.
 
-### 9. Move on to Software
-
-With the hardware assembled, you are ready to install the Bitstream Evolution software stack and run the example experiments. Clone the toolkit from GitHub:
-
-```
-https://github.com/evolvablehardware/BitstreamEvolution
-```
-
-Refer to the repository’s README for environment setup, dependencies, and experiment-specific scripts.
