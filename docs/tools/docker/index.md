@@ -2,7 +2,7 @@
 
 Docker is an open-source platform for building, shipping, and running applications inside lightweight, portable containers. A container packages an application together with all of its dependencies, libraries, and configuration so that it runs identically on any machine with the Docker runtime installed.
 
-In the Bitstream Evolution project, Docker provides a reproducible environment for the FPGA toolchain (Yosys, nextpnr, Project IceStorm) and the evolutionary algorithm software, eliminating "works on my machine" issues across different Linux distributions and macOS versions.
+In the Bitstream Evolution (v2 pico2-ice) project, Docker provides a reproducible environment for the FPGA toolchain (Yosys, nextpnr, Project IceStorm) and the evolutionary algorithm software, eliminating "works on my machine" issues across different Linux distributions and macOS versions.
 
 [:octicons-link-external-16: Official Website](https://www.docker.com/){ .md-button .md-button--primary }
 [:octicons-mark-github-16: GitHub Repository](https://github.com/docker){ .md-button }
@@ -23,11 +23,11 @@ In the Bitstream Evolution project, Docker provides a reproducible environment f
 
 ## Project Use
 
-The Bitstream Evolution repositories use Docker to package the complete development environment. This is especially useful for onboarding new contributors who can get a working toolchain running with:
+The Bitstream Evolution (v2 pico2-ice) repositories (including iCEFARM) use Docker to package the complete development environment. This is especially useful for onboarding new contributors who can get a working toolchain running with:
 
 ```bash
 docker build -t bitstream-evolution .
-docker run --device /dev/ttyUSB0 --device /dev/ttyACM0 -v $(pwd):/workspace -it bitstream-evolution
+
 ```
 
 !!! note "USB Access on Linux"
