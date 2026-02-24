@@ -14,7 +14,7 @@ This experiment evolves FPGA-resident circuits that emit a stable pulse at a tar
 | 10–12 hours | 50 | 100 | 0.005 | 0.5 |
 
 <div class="result-row">
-	<figure class="low-res">
+	<figure>
 		<img src="/assets/results/early/pulsecount.png" alt="Pulses counted per generation">
 		<figcaption>Pulses counted per generation</figcaption>
 	</figure>
@@ -27,7 +27,7 @@ This experiment evolves FPGA-resident circuits that emit a stable pulse at a tar
 ## Fitness Function
 
 <div class="result-row">
-	<figure>
+	<figure class="equation">
 		<img src="/assets/equations/pulsemax.png" alt="Pulse oscillation fitness">
 		<figcaption>Pulse oscillation fitness</figcaption>
 	</figure>
@@ -38,16 +38,14 @@ This experiment evolves FPGA-resident circuits that emit a stable pulse at a tar
 	</p>
 </div>
 
-Fitness is computed as the inverse of the absolute difference between the target frequency $f$ and the measured frequency $n$. When $f = n$ the function short-circuits the divide-by-zero case and awards a fitness of 1000, giving evolution a crisp gradient toward the desired pulse rate.
-
 ## Results
 
 <div class="result-row">
-	<figure class="low-res">
+	<figure>
 		<img src="/assets/results/early/pulseevolution.png" alt="Pulse oscillation fitness (linear)">
 		<figcaption>Pulse oscillation fitness (linear)</figcaption>
 	</figure>
-	<figure class="low-res">
+	<figure>
 		<img src="/assets/results/early/pulselog.png" alt="Pulse oscillation fitness (log)">
 		<figcaption>Pulse oscillation fitness (log)</figcaption>
 	</figure>

@@ -27,7 +27,7 @@ This early benchmark demonstrates that intrinsic analog evolution on the Lattice
 ## Fitness Function
 
 <div class="result-row">
-	<figure class="low-res">
+	<figure class="equation">
 		<img src="/assets/equations/varmax.png"  alt="Variance maximization equation">
 		<figcaption>Variance maximization equation</figcaption>
 	</figure>
@@ -38,12 +38,10 @@ This early benchmark demonstrates that intrinsic analog evolution on the Lattice
 	</p>
 </div>
 
-The fitness function averages the absolute difference between sequential ADC samples captured by the MCU. Maximizing this average differential rewards circuits that swing further between readings, naturally increasing output amplitude/variance over successive generations.
-
 ## Results
 
 <div class="result-row">
-	<figure class="low-res">
+	<figure>
 		<img src="/assets/results/early/varmaxevolution.png" alt="Variance maximization fitness trace">
 		<figcaption>Variance maximization fitness trace</figcaption>
 	</figure>

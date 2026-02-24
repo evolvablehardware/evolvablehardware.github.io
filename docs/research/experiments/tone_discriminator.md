@@ -15,7 +15,7 @@ Recreating Adrian Thompson's classic tone discriminator remains a long-horizon o
 | ~24 days | 50 | 5000 | 0.001 | 0.7 |
 
 <div class="result-row">
-	<figure class="low-res">
+	<figure>
 		<img src="/assets/results/early/discriminator.png" alt="Tone discriminator output vs input">
 		<figcaption>Output (blue) vs input (yellow)</figcaption>
 	</figure>
@@ -28,7 +28,7 @@ Recreating Adrian Thompson's classic tone discriminator remains a long-horizon o
 ## Fitness Function
 
 <div class="result-row">
-	<figure>
+	<figure class="equation">
 		<img src="/assets/equations/tonefunction.png" alt="Tone discriminator fitness">
 		<figcaption>Tone discriminator fitness</figcaption>
 	</figure>
@@ -39,12 +39,10 @@ Recreating Adrian Thompson's classic tone discriminator remains a long-horizon o
 	</p>
 </div>
 
-Two sets of samples are collected—one per tonal stimulus—and summed before taking their absolute difference. Hand-tuned hardware constants $k$ (from Thompson's original work) introduce a slight gradient that guides incremental improvements through the integrating op-amp front-end and into the MCU's ADC readings.
-
 ## Results
 
 <div class="result-row">
-	<figure class="low-res">
+	<figure>
 		<img src="/assets/results/early/toneevolution.png" alt="Tone discriminator fitness trace">
 		<figcaption>Tone discriminator fitness trace</figcaption>
 	</figure>

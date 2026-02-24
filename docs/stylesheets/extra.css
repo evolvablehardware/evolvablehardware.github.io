@@ -292,36 +292,23 @@
   border-color: var(--primary-color);
 }
 
+/* Experiment result rows — image on top, text below */
 .result-row {
-  display: flex;
-  gap: 1.5rem;
-  align-items: flex-start;
   margin: 1.5rem 0;
-  flex-wrap: wrap;
 }
 
 .result-row figure {
-  flex: 2 1 640px;
-  max-width: 100%;
-  margin: 0;
+  max-width: 640px;
+  margin: 0 0 1rem 0;
   text-align: center;
 }
 
 .result-row figure img {
   width: auto;
-  max-width: 100%;
+  max-width: min(100%, 640px);
   height: auto;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-}
-
-.result-row figure.low-res {
-  flex: 0 1 420px;
-  max-width: 420px;
-}
-
-.result-row figure.low-res img {
-  max-width: 420px;
 }
 
 .result-row figure figcaption {
@@ -331,6 +318,15 @@
 }
 
 .result-row p {
-  flex: 1 1 280px;
-  margin: 0;
+  margin: 0 0 1rem 0;
+}
+
+/* Equation images — smaller and centered */
+.result-row figure.equation {
+  max-width: 400px;
+  margin: 1rem auto;
+}
+
+.result-row figure.equation img {
+  max-width: min(100%, 400px);
 }
