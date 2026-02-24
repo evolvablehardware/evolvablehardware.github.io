@@ -8,9 +8,7 @@ hide:
     - footer
 ---
 
-<div style="text-align: center; margin-bottom: 1rem;">
-  <img src="./assets/branding/logo.png" alt="Evolvable Hardware logo" width="300">
-</div>
+![Evolvable Hardware logo](./assets/branding/logo.png){: align=left width=120 }
 
 # Evolvable Hardware
 
