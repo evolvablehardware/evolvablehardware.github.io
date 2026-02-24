@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Pico2-ICE Setup
+# pico2-ice Setup
 
 !!! warning "Use the Provided Cables"
     If you use a bad cable, the boards may not connect properly when following the instructions here: [Programming the MCU](https://pico2-ice.tinyvision.ai/md_programming__the__mcu.html)

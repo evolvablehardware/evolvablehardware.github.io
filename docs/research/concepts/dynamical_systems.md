@@ -9,8 +9,6 @@ For our community, dynamical systems offer a unifying framework for studying ada
 
 ## Learn More
 
-If you have not been introduced to dynamical systems theory at all, an ultra-simple introduction to the ideas of attractor landscapes might be helpful:
-
 [An Interactive Introduction to Attractor Landscapes](https://ncase.me/attractors/)
 
 [Wikipedia's Entry on Dynamical Systems](https://en.wikipedia.org/wiki/Dynamical_system)

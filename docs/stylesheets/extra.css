@@ -95,6 +95,11 @@
   font-weight: 600;
 }
 
+/* Ensure section headings always clear floated images */
+.md-typeset h2 {
+  clear: both;
+}
+
 /* Code block styling */
 .highlight pre {
   border-radius: 8px;

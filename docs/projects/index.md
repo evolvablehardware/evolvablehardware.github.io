@@ -31,9 +31,9 @@ An open-source platform for intrinsic analog evolvable hardware research using t
 
 </div>
 
-## Bitstream Evolution (Pico2-ICE)
+## Bitstream Evolution (pico2-ice)
 
-Porting the Bitstream Evolution toolkit to the Pico2-ICE development board, enabling new hardware capabilities and parallel evaluation across multiple FPGAs.
+Porting the Bitstream Evolution toolkit to the pico2-ice development board, enabling new hardware capabilities and parallel evaluation across multiple FPGAs.
 
 <div class="grid cards" markdown>
 
@@ -49,7 +49,7 @@ Porting the Bitstream Evolution toolkit to the Pico2-ICE development board, enab
 
     ---
 
-    The Pico2-ICE port of the BitstreamEvolution toolkit with board-specific firmware and communication.
+    The pico2-ice port of the BitstreamEvolution toolkit with board-specific firmware and communication.
 
     [:octicons-arrow-right-24: GitHub Repository](https://github.com/evolvablehardware/BitstreamEvolutionPico2ice)
 
@@ -57,7 +57,7 @@ Porting the Bitstream Evolution toolkit to the Pico2-ICE development board, enab
 
 ## iCEFARM
 
-FPGA Array Resource Manager — a parallel evaluation system that distributes evolutionary runs across multiple Pico2-ICE boards simultaneously.
+FPGA Array Resource Manager — a parallel evaluation system that distributes evolutionary runs across multiple pico2-ice boards simultaneously.
 
 <div class="grid cards" markdown>
 
@@ -65,7 +65,7 @@ FPGA Array Resource Manager — a parallel evaluation system that distributes ev
 
     ---
 
-    Hardware configuration for deploying an array of Pico2-ICE boards for parallel FPGA evaluation.
+    Hardware configuration for deploying an array of pico2-ice boards for parallel FPGA evaluation.
 
     [:octicons-arrow-right-24: Setup Guide](./icefarm/hardware.md)
 
