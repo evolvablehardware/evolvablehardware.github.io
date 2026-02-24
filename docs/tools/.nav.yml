@@ -26,8 +26,8 @@ nav:
   - Hardware:
     - hardware
     - icestick
-    - pico2ice
     - arduino_nano
+    - pico2ice
 
 
 # If false, the above tree is all that is shown at this level of the directory structure.
