@@ -16,7 +16,7 @@ This experiment evolves FPGA-resident circuits that emit a stable pulse at a tar
 <div class="result-row">
 	<figure>
 		<img src="/assets/results/early/pulsecount.png" alt="Pulses counted per generation">
-		<figcaption>Pulses counted per generation</figcaption>
+		<figcaption>Pulses counted by circuits in a specific generation</figcaption>
 	</figure>
 	<p>
 		Pulse counts slowly accumulate before a breakthrough circuit locks onto the desired tone, at which point the population

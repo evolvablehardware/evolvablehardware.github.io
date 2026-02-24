@@ -298,14 +298,14 @@
 }
 
 .result-row figure {
-  max-width: 640px;
+  max-width: 100%;
   margin: 0 0 1rem 0;
   text-align: center;
 }
 
 .result-row figure img {
   width: auto;
-  max-width: min(100%, 640px);
+  max-width: 100%;
   height: auto;
   border-radius: 6px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
@@ -323,10 +323,12 @@
 
 /* Equation images — smaller and centered */
 .result-row figure.equation {
-  max-width: 400px;
+  max-width: 600px;
   margin: 1rem auto;
 }
 
 .result-row figure.equation img {
-  max-width: min(100%, 400px);
+  max-width: min(100%, 600px);
+  max-height: 150px;
+  width: auto;
 }
