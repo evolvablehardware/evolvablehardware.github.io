@@ -1,5 +1,6 @@
 
-### Software Setup
+# Software Setup
+*Bitstream Evolution v1 — iCEstick*
 
 After the hardware is assembled, you are ready to install the Bitstream Evolution software stack and run the example experiments. Clone the toolkit from GitHub:
 

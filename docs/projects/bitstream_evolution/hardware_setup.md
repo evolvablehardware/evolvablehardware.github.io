@@ -3,7 +3,8 @@ hide:
 	- toc
 ---
 
-# Bitstream Evolution Hardware Setup
+# Hardware Setup
+*Bitstream Evolution v1 — iCEstick*
 
 Before ordering any parts, please note that the current Bitstream Evolution toolchain supports Linux and macOS host machines. The steps below mirror the original hardware tutorial and walk through a low-cost way to assemble the evaluation platform.
 

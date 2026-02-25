@@ -4,7 +4,8 @@ hide:
 ---
 
 
-# Bitstream Evolution (v2 pico2-ice) Hardware Setup
+# Hardware Setup
+*Bitstream Evolution v2 — pico2-ice*
 
 Before ordering any parts, please note that the current Bitstream Evolution toolchain supports Linux and macOS host machines. The hardware is handled through the iCEFARM system, which is designed to manage multiple pico2-ice boards in parallel, but can also handle single-board setups without issue.
 

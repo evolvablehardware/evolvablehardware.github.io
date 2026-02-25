@@ -4,7 +4,8 @@ hide:
 ---
 
 
-# Bitstream Evolution (v2 pico2-ice) Software Setup
+# Software Setup
+*Bitstream Evolution v2 — pico2-ice*
 
 !!! warning "TBD — Under Construction"
     This page is a work in progress. Content may be incomplete or subject to change.
