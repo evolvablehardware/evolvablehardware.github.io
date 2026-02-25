@@ -64,4 +64,4 @@ The tabs below feature a couple of ways to use the information on this site base
     3. Read [our publications](./research/publications/index.md) and [field surveys](./research/publications/surveys/index.md)
     4. Read about [Future Research Directions](./research/future_directions/index.md) *— scoped open questions for potential research projects*
     5. Explore the open-source toolchain: [Projects](./projects/index.md) and [Tools](./tools/index.md) *— all code is on [GitHub](https://github.com/evolvablehardware)*
-    6. Explore collaboration: [iCEFARM remote access & contributing](./community/collaborate.md) or join the [Discord](https://discord.gg/q7xKAfKm6m)
+    6. Explore collaboration: [Collaborate](./community/collaborate.md) or join the [Discord](https://discord.gg/q7xKAfKm6m)

@@ -98,6 +98,10 @@ plugins:
       #prebuild_index: true #look into if this site gets really big.
   - blog:
       blog_dir: community/blog
+      archive: true
+      archive_name: Archive
+      categories: true
+      categories_name: Categories
   - awesome-nav
   - redirects: # https://github.com/mkdocs/mkdocs-redirects
       redirect_maps:
