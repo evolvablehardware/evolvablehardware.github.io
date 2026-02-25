@@ -1,0 +1,133 @@
+{
+    "title": {
+        "text": {
+            "headline": "The History of Evolvable Hardware",
+            "text": "<p>From the earliest visions of evolved electronics to the modern open-source revival — trace the key milestones in intrinsic analog evolvable hardware research.</p>"
+        },
+        "media": {
+            "url": "../../assets/branding/logo.png",
+            "caption": "Evolvable Hardware Research Group"
+        }
+    },
+    "eras": [
+        {
+            "start_date": { "year": 1991 },
+            "end_date": { "year": 1999 },
+            "text": { "headline": "Foundation" }
+        },
+        {
+            "start_date": { "year": 2000 },
+            "end_date": { "year": 2014 },
+            "text": { "headline": "Dark Age" }
+        },
+        {
+            "start_date": { "year": 2015 },
+            "end_date": { "year": 2026 },
+            "text": { "headline": "Revival" }
+        }
+    ],
+    "events": [
+        {
+            "start_date": { "year": 1991 },
+            "text": {
+                "headline": "Early Vision",
+                "text": "<p>Hugo de Garis describes embryological electronics and suggests that complex circuits could be \"grown\" through evolutionary search, laying the conceptual groundwork for evolvable hardware.</p><p>He postulated that evolutionary algorithms \"will probably lead to electronic circuits being 'grown' in special hardware.\"</p>"
+            },
+            "group": "Foundation"
+        },
+        {
+            "start_date": { "year": 1993 },
+            "text": {
+                "headline": "Field Named",
+                "text": "<p>De Garis and Tetsuya Higuchi formally coin <strong>evolvable hardware (EHW)</strong>, defining it as the application of evolutionary algorithms to hardware during design or operation.</p><p>The tool of choice: the <strong>field programmable gate array (FPGA)</strong> — whose physically reprogrammable architecture can emulate candidate circuits evaluated by evolutionary algorithms.</p>"
+            },
+            "group": "Foundation"
+        },
+        {
+            "start_date": { "year": 1996 },
+            "end_date": { "year": 1998 },
+            "text": {
+                "headline": "Sussex Breakthroughs",
+                "text": "<p>Adrian Thompson at the University of Sussex evolves a series of circuits that canonize the evolutionary approach to analog circuit design.</p><p>His most famous result: a <strong>tone discriminator</strong> — a fully analog FPGA circuit that distinguishes between 1 kHz and 10 kHz tones using only 42 configurable logic blocks, exploiting latent device physics that would be abstracted away in simulation.</p><p><a href='../historical_review/#inception-and-history'>Read more →</a></p>"
+            },
+            "media": {
+                "url": "../../assets/history/thompson/discriminatorcircuit.png",
+                "caption": "Analysis of Thompson's Evolved Tone Discriminator Circuit"
+            },
+            "group": "Foundation"
+        },
+        {
+            "start_date": { "year": 2000 },
+            "display_date": "Early 2000s",
+            "text": {
+                "headline": "XC6200 Retired",
+                "text": "<p>Xilinx discontinues the openly documented <strong>XC6200 series FPGA</strong> — the only platform with a publicly available bitstream format. For cost and security reasons, FPGA manufacturers move to encrypted bitstreams.</p><p>Without complete knowledge of bitstream formats, intrinsic analog EHW research is effectively <strong>halted</strong>. The field enters a prolonged period of stagnation.</p><p><a href='../historical_review/#xilinx-discontinues-xc6200'>Read more →</a></p>"
+            },
+            "media": {
+                "url": "../../assets/history/thompson/xc6216.png",
+                "caption": "The Xilinx XC6216 — the FPGA that enabled early EHW"
+            },
+            "group": "Dark Age"
+        },
+        {
+            "start_date": { "year": 2015 },
+            "text": {
+                "headline": "Project IceStorm",
+                "text": "<p>Reverse-engineering work unveiled the full <strong>Lattice iCE40 bitstream</strong> at the Chaos Communication Congress in Hamburg, Germany. The iCE40 — an ultra-low power, economy-grade FPGA — now has a fully documented bitstream format.</p><p>Although the reverse-engineering was not motivated by EHW research, it restores a modern, open substrate for intrinsic experiments after a 15-year gap.</p><p><a href='../historical_review/#project-icestorm'>Read more →</a></p>"
+            },
+            "media": {
+                "url": "../../assets/specs/ice40/icemaphx1k.png",
+                "caption": "iCE40 HX1K FPGA architecture map"
+            },
+            "group": "Revival"
+        },
+        {
+            "start_date": { "year": 2021, "month": 7 },
+            "text": {
+                "headline": "Field Resurrected",
+                "text": "<p>The ALIFE 2021 paper <a href='../../research/publications/papers/2021/7_19_Resurrect-FPGA-EHW/'>\"Resurrecting FPGA Intrinsic Analog Evolvable Hardware\"</a> reproduces seminal analog behaviors on iCE40 devices and introduces an open-source experimentation stack.</p><p>The project is named <strong>BitstreamEvolution</strong>, built on the iCEstick HX1K development board using the Project IceStorm toolchain.</p><p><a href='../historical_review/#bitstream-evolution-with-the-icestick-hx1k-2018-2025'>Read more →</a></p>"
+            },
+            "media": {
+                "url": "../../assets/hardware/ice40/setup_tutorial_8A.jpg",
+                "caption": "iCEstick + Arduino Nano evaluation setup"
+            },
+            "group": "Revival"
+        },
+        {
+            "start_date": { "year": 2022, "month": 11 },
+            "text": {
+                "headline": "Robust Analog Evolution Demonstrated",
+                "text": "<p>The Artificial Life journal paper <a href='../../research/publications/papers/2022/11_1_evolution-of-analog-FPGA/'>\"Intrinsic Evolution of Analog Circuits Using Field Programmable Gate Arrays\"</a> details evolved amplitude maximization and pulse oscillation circuits plus robustness studies, formalizing the Bitstream Evolution roadmap.</p>"
+            },
+            "group": "Revival"
+        },
+        {
+            "start_date": { "year": 2022, "month": 7 },
+            "text": {
+                "headline": "CoBEA Framework",
+                "text": "<p>The GECCO '22 paper <a href='https://dl.acm.org/doi/10.1145/3520304.3528821'>\"CoBEA: framework for evolving hardware by direct manipulation of FPGA bitstreams\"</a> debuts an integrated stack that unifies low-level bitstream mutation, device communication, and on-board evaluation.</p><p>Enables >100× faster iCE40 reconfiguration and lowers the barrier to intrinsic experiments.</p>"
+            },
+            "group": "Revival"
+        },
+        {
+            "start_date": { "year": 2025, "month": 11 },
+            "text": {
+                "headline": "Bitstream Evolution Toolkit Published",
+                "text": "<p>The IEEE Access paper <a href='../../research/publications/papers/2025/11_10_bitstream-evolution-toolkit/'>\"Bitstream Evolution: an Open-Source FPGA Intrinsic Evolvable Hardware Toolkit\"</a> packages the hardware, software, and processes so new teams can evolve analog FPGA circuits.</p><p>Extends published experiments with deeper analyses on circuit robustness, transferability, and sensitivity to environmental shifts.</p><p><a href='../historical_review/#bitstream-evolution-with-the-pico2-ice-boards-2025'>Read more →</a></p>"
+            },
+            "group": "Revival"
+        },
+        {
+            "start_date": { "year": 2026 },
+            "text": {
+                "headline": "Port to pico2-ice & iCEFARM",
+                "text": "<p>The Bitstream Evolution toolkit is ported to the <strong>pico2-ice</strong> development board, combining an RP2350 microcontroller with an iCE40 UP5K FPGA on a single board.</p><p>A new parallel evaluation system — <strong>iCEFARM</strong> — enables simultaneous evaluation across multiple boards, supporting larger population sizes and faster evolutionary runs.</p><p><a href='../historical_review/#bitstream-evolution-with-the-pico2-ice-boards-2025'>Read more →</a></p>"
+            },
+            "media": {
+                "url": "../../assets/hardware/pico2ice/pico2_ice_front.jpg",
+                "caption": "The pico2-ice development board"
+            },
+            "group": "Revival"
+        }
+    ]
+}
