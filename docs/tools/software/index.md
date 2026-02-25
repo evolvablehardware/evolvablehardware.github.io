@@ -36,4 +36,12 @@ Open-source software tools used in the evolvable hardware toolchain.
 
     [:octicons-arrow-right-24: Learn More](../docker/index.md)
 
+-   :material-map:{ .lg .middle } __iCE40 Floorplan Viewer__
+
+    ---
+
+    Interactive browser-based visualization of iCE40 FPGA floorplans. Inspect evolved bitstreams and see how designs map onto physical hardware.
+
+    [:octicons-arrow-right-24: Learn More](../ice40_viewer/index.md)
+
 </div>

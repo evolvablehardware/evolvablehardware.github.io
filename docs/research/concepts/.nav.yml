@@ -6,18 +6,25 @@ hide: false                           #True if this folder should be hidden on p
 flatten_single_child_sections: true   #True to remove the folder and just replace it with the only element it contains
 ignore: "*.hidden.md" 
 
-sort:
-  direction: asc 
-  type: natural 
-  by: filename 
-  sections: last 
-  ignore_case: true 
-
-
-
-nav: 
+nav:
   - index.md
-
+  - What Do I Need to Know?: what_to_know.md
+  - Concepts for Makers: concepts_for_makers.md
+  # Foundations
+  - Evolutionary Computation: evolutionary_computation.md
+  - Reconfigurable Hardware: reconfigurable_hardware.md
+  # Inspirations
+  - Biologically Inspired Computing: bio_inspired_computing.md
+  - Embodied Intelligence: embodied_intelligence.md
+  - Neuromorphic Hardware: neuromorphic_hardware.md
+  - Approximate Computing: approximate_computing.md
+  # Advanced Topics
+  - Advanced Concepts: advanced_concepts.md
+  - CTRNNs: ctrnns.md
+  - Dynamical Neural Networks: dynamic_neural_networks.md
+  - Dynamical Systems: dynamical_systems.md
+  - Liquid Time-Constant Networks: ltc_nns.md
+  - Mortal Computation: mortal_computation.md
 
 # If false, the above tree is all that is shown at this level of the directory structure.
-append_unmatched: true 
+append_unmatched: false 

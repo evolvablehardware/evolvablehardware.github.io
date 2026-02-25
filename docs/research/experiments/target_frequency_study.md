@@ -11,7 +11,7 @@ In our [2025 paper](../publications/papers/2025/11_10_bitstream-evolution-toolki
 
 <div class="result-row">
   <figure>
-    <img src="/assets/results/ieee/target_frequency/loyd5.png" alt="Fitness traces for seven target frequencies">
+    <img src="/assets/publications/2025-ieee-access/target_frequency/loyd5.png" alt="Fitness traces for seven target frequencies">
     <figcaption>Overall Best, Generation Best, and Generation Average Fitness for different target frequencies, taken every 10 generations.</figcaption>
   </figure>
   <p>

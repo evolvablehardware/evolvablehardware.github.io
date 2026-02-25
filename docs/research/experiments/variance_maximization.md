@@ -5,11 +5,13 @@ hide:
 
 # Variance Maximization
 
-This early benchmark demonstrates that intrinsic analog evolution on the Lattice iCEstick HX1K can reliably amplify signal variance using only bitstream-level mutations. The run below mirrors the legacy tutorial but is formatted for the Bitstream Evolution knowledge base.
+!!! tip "Start Here: Your First Evolution"
+    This is the simplest evolvable hardware experiment — a great first project for newcomers. You'll evolve a circuit that maximizes output signal variance. **Time estimate:** ~1–2 hours from powered hardware to first evolved result. **Prerequisites:** Completed [hardware setup](../../projects/bitstream_evolution/hardware_setup.md) and [software setup](../../projects/bitstream_evolution/software_setup.md).
 
+This early benchmark demonstrates that intrinsic analog evolution on the Lattice iCEstick HX1K can reliably amplify signal variance using only bitstream-level mutations. This is the simplest experiment and can serve as a "Hello World" for your introduction to Evolvable Hardware. By maximizing the variance of the output signal, we encourage the evolution of complex, dynamic behavior that can be difficult to design manually. This experiment serves as a starting point for understanding the capabilities of the Bitstream Evolution toolkit and provides a foundation for more complex experiments that involve specific target behaviors, robustness analysis, and transferability studies.
 <div class="result-row">
 	<figure >
-		<img src="/assets/results/early/variancemaximization.gif" alt="Evolution of signal variance">
+		<img src="/assets/experiments/variancemaximization.gif" alt="Evolution of signal variance">
 		<figcaption>Evolution of signal variance</figcaption>
 	</figure>
 	<p>
@@ -42,7 +44,7 @@ This early benchmark demonstrates that intrinsic analog evolution on the Lattice
 
 <div class="result-row">
 	<figure>
-		<img src="/assets/results/early/varmaxevolution.png" alt="Variance maximization fitness trace">
+		<img src="/assets/experiments/varmaxevolution.png" alt="Variance maximization fitness trace">
 		<figcaption>Variance maximization fitness trace</figcaption>
 	</figure>
 	<p>

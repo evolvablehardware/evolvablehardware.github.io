@@ -37,13 +37,13 @@ As mentioned in the previous section, the termination of the Xilinx XC6200 serie
 
 ## Bitstream Evolution with the iCEStick HX1K (2018-2025)
 
-![](../assets/setup/ice40/setup_tutorial_8A.jpg){: align=right : width=300}
+![](../assets/hardware/ice40/setup_tutorial_8A.jpg){: align=right : width=300}
 
 Around 2018, Derek Whitley began work utilizing Project IceStorm to recreate the results from Adrian Thompson's seminal work as part of his PhD at Indiana University. Around this time he started collaborating with Jason Yoder at Rose-Hulman Institute of Technology. Rose-Hulman's excellent undergraduate engineering program has since served as a source for student contributors to this ongoing research. The results of the initial resurrection of past work were published in the proceedings of the 2021 Artificial Life Conference, and the project was named BitstreamEvolution. This project has continued to grow and evolve since then, with the goal of creating an open-source software and hardware platform for intrinsic analog evolvable hardware research using the iCE40 FPGA technology stack.
 
 
 ## Bitstream Evolution with the pico2-ice boards (2025+)
 
-![](../assets/setup/pico2ice/pico2_ice_front.jpg){: align=left : width=250}
+![](../assets/hardware/pico2ice/pico2_ice_front.jpg){: align=left : width=250}
 
 In 2025, thanks in part to a grant from ARI, Vivum AI and Rose-Hulman launched a joint project that included exploring possible hardware and software solutions to enable partial reconfiguration of FPGAs for autonomous control systems. The funding enabled both Jason Yoder and a team of Rose-Hulman students to pursue this line of research. As part of this work they identified new development boards ( [pico-ice](https://pico-ice.tinyvision.ai/) and [pico2-ice](https://pico2-ice.tinyvision.ai/)) for conducting evolvable hardware research. During the 2025–2026 academic year, work continued toward integrating this board with the existing bitstream evolution hardware while also expanding the system's capacity to allow parallel evaluation on multiple boards at scale.

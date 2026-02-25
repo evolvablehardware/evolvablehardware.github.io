@@ -23,11 +23,13 @@ nav:
     - project_icestorm
     - nextpnr
     - docker
+    - ice40_viewer
   - Hardware:
     - hardware
     - icestick
     - arduino_nano
     - pico2ice
+    - labrador
 
 
 # If false, the above tree is all that is shown at this level of the directory structure.

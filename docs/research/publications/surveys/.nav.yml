@@ -1,0 +1,19 @@
+# See Docs at: https://lukasgeiter.github.io/mkdocs-awesome-nav/reference/
+
+title: Surveys
+preserve_directory_names: false
+hide: false
+flatten_single_child_sections: false
+ignore: "*.hidden.md"
+
+sort:
+  direction: asc
+  type: natural
+  by: filename
+  sections: last
+  ignore_case: true
+
+nav:
+  - index.md
+
+append_unmatched: false

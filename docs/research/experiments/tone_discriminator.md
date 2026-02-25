@@ -16,7 +16,7 @@ Recreating Adrian Thompson's classic tone discriminator remains a long-horizon o
 
 <div class="result-row">
 	<figure>
-		<img src="/assets/results/early/discriminator.png" alt="Tone discriminator output vs input">
+		<img src="/assets/experiments/discriminator.png" alt="Tone discriminator output vs input">
 		<figcaption>Output (blue) vs input (yellow)</figcaption>
 	</figure>
 	<p>
@@ -43,7 +43,7 @@ Recreating Adrian Thompson's classic tone discriminator remains a long-horizon o
 
 <div class="result-row">
 	<figure>
-		<img src="/assets/results/early/toneevolution.png" alt="Tone discriminator fitness trace">
+		<img src="/assets/experiments/toneevolution.png" alt="Tone discriminator fitness trace">
 		<figcaption>Tone discriminator fitness trace</figcaption>
 	</figure>
 	<p>

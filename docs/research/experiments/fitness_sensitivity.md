@@ -11,7 +11,7 @@ In our [2025 paper](../publications/papers/2025/11_10_bitstream-evolution-toolki
 
 <div class="result-row">
   <figure>
-    <img src="/assets/results/ieee/sensitivity/loyd10.png" alt="Pulse sensitivity 1D histogram">
+    <img src="/assets/publications/2025-ieee-access/sensitivity/loyd10.png" alt="Pulse sensitivity 1D histogram">
     <figcaption>The distribution of recorded pulses over time during a pulse count fitness sensitivity experiment.</figcaption>
   </figure>
   <p>
@@ -21,7 +21,7 @@ In our [2025 paper](../publications/papers/2025/11_10_bitstream-evolution-toolki
 
 <div class="result-row">
   <figure>
-    <img src="/assets/results/ieee/sensitivity/loyd11.png" alt="Pulse sensitivity 2D histogram">
+    <img src="/assets/publications/2025-ieee-access/sensitivity/loyd11.png" alt="Pulse sensitivity 2D histogram">
     <figcaption>The distribution of recorded pulses over time during a pulse count fitness sensitivity experiment.</figcaption>
   </figure>
   <p>
@@ -31,7 +31,7 @@ In our [2025 paper](../publications/papers/2025/11_10_bitstream-evolution-toolki
 
 <div class="result-row">
   <figure>
-    <img src="/assets/results/ieee/sensitivity/loyd12.png" alt="Pulse sensitivity vs environment">
+    <img src="/assets/publications/2025-ieee-access/sensitivity/loyd12.png" alt="Pulse sensitivity vs environment">
     <figcaption>The recorded pulse count of a circuit vs the temperature and humidity of the local environment during a fitness sensitivity experiment.</figcaption>
   </figure>
   <p>
@@ -43,7 +43,7 @@ In our [2025 paper](../publications/papers/2025/11_10_bitstream-evolution-toolki
 
 <div class="result-row">
   <figure>
-    <img src="/assets/results/ieee/sensitivity/loyd13.png" alt="Variance sensitivity heatmap">
+    <img src="/assets/publications/2025-ieee-access/sensitivity/loyd13.png" alt="Variance sensitivity heatmap">
     <figcaption>The distribution of recorded fitness over 24 hours during a variance maximization fitness sensitivity experiment.</figcaption>
   </figure>
   <p>

@@ -31,7 +31,7 @@ Since the turn of the century, evolvable hardware research began migrating into 
 Want the short version of our mission and early results? Watch the twenty minute presentation prepared for ALIFE 2021.
 
 <video width="100%" controls>
-    <source src="./assets/videos/artificial-life-video.mp4" type="video/mp4">
+    <source src="./assets/media/artificial-life-video.mp4" type="video/mp4">
     Your browser does not support HTML video.
 </video>
 

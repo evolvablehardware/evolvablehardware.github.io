@@ -337,3 +337,15 @@
   max-height: 150px;
   width: auto;
 }
+
+/* Experiment difficulty indicators */
+.beginner { color: #4caf50; }
+.intermediate { color: #ff9800; }
+.advanced { color: #f44336; }
+
+/* EHW group paper legend */
+.ehw-legend {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+}

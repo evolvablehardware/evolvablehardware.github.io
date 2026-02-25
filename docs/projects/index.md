@@ -78,3 +78,51 @@ FPGA Array Resource Manager — a parallel evaluation system that distributes ev
     [:octicons-arrow-right-24: GitHub Repository](https://github.com/evolvablehardware/iCEFARM)
 
 </div>
+
+## iCE40 Memory Controller
+
+A Verilog-based hardware project for reading and writing to Block RAM (BRAM) on iCE40 FPGAs, supporting both the HX1K and UP5K devices.
+
+<div class="grid cards" markdown>
+
+-   :material-information-outline:{ .lg .middle } __Overview__
+
+    ---
+
+    BRAM and SPRAM interfaces with UART communication and automated testbenches for iCE40 devices.
+
+    [:octicons-arrow-right-24: Learn More](./ice40_memory_controller/index.md)
+
+-   :material-github:{ .lg .middle } __Software__
+
+    ---
+
+    Verilog memory controller with Python host scripts for pico-ice and pico2-ice boards.
+
+    [:octicons-arrow-right-24: GitHub Repository](https://github.com/evolvablehardware/ice40_memory_controller)
+
+</div>
+
+## PUFFs
+
+PyTest Unified Framework for FPGA Simulation — a testing framework combining pytest with cocotb for hardware design verification.
+
+<div class="grid cards" markdown>
+
+-   :material-information-outline:{ .lg .middle } __Overview__
+
+    ---
+
+    Unified testing environment for FPGA designs using familiar Python workflows with cocotb simulation.
+
+    [:octicons-arrow-right-24: Learn More](./puffs/index.md)
+
+-   :material-github:{ .lg .middle } __Software__
+
+    ---
+
+    Python-based testing framework with gold models, unit tests, and RTL design verification.
+
+    [:octicons-arrow-right-24: GitHub Repository](https://github.com/evolvablehardware/PUFFS)
+
+</div>

@@ -15,9 +15,12 @@ sort:
 
 
 
-nav: 
+nav:
   - index.md
   - papers
+  - foundational_works
+  - surveys
+  - related_work
   - books
 
 # If false, the above tree is all that is shown at this level of the directory structure.

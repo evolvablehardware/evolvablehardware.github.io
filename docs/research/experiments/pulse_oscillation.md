@@ -15,7 +15,7 @@ This experiment evolves FPGA-resident circuits that emit a stable pulse at a tar
 
 <div class="result-row">
 	<figure>
-		<img src="/assets/results/early/pulsecount.png" alt="Pulses counted per generation">
+		<img src="/assets/experiments/pulsecount.png" alt="Pulses counted per generation">
 		<figcaption>Pulses counted by circuits in a specific generation</figcaption>
 	</figure>
 	<p>
@@ -42,11 +42,11 @@ This experiment evolves FPGA-resident circuits that emit a stable pulse at a tar
 
 <div class="result-row">
 	<figure>
-		<img src="/assets/results/early/pulseevolution.png" alt="Pulse oscillation fitness (linear)">
+		<img src="/assets/experiments/pulseevolution.png" alt="Pulse oscillation fitness (linear)">
 		<figcaption>Pulse oscillation fitness (linear)</figcaption>
 	</figure>
 	<figure>
-		<img src="/assets/results/early/pulselog.png" alt="Pulse oscillation fitness (log)">
+		<img src="/assets/experiments/pulselog.png" alt="Pulse oscillation fitness (log)">
 		<figcaption>Pulse oscillation fitness (log)</figcaption>
 	</figure>
 	<p>

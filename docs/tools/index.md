@@ -30,6 +30,22 @@ This section provides background on the key external software tools and hardware
 
     [:octicons-arrow-right-24: Learn More](./yosys/index.md)
 
+-   :material-docker:{ .lg .middle } __Docker__
+
+    ---
+
+    Containerization platform providing reproducible environments for the FPGA toolchain and evolutionary algorithm software.
+
+    [:octicons-arrow-right-24: Learn More](./docker/index.md)
+
+-   :material-map:{ .lg .middle } __iCE40 Floorplan Viewer__
+
+    ---
+
+    Interactive browser-based visualization of iCE40 FPGA floorplans. Inspect evolved bitstreams and see how designs map onto physical hardware.
+
+    [:octicons-arrow-right-24: Learn More](./ice40_viewer/index.md)
+
 </div>
 
 ## Hardware Platforms
@@ -59,5 +75,13 @@ This section provides background on the key external software tools and hardware
     Next-generation board combining an RP2350B microcontroller with an iCE40UP5K FPGA for on-board evolution and parallel evaluation.
 
     [:octicons-arrow-right-24: Learn More](./pico2ice/index.md)
+
+-   :material-stethoscope:{ .lg .middle } __Labrador__
+
+    ---
+
+    Hardware platform used in evolvable hardware experiments. Documentation coming soon.
+
+    [:octicons-arrow-right-24: Learn More](./labrador/index.md)
 
 </div>

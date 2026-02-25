@@ -34,14 +34,14 @@ _Total hardware cost: roughly \$50 for 1 device. For 20 a device array ~ \$1,150
 By default, if you do not hold down the **SW1** button or connect **BT to GND** when plugging in the USB cable, the board loads the default firmware which looks like this:
 
 <figure markdown="span">
-  ![default firmware](../../assets/setup/pico2ice/default_firmware.gif){ width="400" }
+  ![default firmware](../../assets/hardware/pico2ice/default_firmware.gif){ width="400" }
   <figcaption>Default firmware behavior — board is <strong>not</strong> in bootloader mode.</figcaption>
 </figure>
 
 To enter the bootloader mode, you need to either hold down the **SW1** button or connect **BT to GND** when plugging in the USB cable. The board will then enter bootloader mode which looks like this:
 
 <figure markdown="span">
-  ![bootloader mode](../../assets/setup/pico2ice/bootloader_mode.png){ width="400" }
+  ![bootloader mode](../../assets/hardware/pico2ice/bootloader_mode.png){ width="400" }
   <figcaption>Board successfully in bootloader mode.</figcaption>
 </figure>
 

@@ -28,4 +28,12 @@ Development boards and microcontrollers used in evolvable hardware experiments.
 
     [:octicons-arrow-right-24: Learn More](../pico2ice/index.md)
 
+-   :material-stethoscope:{ .lg .middle } __Labrador__
+
+    ---
+
+    Hardware platform used in evolvable hardware experiments. Documentation coming soon.
+
+    [:octicons-arrow-right-24: Learn More](../labrador/index.md)
+
 </div>
