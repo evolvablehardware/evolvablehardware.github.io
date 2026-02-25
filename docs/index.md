@@ -21,7 +21,7 @@ Evolvable hardware is the application of evolutionary algorithms to hardware sys
 <div style="clear: both;"></div>
 
 [Learn More](./about/index.md){ .md-button .md-button--primary }
-[View Projects](./projects/index.md){ .md-button .md-button--secondary }
+[Join Our Community](./community/index.md){ .md-button .md-button--secondary }
 
 <!-- [Under-grad research](#undergraduate-research){ .md-button .md-button--primary } -->
 <!-- [research](./community/contact.md#researchers-contributors){ .md-button .md-button--primary } -->
@@ -40,7 +40,7 @@ The tabs below feature a couple of ways to use the information on this site base
 
     1. Watch the [Intro Video](./about/index.md#watch-the-summary-video) *— 20-minute overview of the field and our work*
     2. Read the essentials: [Concepts for Makers](./research/concepts/concepts_for_makers.md) *— you don't need all the concept pages to jump in, this is enough*
-    3. Purchase hardware: [pico2-ice (~$50)](./projects/bitstream_evolution_pico2-ice/hardware_setup.md) or [iCEstick (~$190)](./projects/bitstream_evolution/hardware_setup.md) *— full parts lists and assembly guides*
+    3. Purchase hardware: [pico2-ice (\~$50)](./projects/bitstream_evolution_pico2-ice/hardware_setup.md) *— full parts list and assembly guide*
     4. Run your first evolution: [Variance Maximization](./research/experiments/variance_maximization.md) *— the simplest experiment, ~1–2 hours from setup to seeing your first evolved output*
     5. Explore [more experiments](./research/experiments/index.md) and the [software/hardware tools](./tools/index.md)
     6. Get involved: Join the [Discord](https://discord.gg/q7xKAfKm6m) or [Contact Us](./community/contact.md)

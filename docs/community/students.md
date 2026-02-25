@@ -14,7 +14,7 @@ Past and current student contributions have spanned software, hardware, and expe
 ## How to Get Started
 
 1. **Understand the basics** — Read [What Do I Need to Know?](../research/concepts/what_to_know.md) and [Concepts for Makers](../research/concepts/concepts_for_makers.md)
-2. **Get hardware running** — Follow the setup guide for [pico2-ice](../projects/bitstream_evolution_pico2-ice/hardware_setup.md) (~$50) or [iCEstick](../projects/bitstream_evolution/hardware_setup.md) (~$190)
+2. **Get hardware running** — Follow the [pico2-ice setup guide](../projects/bitstream_evolution_pico2-ice/hardware_setup.md) (\~$50 in parts)
 3. **Replicate an existing experiment** — Start with [Variance Maximization](../research/experiments/variance_maximization.md) and document your results
 4. **Explore open questions** — Browse [Future Research Directions](../research/future_directions/index.md) for scoped project ideas
 5. **Propose a variation** — New fitness functions, mutation strategies, or analysis methods are all good starting points

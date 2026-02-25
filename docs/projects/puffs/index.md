@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# PUFFs
+# PUFFS
 
 **PyTest Unified Framework for FPGA Simulation** — a Python-based testing framework that combines pytest with cocotb simulation for verifying hardware designs.
 
@@ -11,7 +11,7 @@ hide:
 
 ## Overview
 
-PUFFs provides a unified testing environment for FPGA designs by integrating pytest's testing conventions with cocotb's hardware simulation capabilities. This allows hardware designs to be verified using familiar Python testing workflows, with channel-level abstractions enabling Python-based testbench interactions.
+PUFFS provides a unified testing environment for FPGA designs by integrating pytest's testing conventions with cocotb's hardware simulation capabilities. This allows hardware designs to be verified using familiar Python testing workflows, with channel-level abstractions enabling Python-based testbench interactions.
 
 ## Key Features
 

@@ -1,6 +1,6 @@
 # Publications
 
-A centralized collection of papers, books, and references relevant to the Evolvable Hardware community. Each entry includes abstracts, citations, and links to related projects and experiments.
+A centralized collection of papers and references relevant to the Evolvable Hardware community. Each entry includes abstracts, citations, and links to related projects and experiments.
 
 <div class="grid cards" markdown>
 
@@ -20,21 +20,13 @@ A centralized collection of papers, books, and references relevant to the Evolva
 
     [:octicons-arrow-right-24: View Foundational Works](./foundational_works/index.md)
 
--   :material-telescope:{ .lg .middle } **Surveys**
+-   :material-telescope:{ .lg .middle } **Surveys & Books**
 
     ---
 
-    Review articles and book chapters providing broad overviews of the field, its challenges, and future directions.
+    Review articles, book chapters, and books providing broad overviews of the field, its challenges, and future directions.
 
-    [:octicons-arrow-right-24: View Surveys](./surveys/index.md)
-
--   :material-book-open-variant:{ .lg .middle } **Books**
-
-    ---
-
-    Recommended books for deepening your understanding of evolvable hardware, from Thompson's dissertation to modern references.
-
-    [:octicons-arrow-right-24: View Books](./books/index.md)
+    [:octicons-arrow-right-24: View Surveys & Books](./surveys/index.md)
 
 </div>
 

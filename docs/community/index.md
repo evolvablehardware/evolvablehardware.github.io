@@ -9,30 +9,6 @@ The Evolvable Hardware community welcomes contributors of all backgrounds — fr
 
 <div class="grid cards" markdown>
 
--   :material-school:{ .lg .middle } **For Students**
-
-    ---
-
-    Course projects, independent studies, and capstone opportunities in evolvable hardware research.
-
-    [:octicons-arrow-right-24: Student Guide](students.md)
-
--   :material-handshake:{ .lg .middle } **Collaborate**
-
-    ---
-
-    Remote hardware access via iCEFARM, contributing experiments, and joint research opportunities.
-
-    [:octicons-arrow-right-24: Collaboration](collaborate.md)
-
--   :material-email:{ .lg .middle } **Contact Us**
-
-    ---
-
-    Reach out directly — whether you have questions, want to discuss research, or just want to say hello.
-
-    [:octicons-arrow-right-24: Contact](contact.md)
-
 -   :fontawesome-brands-discord:{ .lg .middle } **Discord**
 
     ---
@@ -48,5 +24,29 @@ The Evolvable Hardware community welcomes contributors of all backgrounds — fr
     All source code, issues, and pull requests for the evolvable hardware projects.
 
     [:octicons-arrow-right-24: View GitHub](https://www.github.com/evolvablehardware)
+
+-   :material-email:{ .lg .middle } **Contact Us**
+
+    ---
+
+    Reach out directly — whether you have questions, want to discuss research, or just want to say hello.
+
+    [:octicons-arrow-right-24: Contact](contact.md)
+
+-   :material-handshake:{ .lg .middle } **Collaborate**
+
+    ---
+
+    Remote hardware access via iCEFARM, contributing experiments, and joint research opportunities.
+
+    [:octicons-arrow-right-24: Collaboration](collaborate.md)
+
+-   :material-school:{ .lg .middle } **For Students**
+
+    ---
+
+    Course projects, independent studies, and capstone opportunities in evolvable hardware research.
+
+    [:octicons-arrow-right-24: Student Guide](students.md)
 
 </div>

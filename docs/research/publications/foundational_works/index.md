@@ -5,34 +5,6 @@ These are the seminal papers and dissertations that established the field of int
 :material-home-circle:{ .middle } = EHW Research Group paper
 {: .ehw-legend }
 
-## Hardware Evolution (Dissertation, 1998)
-
-**Adrian Thompson** <br>
-**Publication:** Springer, Distinguished Dissertations Series, 1998 <br>
-
-<div class="grid cards" markdown>
-
-- [:fontawesome-brands-amazon:{ .lg .middle }
-__Amazon__
-](https://www.amazon.com/Hardware-Evolution-Reconfigurable-Distinguished-Dissertations/dp/3540762531)
-
-- [:simple-springer:{ .lg .middle }
-__Springer__
-](https://link.springer.com/book/10.1007/978-1-4471-3414-5)
-
-</div>
-
-???+ abstract
-    This distinguished dissertation presents the foundational work on hardware evolution — the automatic design of electronic circuits in reconfigurable hardware by artificial evolution. Thompson demonstrates that evolutionary algorithms can be applied directly to the configuration bitstreams of FPGAs, allowing evolution to exploit the full analog physics of the silicon substrate rather than being constrained to conventional digital design abstractions.
-
-??? quote "Suggested Citation"
-    Thompson, A. (1998). *Hardware Evolution: Automatic Design of Electronic Circuits in Reconfigurable Hardware by Artificial Evolution*. Distinguished Dissertations. Springer-Verlag London.
-
-### Authors
-- Adrian Thompson
-
----
-
 ## An Evolved Circuit, Intrinsic in Silicon, Entwined with Physics (1996)
 
 **Adrian Thompson** <br>
@@ -40,7 +12,7 @@ __Springer__
 
 <div class="grid cards" markdown>
 
-- [:simple-springer:{ .lg .middle }
+- [:fontawesome-solid-book:{ .lg .middle }
 __Springer__
 ](https://link.springer.com/chapter/10.1007/3-540-63173-9_61)
 
@@ -61,6 +33,34 @@ __ResearchGate__
 
 ---
 
+## Hardware Evolution: Automatic Design of Electronic Circuits in Reconfigurable Hardware by Artificial Evolution (1998)
+
+**Adrian Thompson** <br>
+**Publication:** Springer, Distinguished Dissertations Series, 1998 <br>
+
+<div class="grid cards" markdown>
+
+- [:fontawesome-brands-amazon:{ .lg .middle }
+__Amazon__
+](https://www.amazon.com/Hardware-Evolution-Reconfigurable-Distinguished-Dissertations/dp/3540762531)
+
+- [:fontawesome-solid-book:{ .lg .middle }
+__Springer__
+](https://link.springer.com/book/10.1007/978-1-4471-3414-5)
+
+</div>
+
+???+ abstract
+    This distinguished dissertation presents the foundational work on hardware evolution — the automatic design of electronic circuits in reconfigurable hardware by artificial evolution. Thompson demonstrates that evolutionary algorithms can be applied directly to the configuration bitstreams of FPGAs, allowing evolution to exploit the full analog physics of the silicon substrate rather than being constrained to conventional digital design abstractions.
+
+??? quote "Suggested Citation"
+    Thompson, A. (1998). *Hardware Evolution: Automatic Design of Electronic Circuits in Reconfigurable Hardware by Artificial Evolution*. Distinguished Dissertations. Springer-Verlag London.
+
+### Authors
+- Adrian Thompson
+
+---
+
 ## On the Automatic Design of Robust Electronics Through Artificial Evolution (1998)
 
 **Adrian Thompson** <br>
@@ -68,7 +68,7 @@ __ResearchGate__
 
 <div class="grid cards" markdown>
 
-- [:simple-springer:{ .lg .middle }
+- [:fontawesome-solid-book:{ .lg .middle }
 __Springer__
 ](https://link.springer.com/chapter/10.1007/BFb0057603)
 

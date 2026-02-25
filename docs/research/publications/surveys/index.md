@@ -1,6 +1,6 @@
 # Surveys
 
-Survey articles and book chapters that provide broad overviews of the evolvable hardware field, its history, challenges, and future directions.
+Survey articles, book chapters, and books that provide broad overviews of the evolvable hardware field, its history, challenges, and future directions.
 
 :material-home-circle:{ .middle } = EHW Research Group paper
 {: .ehw-legend }
@@ -12,7 +12,7 @@ Survey articles and book chapters that provide broad overviews of the evolvable 
 
 <div class="grid cards" markdown>
 
-- [:simple-springer:{ .lg .middle }
+- [:fontawesome-solid-book:{ .lg .middle }
 __Springer__
 ](https://link.springer.com/chapter/10.1007/978-3-7908-1783-6_8)
 
@@ -37,7 +37,7 @@ __Springer__
 
 <div class="grid cards" markdown>
 
-- [:simple-springer:{ .lg .middle }
+- [:fontawesome-solid-book:{ .lg .middle }
 __Springer__
 ](https://link.springer.com/article/10.1007/s10710-011-9141-6)
 
@@ -55,4 +55,33 @@ __ResearchGate__
 
 ### Authors
 - Pauline C. Haddow
+- Andy M. Tyrrell
+
+---
+
+## Evolvable Hardware: From Practice to Application (2015)
+
+**Martin A. Trefzer, Andy M. Tyrrell** <br>
+**Publication:** Springer, Natural Computing Series, 411 pp., 2015 <br>
+
+<div class="grid cards" markdown>
+
+- [:simple-doi:{ .lg .middle }
+__DOI Link__
+](https://doi.org/10.1007/978-3-662-44616-4)
+
+- [:fontawesome-solid-book:{ .lg .middle }
+__Springer__
+](https://link.springer.com/book/10.1007/978-3-662-44616-4)
+
+</div>
+
+???+ abstract
+    This book covers the basic theory, practical details and advanced research of the implementation of evolutionary methods on physical substrates, with most examples from electronic engineering applications including transistor-level design and system-level implementation. It provides an introduction to the field of evolvable hardware, covering the fundamental concepts and methods, and then moves on to more advanced topics such as the evolution of analog and digital circuits, the use of FPGAs, and the application of evolutionary methods to real-world problems.
+
+??? quote "Suggested Citation"
+    Trefzer, M. A., & Tyrrell, A. M. (2015). *Evolvable Hardware: From Practice to Application*. Natural Computing Series. Springer, Berlin, Heidelberg.
+
+### Authors
+- Martin A. Trefzer
 - Andy M. Tyrrell

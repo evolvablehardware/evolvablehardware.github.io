@@ -50,7 +50,7 @@ If you're pursuing evolvable hardware as a research topic (thesis, independent s
     You already have the programming skills. Focus on:
 
     1. [Concepts for Makers](concepts_for_makers.md) — Quick conceptual grounding
-    2. [Hardware Setup](../../projects/bitstream_evolution/hardware_setup.md) — The unfamiliar part for most CS students
+    2. [Hardware Setup](../../projects/bitstream_evolution_pico2-ice/hardware_setup.md) — The unfamiliar part for most CS students
     3. [Variance Maximization](../experiments/variance_maximization.md) — Your first experiment
 
 === "Electrical / Computer Engineering"

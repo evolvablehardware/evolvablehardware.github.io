@@ -1,6 +1,6 @@
 # pico2-ice
 
-The pico2-ice is a development board from TinyVision.ai that combines a Raspberry Pi RP2350B microcontroller with a Lattice iCE40UP5K FPGA on a single compact PCB. It is the next-generation hardware platform for the Bitstream Evolution project, enabling on-board microcontroller-driven evolution and parallel evaluation across multiple boards via the [iCEFARM](../../projects/icefarm/hardware.md) system.
+The pico2-ice is a development board from TinyVision.ai that combines a Raspberry Pi RP2350B microcontroller with a Lattice iCE40UP5K FPGA on a single compact PCB. It is the next-generation hardware platform for the Bitstream Evolution project, enabling on-board microcontroller-driven evolution and parallel evaluation across multiple boards via the [iCEFARM](../../projects/icefarm.md) system.
 
 [:octicons-link-external-16: Official Documentation](https://pico2-ice.tinyvision.ai/){ .md-button .md-button--primary }
 [:octicons-link-external-16: Purchase](https://tinyvision.ai/products/raspberry-pi-pico-2-development-board-with-fpga){ .md-button }
@@ -29,4 +29,4 @@ The pico2-ice is a development board from TinyVision.ai that combines a Raspberr
 
 ## Project Use
 
-The pico2-ice is the hardware platform for the [Bitstream Evolution (pico2-ice)](../../projects/bitstream_evolution_pico2-ice/index.md) project and the [iCEFARM](../../projects/icefarm/hardware.md) parallel evaluation system. Adopted in 2025 as part of an ARI-funded joint project between Vivum AI and Rose-Hulman Institute of Technology, it enables research into partial reconfiguration of FPGAs for autonomous control systems and larger-scale evolutionary experiments.
+The pico2-ice is the hardware platform for the [Bitstream Evolution (pico2-ice)](../../projects/bitstream_evolution_pico2-ice/index.md) project and the [iCEFARM](../../projects/icefarm.md) parallel evaluation system. Adopted in 2025 as part of an ARI-funded joint project between Vivum AI and Rose-Hulman Institute of Technology, it enables research into partial reconfiguration of FPGAs for autonomous control systems and larger-scale evolutionary experiments.

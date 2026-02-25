@@ -67,7 +67,7 @@ FPGA Array Resource Manager — a parallel evaluation system that distributes ev
 
     Hardware configuration for deploying an array of pico2-ice boards for parallel FPGA evaluation.
 
-    [:octicons-arrow-right-24: Setup Guide](./icefarm/hardware.md)
+    [:octicons-arrow-right-24: Learn More](./icefarm.md)
 
 -   :material-github:{ .lg .middle } __Software__
 
@@ -103,7 +103,7 @@ A Verilog-based hardware project for reading and writing to Block RAM (BRAM) on 
 
 </div>
 
-## PUFFs
+## PUFFS
 
 PyTest Unified Framework for FPGA Simulation — a testing framework combining pytest with cocotb for hardware design verification.
 
