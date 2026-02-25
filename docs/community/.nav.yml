@@ -3,7 +3,7 @@
 title: Community
 preserve_directory_names: false
 hide: false
-flatten_single_child_sections: true
+flatten_single_child_sections: false
 ignore: "*.hidden.md"
 
 nav:
