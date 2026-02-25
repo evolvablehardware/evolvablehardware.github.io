@@ -17,7 +17,7 @@ Before ordering any parts, please note that the current Bitstream Evolution tool
 | USB-C Cable (for programming) | ~$10 | [Amazon - 6 inch Short Fast Charging Cord, 5 Pack Durable USB A to USB Type C](https://www.amazon.com/dp/B08LL1SVZD?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_3&th=1) |
 | USB-C Hub (optional, for multiple boards) | ~$47.49 | [Amazon - SABRENT 10-Port 60W USB 3.0 Hub](https://www.amazon.com/dp/B0797NZFYP?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1) |
 
-_Total hardware cost: roughly $50 for 1 device. For 20 a device array ~$1150._
+_Total hardware cost: roughly $50 for 1 device. For 20 a device array ~ $1150._
 
 ## Assembly Steps
 
