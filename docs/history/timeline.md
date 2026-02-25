@@ -15,7 +15,7 @@ hide:
     function tryInit() {
         if (typeof TL !== 'undefined' && !defined) {
             defined = true;
-            fetch('../assets/data/timeline.json')
+            fetch('../../assets/data/timeline.json')
                 .then(function(response) { return response.json(); })
                 .then(function(data) {
                     new TL.Timeline('timeline-embed', data, {
