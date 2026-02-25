@@ -3,7 +3,7 @@
 The Arduino Nano is a compact, breadboard-friendly microcontroller board based on the Atmel ATmega328P. In the Bitstream Evolution project, a Nano-compatible clone serves as the fitness evaluation MCU: it reads the analog output of the iCEstick FPGA through its built-in 10-bit ADC, computes fitness values, and communicates results back to the host PC over USB serial.
 
 [:octicons-link-external-16: Arduino Documentation](https://docs.arduino.cc/hardware/nano/){ .md-button .md-button--primary }
-[:octicons-arrow-right-24: Hardware Setup Guide](../../projects/bitstream_evolution/setup.md){ .md-button }
+[:octicons-arrow-right-24: Hardware Setup Guide](../../projects/bitstream_evolution/hardware_setup.md){ .md-button }
 
 ## Specifications
 
@@ -43,7 +43,7 @@ In the standard wiring:
 
 ## Project Use
 
-The Arduino Nano is used exclusively in the [Bitstream Evolution (iCEstick)](../../projects/bitstream_evolution/setup.md) hardware setup. The newer [pico2-ice](../pico2ice/index.md) platform integrates the microcontroller (RP2350B) directly on the same board as the FPGA, eliminating the need for a separate Arduino.
+The Arduino Nano is used exclusively in the [Bitstream Evolution (iCEstick)](../../projects/bitstream_evolution/index.md) hardware setup. The newer [pico2-ice](../pico2ice/index.md) platform integrates the microcontroller (RP2350B) directly on the same board as the FPGA, eliminating the need for a separate Arduino.
 
 !!! note "Clone Driver Note"
     Nano-compatible clones using the CH340 USB-serial chip may require a separate driver installation on some operating systems.

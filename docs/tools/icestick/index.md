@@ -3,7 +3,7 @@
 The Lattice iCEstick Evaluation Kit (ICE40HX1K-STICK-EVN) is a low-cost, USB thumb-drive form factor development board featuring the iCE40-HX1K FPGA. It is the original hardware platform used in the Bitstream Evolution project, serving as the target FPGA for intrinsic analog evolutionary experiments from 2018 through 2025.
 
 [:octicons-link-external-16: Lattice Semiconductor](https://www.latticesemi.com/icestick){ .md-button .md-button--primary }
-[:octicons-arrow-right-24: Hardware Setup Guide](../../projects/bitstream_evolution/setup.md){ .md-button }
+[:octicons-arrow-right-24: Hardware Setup Guide](../../projects/bitstream_evolution/hardware_setup.md){ .md-button }
 
 ## Specifications
 
@@ -29,4 +29,4 @@ The Lattice iCEstick Evaluation Kit (ICE40HX1K-STICK-EVN) is a low-cost, USB thu
 
 The iCEstick was the hardware platform for all published Bitstream Evolution work from inception (~2018) through the 2025 IEEE Access paper. In the experimental setup, the iCEstick is paired with an Arduino Nano-compatible microcontroller which reads the analog output of the FPGA and reports fitness values back to the host PC running the evolutionary algorithm.
 
-See the [hardware setup guide](../../projects/bitstream_evolution/setup.md) for assembly instructions and wiring diagrams.
+See the [hardware setup guide](../../projects/bitstream_evolution/hardware_setup.md) for assembly instructions and wiring diagrams.

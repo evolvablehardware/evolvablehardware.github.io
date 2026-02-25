@@ -8,7 +8,7 @@ Further, one of the hallmark characteristics of intrinsic analog EHW is the abil
 
 ![](../assets/history/thompson/discriminatorcircuit.png)
 /// caption
-Analysis of Adrian Thompson's Evolved Tone Descriminator Circuit
+Analysis of Adrian Thompson's Evolved Tone Discriminator Circuit
 ///
 
 ## Inception and History
@@ -19,7 +19,7 @@ FPGAs are one of the primary research tools used in EHW research because their p
 ![](../assets/history/thompson/thompson1.png){: align=left : width=250}
 
 
-As the field was forming, Adrian Thompson at the University of Sussex evolved a series of bitstream-evolution circuits that would canonize the evolutionary approach to circuit design, specifically for analog EHW. The first among these circuits was a completely analog millisecond oscillator. Ultimately, this was meant to be a tool for future robotics experiments, providing a temporal bridge for signals that operate at biological timescales. Later experiments demonstrated the impressive search power provided by artificial evolution, most notably: Thompson's evolved tone-discriminator circuit --- a fully analog FPGA circuit that could distringuish between a 1khz tone and a 10khz tone using only 42 configurable logic blocks.
+As the field was forming, Adrian Thompson at the University of Sussex evolved a series of bitstream-evolution circuits that would canonize the evolutionary approach to circuit design, specifically for analog EHW. The first among these circuits was a completely analog millisecond oscillator. Ultimately, this was meant to be a tool for future robotics experiments, providing a temporal bridge for signals that operate at biological timescales. Later experiments demonstrated the impressive search power provided by artificial evolution, most notably: Thompson's evolved tone-discriminator circuit --- a fully analog FPGA circuit that could distinguish between a 1 kHz tone and a 10 kHz tone using only 42 configurable logic blocks.
 
 ## Xilinx Discontinues XC6200
 
@@ -39,7 +39,7 @@ As mentioned in the previous section, the termination of the Xilinx XC6200 serie
 
 ![](../assets/setup/ice40/setup_tutorial_8A.jpg){: align=right : width=300}
 
-Around 2018, Derek Whitley began work utilizing Project IceStorm to recreate the results from Adrian Thompson's seminal work as part of his PhD at Indiana University. Around this time he started collaborating with Jason Yoder at Rose-Hulman Institute of Technology. Rose-Hulman's excellent undergraduate engineering program has since served as a source for student contributors to this ongoing research. The results of the initial resurrection of past work work were published in the proceedings of the 2021 Artificial Life Conference, and the project was named BitstreamEvolution. This project has continued to grow and evolve since then, with the goal of creating an open-source software and hardware platform for intrinsic analog evolvable hardware research using the iCE40 FPGA technology stack.
+Around 2018, Derek Whitley began work utilizing Project IceStorm to recreate the results from Adrian Thompson's seminal work as part of his PhD at Indiana University. Around this time he started collaborating with Jason Yoder at Rose-Hulman Institute of Technology. Rose-Hulman's excellent undergraduate engineering program has since served as a source for student contributors to this ongoing research. The results of the initial resurrection of past work were published in the proceedings of the 2021 Artificial Life Conference, and the project was named BitstreamEvolution. This project has continued to grow and evolve since then, with the goal of creating an open-source software and hardware platform for intrinsic analog evolvable hardware research using the iCE40 FPGA technology stack.
 
 
 ## Bitstream Evolution with the pico2-ice boards (2025+)

@@ -15,6 +15,6 @@ For our community, CTRNNs highlight how neural computation can arise from the co
 
 [An introductory blog post about analyzing a CTRNN](https://indy9000.blog/posts/analysis-of-a-simple-ctrnn.html)
 
-[Excellent explanation and motivational chapter on CTRNNs from Eduardo Izquerdio's Dissertation](https://drive.google.com/file/d/1hKOGRqYsPv-yi0Ww9be2aoF417DaTT0V/view?usp=sharing)
+[Excellent explanation and motivational chapter on CTRNNs from Eduardo Izquierdo's Dissertation](https://drive.google.com/file/d/1hKOGRqYsPv-yi0Ww9be2aoF417DaTT0V/view?usp=sharing)
 
 [Evolutionary Robotics course. Lecture 10: Continuous Time Recurrent Neural Networks](https://www.youtube.com/watch?v=NHmej5i22aE&ab_channel=JoshBongard)

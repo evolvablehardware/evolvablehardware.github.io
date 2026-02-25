@@ -24,4 +24,4 @@ We have channels in place for different methods, focus areas, and other general 
 
 This is where the majority of our code is available.
 
-[View our GitHub :fontawesome-brands-github:](https://www.github.com/evolvablehardware){ .md-button .md-button--seccondary }
+[View our GitHub :fontawesome-brands-github:](https://www.github.com/evolvablehardware){ .md-button .md-button--secondary }

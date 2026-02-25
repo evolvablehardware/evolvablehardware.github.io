@@ -19,7 +19,7 @@ An open-source platform for intrinsic analog evolvable hardware research using t
 
     Bill of materials, assembly instructions, and wiring guide for the iCEstick evaluation board.
 
-    [:octicons-arrow-right-24: Setup Guide](./bitstream_evolution/setup.md)
+    [:octicons-arrow-right-24: Setup Guide](./bitstream_evolution/hardware_setup.md)
 
 -   :material-github:{ .lg .middle } __Software__
 
@@ -41,9 +41,9 @@ Porting the Bitstream Evolution toolkit to the pico2-ice development board, enab
 
     ---
 
-    Setup instructions and troubleshooting for the Pico2-ICE development board.
+    Setup instructions and troubleshooting for the pico2-ice development board.
 
-    [:octicons-arrow-right-24: Setup Guide](./bitstream_evolution_pico2-ice/setup.md)
+    [:octicons-arrow-right-24: Setup Guide](./bitstream_evolution_pico2-ice/hardware_setup.md)
 
 -   :material-github:{ .lg .middle } __Software__
 

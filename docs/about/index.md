@@ -12,7 +12,7 @@ hide:
 
 ## Our Mission
 
-Since the turn of the century, evolvable hardware research began migrating into many and different directions away from the initial FPGA-intrinsic analog method. The excitement for this field of research was a result of the prospect of using evolutionary search to create analog circuits; a significant engineering challenge. Our mission was to determine why evolvable hardware appeared to have abandoned this vein of research, attempt to recreate it's seminal experimental results, press the research forward, and get others involved. This website serves as a focal point for communicating projects, connecting researchers, and targetting new and promising directions.
+Our mission is to revive, advance, and share FPGA-intrinsic analog evolvable hardware research. In the early 2000s, the field largely moved away from its original analog roots after the tools that made bitstream-level experiments possible were discontinued. We set out to understand why this promising vein of research was abandoned, recreate its seminal results on modern hardware, push the science forward, and build a community around it. This website serves as a focal point for communicating projects, connecting researchers, and targeting new and promising directions.
 
 ## Our Design Philosophy
 

@@ -25,6 +25,6 @@ To get a high-level overview of the history of the field we have a brief timelin
 
 ## Want to Learn More?
 
-To learn some of the core concepts and more about research in the field?
+Want to learn some of the core concepts and more about research in the field?
 
 [Learn more](../research/index.md){ .md-button .md-button--primary } 

@@ -32,4 +32,4 @@ yosys -p "synth_ice40 -json output.json" design.v
 
 ## Project Use
 
-Yosys generates the seed bitstreams that initialize evolutionary populations in the [Bitstream Evolution](../../projects/bitstream_evolution/setup.md) project. While the evolutionary process itself operates directly on bitstream files (bypassing Yosys entirely), the quality of the initial synthesized design can influence the starting point of evolution.
+Yosys generates the seed bitstreams that initialize evolutionary populations in the [Bitstream Evolution](../../projects/bitstream_evolution/index.md) project. While the evolutionary process itself operates directly on bitstream files (bypassing Yosys entirely), the quality of the initial synthesized design can influence the starting point of evolution.

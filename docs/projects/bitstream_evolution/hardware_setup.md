@@ -18,7 +18,7 @@ Before ordering any parts, please note that the current Bitstream Evolution tool
 | Male-to-female jumper wires | ~$5 | [Elegoo Jumpers](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/) |
 | Full-size breadboard | ~$10 | [MCIGICM Breadboard 2-pack](https://www.amazon.com/Pcs-MCIGICM-Points-Solderless-Breadboard/dp/B07PCJP9DY) |
 
-_Total hardware cost: roughly $185 USD._
+_Total hardware cost: roughly $190 USD._
 
 ## Assembly Steps
 

@@ -2,7 +2,7 @@
 
 Below are various publications that have been produced by the Evolvable Hardware Group or a related group. 
 
-This section is intended to create a centeralized area to see this group's work, but also to provide additional comments and updates after publication. This may also include more in-deapth information about how to replicate any experiments performed, or provide relevant links and lists in an accessible format.
+This section is intended to create a centralized area to see this group's work, but also to provide additional comments and updates after publication. This may also include more in-depth information about how to replicate any experiments performed, or provide relevant links and lists in an accessible format.
 
 ## Publication Types
 - [__Papers__](./papers/index.md) - Relatively brief articles documenting some notable result or development

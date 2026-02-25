@@ -32,7 +32,7 @@ In our [2025 paper](../publications/papers/2025/11_10_bitstream-evolution-toolki
 <div class="result-row">
   <figure>
     <img src="/assets/results/ieee/sensitivity/loyd12.png" alt="Pulse sensitivity vs environment">
-    <figcaption>The recorded pulse count of a circuit vs the temperature of humidity of the local environment during a fitness sensitivity experiment.</figcaption>
+    <figcaption>The recorded pulse count of a circuit vs the temperature and humidity of the local environment during a fitness sensitivity experiment.</figcaption>
   </figure>
   <p>
     A pronounced drop in measured frequency aligns with a simultaneous change in temperature and humidity. Even after the environment returned to its baseline, the circuit never fully recovered, underscoring that certain conditions can induce lasting shifts in analog behavior.

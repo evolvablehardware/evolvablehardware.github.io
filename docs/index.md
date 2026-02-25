@@ -21,7 +21,7 @@ Evolvable hardware is the application of evolutionary algorithms to hardware sys
 <div style="clear: both;"></div>
 
 [Learn More](./about/index.md){ .md-button .md-button--primary }
-[View Projects](./projects/index.md){ .md-button .md-button--seccondary }
+[View Projects](./projects/index.md){ .md-button .md-button--secondary }
 
 <!-- [Under-grad research](#undergraduate-research){ .md-button .md-button--primary } -->
 <!-- [research](./contact.md#researchers-contributors){ .md-button .md-button--primary } -->
@@ -32,7 +32,7 @@ We want this website to assist you in understanding, exploring, attempting, and/
 
 A great starting point for anyone new to the field is our [About Evolvable Hardware](./about/index.md) page which outlines our mission, design philosophy, and history.
 
-The Tabs Below feature a couple of ways to use the information on this site based on your background and interests. Feel free to select the one that best aligns with your goals and use it to help you get started.
+The tabs below feature a couple of ways to use the information on this site based on your background and interests. Feel free to select the one that best aligns with your goals and use it to help you get started.
 
 === "Tinkerers"
 
@@ -46,7 +46,7 @@ The Tabs Below feature a couple of ways to use the information on this site base
 
 === "Undergraduate Students" 
 
-    If you are here to learn more about Evolvable Hardware from a research standpoint, this is the place for you. We suggest you start by understanding some of the core concepts that underly the field, then move on to some of the history and current research directions.
+    If you are here to learn more about Evolvable Hardware from a research standpoint, this is the place for you. We suggest you start by understanding some of the core concepts that underlie the field, then move on to some of the history and current research directions.
 
     1. Watch the [Intro Video](./about/index.md#watch-the-summary-video)
     2. Read about [Core Concepts](./research/index.md)
@@ -56,7 +56,7 @@ The Tabs Below feature a couple of ways to use the information on this site base
     
 === "Graduate Researcher / Professionals"
 
-    If you are here to contribute to the research in Evolvable Hardware, this is the place for you. We suggest you learn a bit of about the history of the field, review some recent papers,and then move on to the future research directions.
+    If you are here to contribute to the research in Evolvable Hardware, this is the place for you. We suggest you learn a bit about the history of the field, review some recent papers, and then move on to the future research directions.
 
     1. Watch the [Intro Video](./about/index.md#watch-the-summary-video)
     2. Read about the [History of Evolvable Hardware](./history/index.md)

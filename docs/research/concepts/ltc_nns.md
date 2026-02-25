@@ -6,7 +6,7 @@ The power of LTCs comes from their adaptability and interpretability. Because th
 
 For our community, LTCs represent an exciting bridge between dynamical systems, continuous-time neural computation, and evolvable hardware. Their smooth, flexible behavior aligns closely with the kinds of adaptive circuits that evolution can refine directly on physical substrates. By combining LTCs with reconfigurable hardware and evolutionary algorithms, we move toward systems that sense, learn, and evolve in real time — achieving lifelike intelligence with elegant mathematical simplicity.
 
-## Learn More: 
+## Learn More
 
 [TED Talk on LTCs](https://www.youtube.com/watch?v=RI35E5ewBuI)
 
