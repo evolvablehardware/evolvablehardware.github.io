@@ -25,6 +25,14 @@ The Evolvable Hardware community welcomes contributors of all backgrounds — fr
 
     [:octicons-arrow-right-24: Collaboration](collaborate.md)
 
+-   :material-email:{ .lg .middle } **Contact Us**
+
+    ---
+
+    Reach out directly — whether you have questions, want to discuss research, or just want to say hello.
+
+    [:octicons-arrow-right-24: Contact](contact.md)
+
 -   :fontawesome-brands-discord:{ .lg .middle } **Discord**
 
     ---

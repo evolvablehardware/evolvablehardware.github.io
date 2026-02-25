@@ -12,4 +12,4 @@ To foster community engagement and collaboration, we have launched an official E
 
 <!-- more -->
 
-Join us to discuss ideas, share projects, and connect with fellow enthusiasts and researchers in the field! Please visit the [Contact Us](../../contact.md) page for an invite link.
+Join us to discuss ideas, share projects, and connect with fellow enthusiasts and researchers in the field! Please visit the [Contact Us](../../community/contact.md) page for an invite link.

@@ -2,18 +2,12 @@
 
 We welcome collaboration from researchers, educators, and hobbyists. Below are several ways to get involved with the evolvable hardware community.
 
-## Remote Access via iCEFARM
-
-iCEFARM (iCE40 FPGA Array for Remote Manipulation) provides remote access to physical FPGA hardware for running evolution experiments without owning your own board.
-
-!!! info "Access Details Coming Soon"
-    iCEFARM documentation and access request process are currently being finalized. [Contact us](../contact.md) if you're interested in early access.
 
 ## Contributing Experiments
 
 We welcome new experiments from external researchers. To contribute:
 
-1. Fork the [BitstreamEvolution repository](https://github.com/evolvablehardware/BitstreamEvolution)
+1. Fork the latest [BitstreamEvolution repository](https://github.com/evolvablehardware/BitstreamEvolutionPico2ice) and set up the development environment
 2. Implement your experiment following the existing patterns in the codebase
 3. Document your setup, fitness function, and results
 4. Submit a pull request with your experiment code and a write-up for the website
@@ -30,8 +24,8 @@ This documentation site is open source. To add or improve content:
 
 ## Proposing Joint Research
 
-For formal collaboration inquiries, [contact us](../contact.md) with:
+For formal collaboration inquiries, [contact us](contact.md) with:
 
 - Your research group and institution
-- Proposed research direction (see [Future Research Directions](../research/future_directions/index.md) for open questions)
+- Proposed research direction (see [Future Research Directions](../research/future_directions/index.md) for some open questions)
 - Desired timeline and resources

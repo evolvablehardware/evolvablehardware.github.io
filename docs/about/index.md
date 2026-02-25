@@ -39,4 +39,4 @@ Want the short version of our mission and early results? Watch the twenty minute
 
 The Evolvable Hardware community is growing! Join the movement, participate in the research, or hack the gibson! Whether you're interested in the science, engineering, or tinkering, you're welcome here!
 
-[Contact Us](../contact.md){ .md-button .md-button--primary } 
+[Contact Us](../community/contact.md){ .md-button .md-button--primary } 

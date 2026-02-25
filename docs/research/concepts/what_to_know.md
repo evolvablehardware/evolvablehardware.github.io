@@ -30,7 +30,7 @@ These topics will deepen your understanding but aren't blockers for getting star
 
 ## For Deeper Research
 
-If you're pursuing evolvable hardware as a research topic (thesis, independent study, publication), these areas become more relevant:
+If you're pursuing evolvable hardware as a research topic (thesis, independent study, publication), these areas become more relevant depending on your focus:
 
 - **Dynamical systems & control theory** — For understanding evolved circuit behavior as continuous dynamical processes. See [Dynamical Systems](dynamical_systems.md).
 - **Neuroscience-inspired models** — CTRNNs, LTCs, and other models that connect to how evolved circuits can implement neural-like computation. See [CTRNNs](ctrnns.md) and [LTC Networks](ltc_nns.md).
@@ -40,7 +40,7 @@ If you're pursuing evolvable hardware as a research topic (thesis, independent s
 ## Don't Worry About
 
 - **You don't need an EE degree.** Many contributors come from CS, math, or biology backgrounds.
-- **You don't need to understand every concept page.** The [advanced topics](#) are there for researchers going deep — they're not prerequisites for running experiments.
+- **You don't need to understand every concept page.** The [advanced topics](index.md#advanced-topics) are there for researchers going deep — they're not prerequisites for running experiments.
 - **You don't need expensive equipment.** A [$50 pico2-ice setup](../../projects/bitstream_evolution_pico2-ice/hardware_setup.md) is enough to start.
 
 ## Recommended Path by Background

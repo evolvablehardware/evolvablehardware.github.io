@@ -99,7 +99,9 @@ plugins:
       blog_dir: blog
   - awesome-nav
   - redirects: # https://github.com/mkdocs/mkdocs-redirects
-      redirect_maps: {}
+      redirect_maps:
+        contact.md: community/contact.md
+        glossary.md: research/glossary.md
   - minify: 
       minify_html: true
   - git-revision-date-localized: #This creates the little markers on the bottom of the page for when it was last uploaded.
