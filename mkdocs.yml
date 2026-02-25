@@ -96,13 +96,13 @@ plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
       #prebuild_index: true #look into if this site gets really big.
+  - awesome-nav
   - blog:
       blog_dir: community/blog
       archive: true
       archive_name: Archive
       categories: true
       categories_name: Categories
-  - awesome-nav
   - redirects: # https://github.com/mkdocs/mkdocs-redirects
       redirect_maps:
         glossary.md: research/glossary.md
