@@ -3,7 +3,25 @@
     "allow": [
       "Bash(pip install:*)",
       "Bash(python -m pip install:*)",
-      "Bash(cmd.exe /c \"pip install mkdocs mkdocs-material mkdocs-awesome-nav mkdocs-redirects mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin pymdown-extensions\")"
+      "Bash(cmd.exe /c \"pip install mkdocs mkdocs-material mkdocs-awesome-nav mkdocs-redirects mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin pymdown-extensions\")",
+      "WebFetch(domain:evolvablehardware.github.io)",
+      "Bash(curl:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:pico2-ice.tinyvision.ai)",
+      "WebFetch(domain:www.latticesemi.com)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:www.digikey.com)",
+      "WebFetch(domain:lukasgeiter.github.io)",
+      "WebFetch(domain:www0.cs.ucl.ac.uk)",
+      "WebFetch(domain:scholar.google.com)",
+      "WebFetch(domain:www.semanticscholar.org)",
+      "Bash(mkdocs build:*)",
+      "Bash(python -m mkdocs:*)",
+      "Bash(where:*)",
+      "Bash(pip show:*)",
+      "Bash(conda list:*)",
+      "Bash(pip3 show:*)",
+      "Bash(ls:*)"
     ]
   }
 }

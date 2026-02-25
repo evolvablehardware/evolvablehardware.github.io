@@ -23,7 +23,7 @@ Past and current student contributions have spanned software, hardware, and expe
 
 ## Mentorship
 
-Interested in a guided research experience at Rose-Hulman? [Contact Dr. Jason Yoder](https://www.rose-hulman.edu/academics/faculty/yoder-jason-yoder1.html) with:
+Interested in a guided research experience at Rose-Hulman? Reach out on [Discord](https://discord.gg/q7xKAfKm6m) with:
 
 - Your background (year, major, relevant coursework)
 - What interests you about evolvable hardware

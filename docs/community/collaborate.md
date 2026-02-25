@@ -24,7 +24,7 @@ This documentation site is open source. To add or improve content:
 
 ## Proposing Joint Research
 
-For formal collaboration inquiries, [contact us](contact.md) with:
+For formal collaboration inquiries, reach out on [Discord](https://discord.gg/q7xKAfKm6m) with:
 
 - Your research group and institution
 - Proposed research direction (see [Future Research Directions](../research/future_directions/index.md) for some open questions)

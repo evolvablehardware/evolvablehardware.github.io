@@ -89,6 +89,7 @@ theme:
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
+    - content.tooltips
 
 # Plugins
 plugins:
@@ -96,11 +97,10 @@ plugins:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
       #prebuild_index: true #look into if this site gets really big.
   - blog:
-      blog_dir: blog
+      blog_dir: community/blog
   - awesome-nav
   - redirects: # https://github.com/mkdocs/mkdocs-redirects
       redirect_maps:
-        contact.md: community/contact.md
         glossary.md: research/glossary.md
         projects/icefarm/hardware.md: projects/icefarm.md
   - minify: 
@@ -143,6 +143,9 @@ markdown_extensions:
       repo_url_shorthand: true
       user: evolvablehardware
       repo: evolvablehardware.github.io
+  - pymdownx.snippets:
+      auto_append:
+        - includes/glossary.md
   - pymdownx.smartsymbols
   - pymdownx.superfences:
       custom_fences:

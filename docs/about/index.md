@@ -31,7 +31,7 @@ Since the turn of the century, evolvable hardware research began migrating into 
 Want the short version of our mission and early results? Watch the twenty minute presentation prepared for ALIFE 2021.
 
 <video width="100%" controls>
-    <source src="./assets/media/artificial-life-video.mp4" type="video/mp4">
+    <source src="../assets/media/artificial-life-video.mp4" type="video/mp4">
     Your browser does not support HTML video.
 </video>
 
@@ -39,4 +39,4 @@ Want the short version of our mission and early results? Watch the twenty minute
 
 The Evolvable Hardware community is growing! Join the movement, participate in the research, or hack the gibson! Whether you're interested in the science, engineering, or tinkering, you're welcome here!
 
-[Contact Us](../community/contact.md){ .md-button .md-button--primary } 
+[Join Our Discord :fontawesome-brands-discord:](https://discord.gg/q7xKAfKm6m){ .md-button .md-button--primary } 

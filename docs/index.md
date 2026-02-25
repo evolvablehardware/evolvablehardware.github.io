@@ -24,7 +24,6 @@ Evolvable hardware is the application of evolutionary algorithms to hardware sys
 [Join Our Community](./community/index.md){ .md-button .md-button--secondary }
 
 <!-- [Under-grad research](#undergraduate-research){ .md-button .md-button--primary } -->
-<!-- [research](./community/contact.md#researchers-contributors){ .md-button .md-button--primary } -->
 
 
 ## Where Should I Start?
@@ -43,7 +42,7 @@ The tabs below feature a couple of ways to use the information on this site base
     3. Purchase hardware: [pico2-ice (\~$50)](./projects/bitstream_evolution_pico2-ice/hardware_setup.md) *— full parts list and assembly guide*
     4. Run your first evolution: [Variance Maximization](./research/experiments/variance_maximization.md) *— the simplest experiment, ~1–2 hours from setup to seeing your first evolved output*
     5. Explore [more experiments](./research/experiments/index.md) and the [software/hardware tools](./tools/index.md)
-    6. Get involved: Join the [Discord](https://discord.gg/q7xKAfKm6m) or [Contact Us](./community/contact.md)
+    6. Get involved: Join the [Discord](https://discord.gg/q7xKAfKm6m)
 
 === "Undergraduate Students"
 
@@ -54,7 +53,7 @@ The tabs below feature a couple of ways to use the information on this site base
     3. See research in action: [Example Experiments](./research/experiments/index.md) *— these show what research questions look like in this field*
     4. Read about the [History of Evolvable Hardware](./history/index.md) *— understand how the field evolved and why it stalled*
     5. Read the papers *— start with ["Resurrecting FPGA Intrinsic Analog Evolvable Hardware" (2021)](./research/publications/papers/2021/7_19_Resurrect-FPGA-EHW.md) for the origin story, then explore [our publications](./research/publications/index.md) and [foundational works](./research/publications/foundational_works/index.md)*
-    6. Get involved: See [how students can contribute](./community/students.md) or [Contact Us](./community/contact.md)
+    6. Get involved: See [how students can contribute](./community/students.md) or join the [Discord](https://discord.gg/q7xKAfKm6m)
 
 === "Graduate Researcher / Professionals"
 
@@ -65,4 +64,4 @@ The tabs below feature a couple of ways to use the information on this site base
     3. Read [our publications](./research/publications/index.md) and [field surveys](./research/publications/surveys/index.md)
     4. Read about [Future Research Directions](./research/future_directions/index.md) *— scoped open questions for potential research projects*
     5. Explore the open-source toolchain: [Projects](./projects/index.md) and [Tools](./tools/index.md) *— all code is on [GitHub](https://github.com/evolvablehardware)*
-    6. Explore collaboration: [iCEFARM remote access & contributing](./community/collaborate.md) or [Contact Us](./community/contact.md)
+    6. Explore collaboration: [iCEFARM remote access & contributing](./community/collaborate.md) or join the [Discord](https://discord.gg/q7xKAfKm6m)

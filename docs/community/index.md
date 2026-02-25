@@ -25,14 +25,6 @@ The Evolvable Hardware community welcomes contributors of all backgrounds — fr
 
     [:octicons-arrow-right-24: View GitHub](https://www.github.com/evolvablehardware)
 
--   :material-email:{ .lg .middle } **Contact Us**
-
-    ---
-
-    Reach out directly — whether you have questions, want to discuss research, or just want to say hello.
-
-    [:octicons-arrow-right-24: Contact](contact.md)
-
 -   :material-handshake:{ .lg .middle } **Collaborate**
 
     ---
@@ -40,6 +32,14 @@ The Evolvable Hardware community welcomes contributors of all backgrounds — fr
     Remote hardware access via iCEFARM, contributing experiments, and joint research opportunities.
 
     [:octicons-arrow-right-24: Collaboration](collaborate.md)
+
+-   :material-post:{ .lg .middle } **Blog**
+
+    ---
+
+    News, updates, and announcements from the Evolvable Hardware community.
+
+    [:octicons-arrow-right-24: Read Blog](blog/index.md)
 
 -   :material-school:{ .lg .middle } **For Students**
 
