@@ -29,7 +29,7 @@ The Evolvable Hardware community welcomes contributors of all backgrounds — fr
 
     ---
 
-    Remote hardware access via iCEFARM, contributing experiments, and joint research opportunities.
+    Contribute ideas for extensions or experiments, and reach out on Discord for joint research opportunities.
 
     [:octicons-arrow-right-24: Collaboration](collaborate.md)
 

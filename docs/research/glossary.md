@@ -88,7 +88,7 @@ Key terms used throughout this site. Terms are grouped by topic for easier navig
 :   The open-source Python toolkit developed by this research group for conducting intrinsic evolvable hardware experiments on iCE40 FPGAs.
 
 **iCEFARM**
-:   iCE40 FPGA Array for Remote Manipulation — infrastructure for providing remote access to physical FPGA hardware for evolution experiments.
+:   iCE40 FPGA Array Resource Manager — infrastructure for providing remote access to physical FPGA hardware for evolution experiments.
 
 **Project IceStorm**
 :   The open-source reverse-engineered toolchain for Lattice iCE40 FPGAs, including `icepack`/`iceunpack` for bitstream manipulation. Essential for bitstream-level evolution since it provides access to the raw configuration format.
