@@ -49,7 +49,7 @@ To enter the bootloader mode, you need to either hold down the **SW1** button or
 Below is a video showing the process of entering bootloader mode by holding down the **SW1** button while plugging in the USB cable:
 
 <video controls width="100%">
-  <source src="../../assets/hardware/pico2ice/demoing-pico2-ice.mp4" type="video/mp4">
+  <source src="../../../assets/hardware/pico2ice/demoing-pico2-ice.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
