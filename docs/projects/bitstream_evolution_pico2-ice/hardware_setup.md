@@ -45,8 +45,19 @@ To enter the bootloader mode, you need to either hold down the **SW1** button or
   <figcaption>Board successfully in bootloader mode.</figcaption>
 </figure>
 
+
+Below is a video showing the process of entering bootloader mode by holding down the **SW1** button while plugging in the USB cable:
+
+<video controls width="100%">
+  <source src="../../assets/hardware/pico2ice/demoing-pico2-ice.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 ## iCEFARM: FPGA Array Resource Manager
 
 We have a special job distributor for the pico2-ice boards. The software was developed by Jackson Heil and can be found here:
 
-[:octicons-mark-github-16: heiljj/usbip-ice](https://github.com/heiljj/usbip-ice){ .md-button }
+[:octicons-mark-github-16: evolvablehardware/iCEFARM](https://github.com/evolvablehardware/iCEFARM){ .md-button }
+
+You will want to add your pico2-ice boards in bootloader mode as described above.

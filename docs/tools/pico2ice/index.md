@@ -27,6 +27,15 @@ The pico2-ice is a development board from TinyVision.ai that combines a Raspberr
 - **Direct FPGA programming** --- the microcontroller can load bitstreams onto the iCE40UP5K, enabling streamlined evolutionary runs.
 - **Array-friendly** --- the compact form factor and on-board MCU make it suitable for deploying multiple boards in the iCEFARM parallel evaluation system.
 
+## Bootloader Mode
+
+To flash new firmware onto the pico2-ice, you need to enter bootloader mode. Hold the *SW1** button down while connecting the board to USB and — the board will appear as a USB mass storage device on your computer, ready to receive a new `.uf2` firmware file.
+
+<video controls width="100%">
+  <source src="../../assets/hardware/pico2ice/demoing-pico2-ice.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Project Use
 
 The pico2-ice is the hardware platform for the [Bitstream Evolution (pico2-ice)](../../projects/bitstream_evolution_pico2-ice/index.md) project and the [iCEFARM](../../projects/icefarm.md) parallel evaluation system. Adopted in 2025 as part of an ARI-funded joint project between Vivum AI and Rose-Hulman Institute of Technology, it enables research into partial reconfiguration of FPGAs for autonomous control systems and larger-scale evolutionary experiments.
