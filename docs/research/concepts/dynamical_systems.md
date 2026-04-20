@@ -7,7 +7,8 @@ Dynamical systems matter because so many natural and engineered processes evolve
 
 For our community, dynamical systems offer a unifying framework for studying adaptive and embodied computation. They help explain how embodied intelligence emerges through ongoing interaction with the environment and how evolvable hardware can develop complex behavior through the physics of its own dynamics. Seeing computation as the continuous evolution of state ties together many of the most powerful ideas in adaptive, biologically inspired, and hardware-based intelligence.
 
-If you have not been introduced to dynamical systems theory at all, an ultra-simple introduction to the ideas of attractor landscapes might be helpful:
+## Learn More
 
 [An Interactive Introduction to Attractor Landscapes](https://ncase.me/attractors/)
 
+[Wikipedia's Entry on Dynamical Systems](https://en.wikipedia.org/wiki/Dynamical_system)

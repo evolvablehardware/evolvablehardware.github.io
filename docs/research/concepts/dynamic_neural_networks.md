@@ -6,5 +6,7 @@ This broader category includes familiar models like traditional RNNs but also en
 
 For our community, dynamical neural networks provide a unifying lens for understanding how neural systems process time. Whether implemented in software or directly in hardware, these networks demonstrate that computation can arise from the flow of internal activity—not just from discrete steps or static functions. This perspective bridges artificial neural networks, continuous-time models, and evolvable hardware, helping students see how diverse architectures fit into one coherent conceptual landscape.
 
-[And an excellent introduction to Artificial Neural Networks with Dynamical Systems Theory](http://jackterwilliger.com/biological-neural-networks-part-i-spiking-neurons/)
+## Learn More
+
+[An excellent introduction to Artificial Neural Networks with Dynamical Systems Theory](http://jackterwilliger.com/biological-neural-networks-part-i-spiking-neurons/)
 

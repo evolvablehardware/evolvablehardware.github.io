@@ -6,7 +6,10 @@ In this view, intelligence is not a detached computation happening in isolation.
 
 For our community, embodied intelligence connects directly to evolvable hardware. When circuits evolve in real physical systems, they must cope with noise, timing, materials, and environmental interactions — just like biological organisms. This forces solutions to emerge that are not only computationally clever, but physically grounded. By exploring embodied intelligence through evolvable hardware, we aim to build technologies that don’t just calculate responses but live within their environments, adapting fluidly to whatever the world throws at them.
 
+## Learn More
 
 [Dynamical approaches to cognitive science](https://dai.fmph.uniba.sk/courses/ICS/readings/Beer.pdf)
 
 [Adaptive Behavior: The brain has a body. Adaptive behavior emerges from interactions of nervous system, body and environment](http://wexler.free.fr/library/files/chiel%20%281997%29%20the%20brain%20has%20a%20body.%20adaptive%20behavior%20emerges%20from%20interactions%20of%20nervous%20system,%20body%20and%20environment.pdf)
+
+[Website for the Embodied Intelligence Conference](https://embodied-intelligence.org/)

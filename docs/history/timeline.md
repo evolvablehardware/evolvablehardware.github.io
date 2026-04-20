@@ -1,20 +1,62 @@
+---
+hide:
+  - toc
+---
+
 # Timeline of Evolvable Hardware
 
-- [**1991 – Early Vision**](history.md#inception-and-history): Hugo de Garis describes embryological electronics and suggests that complex circuits could be "grown" through evolutionary search, laying the conceptual groundwork for evolvable hardware.
+<link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+<script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
 
-- [**1993 – Field Named**](history.md#inception-and-history): De Garis and Tetsuya Higuchi formally coin evolvable hardware (EHW), defining it as the application of evolutionary algorithms to hardware during design or operation.
+<div id="timeline-embed" style="width: 100%; height: 650px;"></div>
 
-- [**1996–1998 – Sussex Breakthroughs**](history.md#inception-and-history): Adrian Thompson evolves oscillators and the famous tone discriminator directly on Xilinx FPGAs, proving that intrinsic analog evolution can exploit latent device physics.
+<script type="text/javascript">
+    var defined = false;
+    function tryInit() {
+        if (typeof TL !== 'undefined' && !defined) {
+            defined = true;
+            fetch('../../assets/data/timeline.json')
+                .then(function(response) { return response.json(); })
+                .then(function(data) {
+                    new TL.Timeline('timeline-embed', data, {
+                        hash_bookmark: false,
+                        timenav_height_percentage: 30,
+                        start_at_end: false
+                    });
+                });
+        } else if (!defined) {
+            setTimeout(tryInit, 100);
+        }
+    }
+    tryInit();
+</script>
 
-- [**Early 2000s – XC6200 Retired**](history.md#xilinx-discontinues-xc6200): Xilinx discontinues the openly documented XC6200 series, removing the community's only bitstream-level platform and pausing intrinsic analog EHW progress.
+<style>
+#timeline-embed {
+    margin-bottom: 2em;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 4px;
+}
+</style>
 
-- [**2015 – Project Icestorm**](history.md#project-icestorm): Reverse-engineering work unveiled the full Lattice iCE40 bitstream at the Chaos Communication Congress, restoring a modern, open substrate for intrinsic experiments ([Project Icestorm](http://www.clifford.at/icestorm/)).
+??? info "Text Version"
 
-- [**2021 – Field Resurrected**](history.md#bitstream-evolution-with-the-icestick-hx1k-2021): The ALIFE paper ["Resurrecting FPGA Intrinsic Analog Evolvable Hardware"](../research/publications/papers/2021/7_19_Resurrect-FPGA-EHW.md) reproduces seminal analog behaviors on iCE40 devices and introduces an open-source experimentation stack.
+    - [**1991 – Early Vision**](historical_review.md#inception-and-history): Hugo de Garis describes embryological electronics and suggests that complex circuits could be "grown" through evolutionary search, laying the conceptual groundwork for evolvable hardware.
 
-- [**2022 – Demonstrating Robust Analog Evolution**](history.md#bitstream-evolution-with-the-icestick-hx1k-2021): Artificial Life article ["Intrinsic Evolution of Analog Circuits Using Field Programmable Gate Arrays"](../research/publications/papers/2022/11_1_evolution-of-analog-FPGA.md) details evolved amplitude maximization and pulse oscillation circuits plus robustness studies, formalizing the Bitstream Evolution roadmap.
+    - [**1993 – Field Named**](historical_review.md#inception-and-history): De Garis and Tetsuya Higuchi formally coin evolvable hardware (EHW), defining it as the application of evolutionary algorithms to hardware during design or operation.
 
-- [**2022 – CoBEA Framework Introduced**](history.md#project-icestorm): The GECCO paper ["CoBEA: framework for evolving hardware by direct manipulation of FPGA bitstreams"](https://dl.acm.org/doi/10.1145/3520304.3528821) debuts an integrated stack that unifies low-level bitstream mutation, device communication, and on-board evaluation, enabling >100× faster iCE40 reconfiguration and lowering the barrier to intrinsic experiments.
+    - [**1996–1998 – Sussex Breakthroughs**](historical_review.md#inception-and-history): Adrian Thompson evolves oscillators and the famous tone discriminator directly on Xilinx FPGAs, proving that intrinsic analog evolution can exploit latent device physics.
 
-- [**2025 – Bitstream Evolution Toolkit**](history.md#bitstream-evolution-with-the-pico2ice-boards-2025): IEEE Access piece ["Bitstream Evolution: an Open-Source FPGA Intrinsic Evolvable Hardware Toolkit"](../research/publications/papers/2025/11_10_bitstream-evolution-toolkit.md) packages the hardware, software, and processes so new teams can evolve analog FPGA circuits and extends the published experiments with deeper analyses on circuit robustness, cross-die transferability, and sensitivity to environmental shifts.
+    - [**Early 2000s – XC6200 Retired**](historical_review.md#xilinx-discontinues-xc6200): Xilinx discontinues the openly documented XC6200 series, removing the community's only bitstream-level platform and pausing intrinsic analog EHW progress.
 
+    - [**2015 – Project Icestorm**](historical_review.md#project-icestorm): Reverse-engineering work unveiled the full Lattice iCE40 bitstream at the Chaos Communication Congress, restoring a modern, open substrate for intrinsic experiments ([Project Icestorm](http://www.clifford.at/icestorm/)).
+
+    - [**2021 – Field Resurrected**](historical_review.md#bitstream-evolution-with-the-icestick-hx1k-2018-2025): The ALIFE paper ["Resurrecting FPGA Intrinsic Analog Evolvable Hardware"](../research/publications/papers/2021/7_19_Resurrect-FPGA-EHW.md) reproduces seminal analog behaviors on iCE40 devices and introduces an open-source experimentation stack.
+
+    - [**2022 – Demonstrating Robust Analog Evolution**](historical_review.md#bitstream-evolution-with-the-icestick-hx1k-2018-2025): Artificial Life article ["Intrinsic Evolution of Analog Circuits Using Field Programmable Gate Arrays"](../research/publications/papers/2022/11_1_evolution-of-analog-FPGA.md) details evolved amplitude maximization and pulse oscillation circuits plus robustness studies, formalizing the Bitstream Evolution roadmap.
+
+    - **2022 – CoBEA Framework Introduced**: The GECCO paper ["CoBEA: framework for evolving hardware by direct manipulation of FPGA bitstreams"](https://dl.acm.org/doi/10.1145/3520304.3528821) debuts an integrated stack that unifies low-level bitstream mutation, device communication, and on-board evaluation, enabling >100x faster iCE40 reconfiguration and lowering the barrier to intrinsic experiments.
+
+    - [**2025 – Bitstream Evolution Toolkit**](historical_review.md#bitstream-evolution-with-the-pico2ice-boards-2025): IEEE Access piece ["Bitstream Evolution: an Open-Source FPGA Intrinsic Evolvable Hardware Toolkit"](../research/publications/papers/2025/11_10_bitstream-evolution-toolkit.md) packages the hardware, software, and processes so new teams can evolve analog FPGA circuits and extends the published experiments with deeper analyses on circuit robustness, transferability, and sensitivity to environmental shifts.
+
+    - [**2026 – Bitstream Evolution Toolkit port to pico2-ice**](historical_review.md#bitstream-evolution-with-the-pico2-ice-boards-2025): The toolkit developed for the iCEstick has been ported to the pico2-ice boards. In addition, a new parallel evaluation system (iCEFARM) has been developed to allow for simultaneous evaluation of multiple boards, enabling larger population sizes and faster evolutionary runs.

@@ -2,7 +2,7 @@
 
 title: Tool Template
 preserve_directory_names: false       #False to clean up names (i.e. file-name.md => File Name)
-hide: false                           #True if this folder should be hidden on page
+hide: true                            #True if this folder should be hidden on page
 flatten_single_child_sections: true  #True to remove the folder and just replace it with the only element it contains
 ignore: "*.hidden.md" 
 
@@ -17,7 +17,7 @@ sort:
 
 nav: 
   - index.md
-  - referance_sheet.md
+  - reference_sheet.md
   - docs
   - variants
   - project_use.md

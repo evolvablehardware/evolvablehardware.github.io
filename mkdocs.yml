@@ -22,7 +22,7 @@ site_author: Evolvable Hardware Community
 #   - This can give you a comments section using github discussions to store the data.
 
 # Copyright
-#copyright: Copyright &copy; 2025 Evolvable Hardware Community
+copyright: Copyright &copy; 2025 Evolvable Hardware Community &nbsp;|&nbsp; <a href="/cite/">Cite This Work</a>
 
 # Configuration
 theme:
@@ -76,7 +76,7 @@ theme:
     #- navigation.top            #                                         | If you have a long file, this allows you to 
     - navigation.path           #                                         | Displays the path to a page before a pae
     #- navigation.prune         #                                         | Performance improvement for large pages with many links.
-    #- navigation.footer
+    - navigation.footer
 
     #- header.autohide
 
@@ -89,15 +89,24 @@ theme:
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
+    - content.tooltips
 
 # Plugins
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
       #prebuild_index: true #look into if this site gets really big.
+  - blog:
+      blog_dir: community/blog
+      archive: true
+      archive_name: Archive
+      categories: true
+      categories_name: Categories
   - awesome-nav
   - redirects: # https://github.com/mkdocs/mkdocs-redirects
-      redirect_maps: {}
+      redirect_maps:
+        glossary.md: research/glossary.md
+        projects/icefarm/hardware.md: projects/icefarm.md
   - minify: 
       minify_html: true
   - git-revision-date-localized: #This creates the little markers on the bottom of the page for when it was last uploaded.
@@ -139,6 +148,9 @@ markdown_extensions:
       repo_url_shorthand: true
       user: evolvablehardware
       repo: evolvablehardware.github.io
+  - pymdownx.snippets:
+      auto_append:
+        - includes/glossary.md
   - pymdownx.smartsymbols
   - pymdownx.superfences:
       custom_fences:

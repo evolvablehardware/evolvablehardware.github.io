@@ -1,19 +1,33 @@
-# Our Publications
+# Publications
 
-Below are various publications that have been produced by the Evolvable Hardware Group or a related group. 
+A centralized collection of papers and references relevant to the Evolvable Hardware community. Each entry includes abstracts, citations, and links to related projects and experiments.
 
-This section is intended to create a centeralized area to see this group's work, but also to provide additional comments and updates after publication. This may also include more in-deapth information about how to replicate any experiments performed, or provide relevant links and lists in an accessible format.
+<div class="grid cards" markdown>
 
-## Publication Types
-- [__Academic Papers__](./papers/index.md) - Relatively brief articles documenting some notable result or development
+-   :material-file-document:{ .lg .middle } **Papers**
 
-## All Publications
+    ---
 
--   [__Bitstream Evolution: an Open-Source FPGA Intrinsic Evolvable Hardware Toolkit__](./papers/2025_bitstream-evolution-an-open-source-fpga-intrinsic-evolvable-hardware-toolkit.md) <br>
-    _IEEE, 2025_
+    Research papers published by or related to the EHW group — including experimental results, toolkit announcements, and methods. 7 papers from 2020–2025.
 
--   [__Intrinsic Evolution of Analog Circuits Using Field Programmable Gate Arrays__](./papers/2022_intrinsic-evolution-of-analog-circuits-using-field-programmable-gate-arrays.md) <br>
-    _Artificial Life, 2022_
+    [:octicons-arrow-right-24: View Papers](./papers/index.md)
 
--   [__Resurrecting FPGA Intrinsic Analog Evolvable Hardware__](./papers/2021_Resurrecting-FPGA-Intrensic-Analog-Evolvable-Hardware.md) <br>
-    _Artificial Life Conference Proceedings 33, 2021_
+-   :material-pillar:{ .lg .middle } **Foundational Works**
+
+    ---
+
+    The seminal papers and dissertations by Adrian Thompson et al. that established intrinsic evolvable hardware in the 1990s.
+
+    [:octicons-arrow-right-24: View Foundational Works](./foundational_works/index.md)
+
+-   :material-telescope:{ .lg .middle } **Surveys & Books**
+
+    ---
+
+    Review articles, book chapters, and books providing broad overviews of the field, its challenges, and future directions.
+
+    [:octicons-arrow-right-24: View Surveys & Books](./surveys/index.md)
+
+</div>
+
+[:material-format-quote-close: Cite This Work](../../cite.md){ .md-button }

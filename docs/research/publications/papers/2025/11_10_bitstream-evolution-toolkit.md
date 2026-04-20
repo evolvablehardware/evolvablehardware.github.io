@@ -37,6 +37,6 @@ __IEEE Xplore__
 - Jason Yoder
 
 ## Related Projects
-- [Bitstream Evolution](../../../projects/bitstream_evolution/index.md)
+- [Bitstream Evolution](../../../../projects/bitstream_evolution/)
 
     > This paper announced the initiation and initial public announcement of the Bitstream Evolution project.

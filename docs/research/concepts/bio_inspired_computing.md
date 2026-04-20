@@ -6,3 +6,8 @@ At its core, biologically inspired computing asks a simple question: How does na
 
 For our community, biologically inspired computing is a guiding philosophy. It pushes us to explore hardware that evolves, adapts, and interacts with its environment in real time. This perspective leads to technologies that are not only more robust but also more capable of innovation — discovering solutions that human designers may never consider. By integrating biological principles into digital hardware, we aim to create a new generation of systems that grow, learn, and transform alongside their tasks, moving technology closer to the creativity and resilience of life itself.
 
+## Learn More
+
+[Bio-Inspired Computing Topic on Science Direct ](https://www.sciencedirect.com/topics/computer-science/bio-inspired-computing)
+
+[Wikipedia's Entry on Bio-Inspired Computing](https://en.wikipedia.org/wiki/Bio-inspired_computing)

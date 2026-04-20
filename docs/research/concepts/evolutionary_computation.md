@@ -6,3 +6,9 @@ At its core, evolutionary computation offers a simple but transformative idea: w
 
 For our community, evolutionary computation is more than an algorithm — it’s a way of thinking about technology. It allows hardware and software systems to adapt to changing environments, discover efficient designs on their own, and even surprise us with novel solutions. By pushing this idea down to the hardware level, we aim to create devices that can learn, recover, and evolve in real time. Evolutionary computation provides the foundation for a future in which technology isn’t fixed and fragile, but living, adaptive, and continually improving.
 
+
+## Learn More
+
+[Evolutionary Computation on Science Direct](https://www.sciencedirect.com/topics/computer-science/evolutionary-computation)
+
+[Wikipedia's Entry on Evolutionary Computation](https://en.wikipedia.org/wiki/Evolutionary_computation)

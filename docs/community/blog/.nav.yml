@@ -1,0 +1,9 @@
+# See Docs at: https://lukasgeiter.github.io/mkdocs-awesome-nav/reference/
+
+title: Blog
+
+nav:
+  - index.md
+
+# Allow blog plugin's auto-generated pages (archive, categories) to appear
+append_unmatched: true

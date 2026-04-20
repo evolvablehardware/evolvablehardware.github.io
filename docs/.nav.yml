@@ -20,10 +20,9 @@ nav:
   - about
   - history
   - research
-  - experiments
+  - projects
   - tools
-  - news
-  - Contact: contact.md
+  - community
 
 # If false, the above tree is all that is shown at this level of the directory structure.
 append_unmatched: false 

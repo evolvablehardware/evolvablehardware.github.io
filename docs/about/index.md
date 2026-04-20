@@ -12,7 +12,7 @@ hide:
 
 ## Our Mission
 
-Our mission has to determine why evolvable hardware appeared to have abandoned this vein of research, attempt to recreate its seminal experimental results, press the research forward, and get others involved. This website serves as a focal point for communicating projects, connecting researchers, and targeting new and promising directions.
+Our mission is to revive, advance, and share FPGA-intrinsic analog evolvable hardware research. In the early 2000s, the field largely moved away from its original analog roots after the tools that made bitstream-level experiments possible were discontinued. We set out to understand why this promising vein of research was abandoned, recreate its seminal results on modern hardware, push the science forward, and build a community around it. This website serves as a focal point for communicating projects, connecting researchers, and targeting new and promising directions.
 
 ## Our Design Philosophy
 
@@ -31,7 +31,7 @@ Since the turn of the century, evolvable hardware research began migrating into 
 Want the short version of our mission and early results? Watch the twenty minute presentation prepared for ALIFE 2021.
 
 <video width="100%" controls>
-    <source src="./assets/videos/artificial-life-video.mp4" type="video/mp4">
+    <source src="../assets/media/artificial-life-video.mp4" type="video/mp4">
     Your browser does not support HTML video.
 </video>
 
@@ -39,4 +39,4 @@ Want the short version of our mission and early results? Watch the twenty minute
 
 The Evolvable Hardware community is growing! Join the movement, participate in the research, or hack the gibson! Whether you're interested in the science, engineering, or tinkering, you're welcome here!
 
-[Contact Us](../contact.md){ .md-button .md-button--primary } 
+[Join Our Discord :fontawesome-brands-discord:](https://discord.gg/q7xKAfKm6m){ .md-button .md-button--primary } 

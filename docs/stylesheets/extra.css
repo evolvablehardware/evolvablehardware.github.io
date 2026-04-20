@@ -1,3 +1,8 @@
+/* Hide the right-side table of contents globally */
+.md-sidebar--secondary {
+  display: none !important;
+}
+
 /* Custom styles for Evolvable Hardware website */
 
 :root {
@@ -88,6 +93,11 @@
 .md-nav__item--active > .md-nav__link {
   color: var(--primary-color);
   font-weight: 600;
+}
+
+/* Ensure section headings always clear floated images */
+.md-typeset h2 {
+  clear: both;
 }
 
 /* Code block styling */
@@ -287,18 +297,14 @@
   border-color: var(--primary-color);
 }
 
+/* Experiment result rows — image on top, text below */
 .result-row {
-  display: flex;
-  gap: 1.5rem;
-  align-items: flex-start;
   margin: 1.5rem 0;
-  flex-wrap: wrap;
 }
 
 .result-row figure {
-  flex: 2 1 640px;
   max-width: 100%;
-  margin: 0;
+  margin: 0 0 1rem 0;
   text-align: center;
 }
 
@@ -310,15 +316,6 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
-.result-row figure.low-res {
-  flex: 0 1 420px;
-  max-width: 420px;
-}
-
-.result-row figure.low-res img {
-  max-width: 420px;
-}
-
 .result-row figure figcaption {
   font-size: 0.85rem;
   color: var(--text-secondary);
@@ -326,6 +323,29 @@
 }
 
 .result-row p {
-  flex: 1 1 280px;
-  margin: 0;
+  margin: 0 0 1rem 0;
+}
+
+/* Equation images — smaller and centered */
+.result-row figure.equation {
+  max-width: 600px;
+  margin: 1rem auto;
+}
+
+.result-row figure.equation img {
+  max-width: min(100%, 600px);
+  max-height: 150px;
+  width: auto;
+}
+
+/* Experiment difficulty indicators */
+.beginner { color: #4caf50; }
+.intermediate { color: #ff9800; }
+.advanced { color: #f44336; }
+
+/* EHW group paper legend */
+.ehw-legend {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
 }

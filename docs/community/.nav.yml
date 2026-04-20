@@ -1,0 +1,15 @@
+# See Docs at: https://lukasgeiter.github.io/mkdocs-awesome-nav/reference/
+
+title: Community
+preserve_directory_names: false
+hide: false
+flatten_single_child_sections: false
+ignore: "*.hidden.md"
+
+nav:
+  - index.md
+  - For Students: students.md
+  - Collaborate: collaborate.md
+  - blog
+
+append_unmatched: false

@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(pip install:*)",
-      "Bash(python -m pip install:*)",
-      "Bash(cmd.exe /c \"pip install mkdocs mkdocs-material mkdocs-awesome-nav mkdocs-redirects mkdocs-minify-plugin mkdocs-git-revision-date-localized-plugin pymdown-extensions\")"
-    ]
-  }
-}
