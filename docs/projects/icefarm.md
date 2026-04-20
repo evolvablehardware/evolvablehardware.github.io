@@ -7,7 +7,8 @@ hide:
 
 **FPGA Array Resource Manager** — a parallel evaluation system that distributes evolutionary runs across multiple pico2-ice boards simultaneously, enabling larger population sizes and faster evolutionary runs.
 
-[:octicons-mark-github-16: evolvablehardware/iCEFARM](https://github.com/evolvablehardware/iCEFARM){ .md-button }
+[:octicons-mark-github-16: evolvablehardware/iCEFARM]({{config.extra.iCEFARM_repo}}){ .md-button } 
+[iCEFARM Docs]({{config.extra.iCEFARM_docs}}){ .md-button }
 
 ## Overview
 

@@ -180,6 +180,7 @@ markdown_extensions:
 
 # Extra
 extra:
+  iCEFARM_docs: https://evolvablehardware.github.io/iCEFARM/
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/evolvablehardware
