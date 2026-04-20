@@ -7,7 +7,7 @@ hide:
 
 A Verilog-based hardware project for reading and writing to Block RAM (BRAM) on iCE40 FPGAs. The memory controller supports both the HX1K and UP5K devices, with SPRAM support for the UP5K.
 
-[:octicons-mark-github-16: evolvablehardware/ice40_memory_controller](https://github.com/evolvablehardware/ice40_memory_controller){ .md-button }
+[:octicons-mark-github-16: evolvablehardware/ice40_memory_controller]({{config.extra.link.project.iCE_memory_controller.repo}}){ .md-button }
 
 ## Overview
 

@@ -177,10 +177,22 @@ markdown_extensions:
 #     This is applied to each directory, so the file depicted specifies the nav tree at that location and below.
 #nav:
 
-
-# Extra
 extra:
-  iCEFARM_docs: https://evolvablehardware.github.io/iCEFARM/
+
+  # External Websites used across the entire project
+  # Write {{config.extra.links.projects.PUFFS.repo}}
+  link:
+    project:
+      iCE_memory_controller:
+        repo: https://github.com/evolvablehardware/ice40_memory_controller
+      iCEFARM:
+        repo: https://github.com/evolvablehardware/iCEFARM
+        docs: https://evolvablehardware.github.io/iCEFARM/
+      PUFFS:
+        repo: https://github.com/evolvablehardware/PUFFS
+    
+    
+  # Icons on the bottom of the page:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/evolvablehardware

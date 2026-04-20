@@ -7,7 +7,7 @@ hide:
 
 **PyTest Unified Framework for FPGA Simulation** — a Python-based testing framework that combines pytest with cocotb simulation for verifying hardware designs.
 
-[:octicons-mark-github-16: evolvablehardware/PUFFS](https://github.com/evolvablehardware/PUFFS){ .md-button }
+[:octicons-mark-github-16: evolvablehardware/PUFFS]({{config.extra.link.project.PUFFS.repo}}){ .md-button }
 
 ## Overview
 
