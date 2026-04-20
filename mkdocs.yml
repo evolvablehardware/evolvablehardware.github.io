@@ -105,6 +105,7 @@ plugins:
       type: timeago
       enable_creation_date: true
       fallback_to_build_date: true
+  - macros
 
 # Extensions
 markdown_extensions:
