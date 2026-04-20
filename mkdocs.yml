@@ -187,7 +187,7 @@ extra:
         repo: https://github.com/evolvablehardware/ice40_memory_controller
       iCEFARM:
         repo: https://github.com/evolvablehardware/iCEFARM
-        docs: https://evolvablehardware.github.io/iCEFARM/
+        docs: https://evolvablehardware.github.io/iCEFARM
       PUFFS:
         repo: https://github.com/evolvablehardware/PUFFS
     
